@@ -308,3 +308,147 @@
 2026-06-08 07:50:05 INFO  com.ekart.base.BaseTest - INFO: No browser alert on home page (expected)
 2026-06-08 07:50:20 INFO  com.ekart.base.BaseTest - PASS: No unexpected alerts on login page
 2026-06-08 07:50:20 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-08 21:01:48 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-08 21:02:15 INFO  com.ekart.pages.BasePage - Navigated to Home: https://ekartms.netlify.app
+2026-06-08 21:02:15 INFO  com.ekart.base.BaseTest - PASS: Home page loaded | Title: eKart - Online Shopping
+2026-06-08 21:02:16 INFO  com.ekart.base.BaseTest - PASS: Navigated to login page
+2026-06-08 21:02:17 INFO  com.ekart.base.BaseTest - PASS: Navigated to register page
+2026-06-08 21:02:18 INFO  com.ekart.base.BaseTest - PASS: Browser back navigation works
+2026-06-08 21:02:21 INFO  com.ekart.base.BaseTest - PASS: Page refresh works
+2026-06-08 21:02:21 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-08 21:02:22 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-08 21:02:24 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-08 21:02:24 INFO  com.ekart.pages.BasePage - Registering user: testuser_1780932744458@test.com
+2026-06-08 21:03:24 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-08 21:03:28 INFO  com.ekart.pages.BasePage - Navigated to Home: https://ekartms.netlify.app
+2026-06-08 21:03:29 INFO  com.ekart.base.BaseTest - PASS: Home page loaded | Title: eKart - Online Shopping
+2026-06-08 21:03:30 INFO  com.ekart.base.BaseTest - PASS: Navigated to login page
+2026-06-08 21:03:31 INFO  com.ekart.base.BaseTest - PASS: Navigated to register page
+2026-06-08 21:03:31 INFO  com.ekart.base.BaseTest - PASS: Browser back navigation works
+2026-06-08 21:03:32 INFO  com.ekart.base.BaseTest - PASS: Page refresh works
+2026-06-08 21:03:32 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-08 21:03:33 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-08 21:03:35 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-08 21:03:35 INFO  com.ekart.pages.BasePage - Registering user: testuser_1780932815357@test.com
+2026-06-08 21:03:54 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-08 21:04:04 INFO  com.ekart.base.BaseTest - PASS: Empty fields validation works
+2026-06-08 21:04:06 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-08 21:04:16 INFO  com.ekart.base.BaseTest - PASS: Invalid email validation works
+2026-06-08 21:04:17 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-08 21:04:18 INFO  com.ekart.base.BaseTest - PASS: Weak password validation works
+2026-06-08 21:04:18 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-08 21:04:38 INFO  com.ekart.base.BaseTest - PASS: Missing required fields validation works
+2026-06-08 21:04:39 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-08 21:04:39 INFO  com.ekart.pages.BasePage - Registering user: aashupalse@gmail.com
+2026-06-08 21:04:42 INFO  com.ekart.base.BaseTest - PASS: Duplicate email validation works
+2026-06-08 21:04:42 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-08 21:04:42 INFO  com.ekart.base.BaseTest - PASS: All required form fields present
+2026-06-08 21:04:42 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-08 21:04:42 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-08 21:04:46 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:04:46 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-08 21:04:48 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:04:48 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-08 21:04:52 INFO  com.ekart.base.BaseTest - PASS: Wrong password shows error
+2026-06-08 21:04:53 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:04:53 INFO  com.ekart.pages.BasePage - Logging in as: nonexistent@fake.com
+2026-06-08 21:04:55 INFO  com.ekart.base.BaseTest - PASS: Non-existent email shows error
+2026-06-08 21:04:55 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:05:06 INFO  com.ekart.base.BaseTest - PASS: Empty email shows validation error
+2026-06-08 21:05:07 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:05:17 INFO  com.ekart.base.BaseTest - PASS: Empty password shows validation error
+2026-06-08 21:05:18 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:05:28 INFO  com.ekart.base.BaseTest - PASS: Both empty fields shows validation error
+2026-06-08 21:05:29 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:05:29 INFO  com.ekart.pages.BasePage - Logging in as: notanemail
+2026-06-08 21:05:40 INFO  com.ekart.base.BaseTest - PASS: Invalid email format shows error
+2026-06-08 21:05:40 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:05:40 INFO  com.ekart.pages.BasePage - Logging in as: wrong@email.com
+2026-06-08 21:05:43 INFO  com.ekart.base.BaseTest - PASS: Error message shown: Invalid email or password
+2026-06-08 21:05:43 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:05:44 INFO  com.ekart.base.BaseTest - PASS: Login heading: Welcome Back
+2026-06-08 21:05:44 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:05:44 INFO  com.ekart.base.BaseTest - PASS: Forgot password link present
+2026-06-08 21:05:44 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-08 21:05:44 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-08 21:06:03 INFO  com.ekart.base.BaseTest - INFO: No browser alert on home page (expected)
+2026-06-08 21:06:18 INFO  com.ekart.base.BaseTest - PASS: No unexpected alerts on login page
+2026-06-08 21:06:18 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-08 21:06:19 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-08 21:06:23 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:06:23 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-08 21:06:26 INFO  com.ekart.base.BaseTest - Setup login complete. URL: https://ekartms.netlify.app/login
+2026-06-08 21:06:26 INFO  com.ekart.pages.BasePage - Attempting logout…
+2026-06-08 21:06:36 WARN  com.ekart.pages.BasePage -   → User avatar not found — may already be on logout trigger or using inline nav
+2026-06-08 21:06:46 ERROR com.ekart.pages.BasePage -   → Logout menu item NOT found
+2026-06-08 21:06:48 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:06:48 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-08 21:06:51 INFO  com.ekart.base.BaseTest - Setup login complete. URL: https://ekartms.netlify.app/login
+2026-06-08 21:06:51 INFO  com.ekart.pages.BasePage - Attempting logout…
+2026-06-08 21:07:01 WARN  com.ekart.pages.BasePage -   → User avatar not found — may already be on logout trigger or using inline nav
+2026-06-08 21:07:11 ERROR com.ekart.pages.BasePage -   → Logout menu item NOT found
+2026-06-08 21:07:24 INFO  com.ekart.pages.BasePage - isLoginLinkVisible → false
+2026-06-08 21:07:34 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:07:34 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-08 21:07:37 INFO  com.ekart.base.BaseTest - Setup login complete. URL: https://ekartms.netlify.app/login
+2026-06-08 21:07:37 INFO  com.ekart.base.BaseTest - Cookies BEFORE logout: (no cookies)
+2026-06-08 21:07:37 INFO  com.ekart.pages.BasePage - Attempting logout…
+2026-06-08 21:07:48 WARN  com.ekart.pages.BasePage -   → User avatar not found — may already be on logout trigger or using inline nav
+2026-06-08 21:07:58 ERROR com.ekart.pages.BasePage -   → Logout menu item NOT found
+2026-06-08 21:07:59 INFO  com.ekart.base.BaseTest - Cookies AFTER logout: (no cookies)
+2026-06-08 21:07:59 INFO  com.ekart.pages.BasePage - No auth cookies found — session cookies cleared
+2026-06-08 21:07:59 INFO  com.ekart.base.BaseTest - PASS TC_LOGOUT_003: Auth cookies cleared
+2026-06-08 21:07:59 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:07:59 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-08 21:08:03 INFO  com.ekart.base.BaseTest - Setup login complete. URL: https://ekartms.netlify.app/login
+2026-06-08 21:08:03 INFO  com.ekart.base.BaseTest - localStorage['token'] BEFORE logout: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGVrYXJ0LmNvbSIsInJvbGUiOiJST0xFX1VTRVIiLCJuYW1lIjoiVGVzdCBVc2VyIiwiaWF0IjoxNzgwOTMzMDYwLCJleHAiOjE3ODA5MzY2NjB9.c1OoILAVxMw5GxPVoXbVZ7wB-tyJpd88TOWPeGEoyZM
+2026-06-08 21:08:03 INFO  com.ekart.pages.BasePage - Attempting logout…
+2026-06-08 21:08:13 WARN  com.ekart.pages.BasePage -   → User avatar not found — may already be on logout trigger or using inline nav
+2026-06-08 21:08:23 ERROR com.ekart.pages.BasePage -   → Logout menu item NOT found
+2026-06-08 21:08:24 WARN  com.ekart.pages.BasePage - localStorage token still present: token = eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGVrYXJ0LmNvbSIsInJvbGUiOiJST0xFX1VTRVIiLCJuYW1lIjoiVGVzdCBVc2VyIiwiaWF0IjoxNzgwOTMzMDg1LCJleHAiOjE3ODA5MzY2ODV9.TzA5KybJIJs7I6inHA053B2o0a2nZOYs0iUg9m6Ok3E
+2026-06-08 21:08:24 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:08:24 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-08 21:08:27 INFO  com.ekart.base.BaseTest - Setup login complete. URL: https://ekartms.netlify.app/login
+2026-06-08 21:08:27 INFO  com.ekart.pages.BasePage - Attempting logout…
+2026-06-08 21:08:37 WARN  com.ekart.pages.BasePage -   → User avatar not found — may already be on logout trigger or using inline nav
+2026-06-08 21:08:47 ERROR com.ekart.pages.BasePage -   → Logout menu item NOT found
+2026-06-08 21:09:00 INFO  com.ekart.pages.BasePage - isUserAvatarGone → true
+2026-06-08 21:09:00 INFO  com.ekart.base.BaseTest - PASS TC_LOGOUT_005: User avatar not visible after logout
+2026-06-08 21:09:00 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:09:00 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-08 21:09:04 INFO  com.ekart.base.BaseTest - Setup login complete. URL: https://ekartms.netlify.app/login
+2026-06-08 21:09:04 INFO  com.ekart.pages.BasePage - Attempting logout…
+2026-06-08 21:09:14 WARN  com.ekart.pages.BasePage -   → User avatar not found — may already be on logout trigger or using inline nav
+2026-06-08 21:09:24 ERROR com.ekart.pages.BasePage -   → Logout menu item NOT found
+2026-06-08 21:09:27 INFO  com.ekart.pages.BasePage - Navigating to protected route: https://ekartms.netlify.app/profile
+2026-06-08 21:09:29 INFO  com.ekart.pages.BasePage -   → Landed on: https://ekartms.netlify.app/profile
+2026-06-08 21:09:40 INFO  com.ekart.pages.BasePage - Navigating to protected route: https://ekartms.netlify.app/profile
+2026-06-08 21:09:42 INFO  com.ekart.pages.BasePage -   → Landed on: https://ekartms.netlify.app/profile
+2026-06-08 21:09:52 INFO  com.ekart.pages.BasePage - Navigating to protected route: https://ekartms.netlify.app/orders
+2026-06-08 21:09:54 INFO  com.ekart.pages.BasePage -   → Landed on: https://ekartms.netlify.app/orders
+2026-06-08 21:10:05 INFO  com.ekart.pages.BasePage - Navigating to protected route: https://ekartms.netlify.app/checkout
+2026-06-08 21:10:07 INFO  com.ekart.pages.BasePage -   → Landed on: https://ekartms.netlify.app/cart
+2026-06-08 21:10:17 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:10:17 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-08 21:10:21 INFO  com.ekart.base.BaseTest - Setup login complete. URL: https://ekartms.netlify.app/login
+2026-06-08 21:10:23 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:10:23 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-08 21:10:26 INFO  com.ekart.base.BaseTest - Setup login complete. URL: https://ekartms.netlify.app/login
+2026-06-08 21:10:26 INFO  com.ekart.pages.BasePage - Attempting logout…
+2026-06-08 21:10:36 WARN  com.ekart.pages.BasePage -   → User avatar not found — may already be on logout trigger or using inline nav
+2026-06-08 21:10:47 ERROR com.ekart.pages.BasePage -   → Logout menu item NOT found
+2026-06-08 21:10:48 INFO  com.ekart.pages.BasePage - isRedirectedToLogin → false | URL: https://ekartms.netlify.app/
+2026-06-08 21:10:48 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:10:48 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-08 21:10:51 INFO  com.ekart.base.BaseTest - Setup login complete. URL: https://ekartms.netlify.app/login
+2026-06-08 21:10:51 INFO  com.ekart.base.BaseTest - Authenticated URL: https://ekartms.netlify.app/login
+2026-06-08 21:10:51 INFO  com.ekart.pages.BasePage - Attempting logout…
+2026-06-08 21:11:01 WARN  com.ekart.pages.BasePage -   → User avatar not found — may already be on logout trigger or using inline nav
+2026-06-08 21:11:11 ERROR com.ekart.pages.BasePage -   → Logout menu item NOT found
+2026-06-08 21:11:14 INFO  com.ekart.base.BaseTest - URL after back button: https://ekartms.netlify.app/login
+2026-06-08 21:11:14 INFO  com.ekart.pages.BasePage - No auth cookies found — session cookies cleared
+2026-06-08 21:11:14 INFO  com.ekart.base.BaseTest - PASS TC_LOGOUT_012: Session not restored by back button. Cookies clear: true
+2026-06-08 21:11:14 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-08 21:11:14 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-08 21:11:17 INFO  com.ekart.base.BaseTest - Setup login complete. URL: https://ekartms.netlify.app/login
+2026-06-08 21:11:17 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.

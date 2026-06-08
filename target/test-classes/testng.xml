@@ -26,4 +26,10 @@
         </classes>
     </test>
 
+    <test name="Logout and Session Handling Tests">
+        <classes>
+            <class name="com.ekart.tests.LogoutTest"/>
+        </classes>
+    </test>
+
 </suite>

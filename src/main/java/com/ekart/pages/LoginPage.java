@@ -17,8 +17,17 @@ public class LoginPage extends BasePage {
     private final By registerLink  = By.xpath("//a[contains(text(),'Create account')]");
     private final By forgotPwdLink = By.xpath("//a[contains(text(),'Forgot password')]");
     private final By pageHeading   = By.xpath("//h2[contains(text(),'Welcome Back')]");
-    private final By userAvatar    = By.cssSelector("[class*='avatar'], [class*='user-icon'], .user-menu");
-    private final By logoutBtn     = By.xpath("//button[contains(text(),'Logout')] | //a[contains(text(),'Logout')]");
+    private final By userAvatar    = By.xpath(
+        "//*[contains(@class,'avatar') or contains(@class,'user-icon') " +
+        "or contains(@class,'user-menu') or contains(@class,'profile') " +
+        "or contains(@class,'account') or @data-testid='user-menu']"
+    );
+    private final By logoutBtn     = By.xpath(
+        "//button[normalize-space()='Logout' or normalize-space()='Log Out' " +
+        "or normalize-space()='Sign Out'] " +
+        "| //a[normalize-space()='Logout' or normalize-space()='Log Out' " +
+        "or normalize-space()='Sign Out']"
+    );
 
     // Email tab button (login page has Email / Phone tabs)
     private final By emailTab      = By.xpath("//button[contains(.,'Email')]");
@@ -65,6 +74,7 @@ public class LoginPage extends BasePage {
     public boolean isErrorDisplayed()   { return isDisplayed(errorMessage); }
     public boolean isSuccessDisplayed() { return isDisplayed(successMsg); }
     public boolean isUserLoggedIn()     { return isDisplayed(userAvatar); }
+    public boolean isLoggedIn()         { return isDisplayed(userAvatar); }
     public String  getErrorText()       { return getText(errorMessage); }
     public String  getHeading()         { return getText(pageHeading); }
 
