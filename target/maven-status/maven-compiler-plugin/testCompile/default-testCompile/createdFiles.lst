@@ -1,0 +1,5 @@
+com\ekart\tests\AlertTest.class
+com\ekart\tests\NavigationTest.class
+com\ekart\tests\LoginTest.class
+com\ekart\base\BaseTest.class
+com\ekart\tests\RegistrationTest.class
