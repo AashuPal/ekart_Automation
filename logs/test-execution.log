@@ -452,3 +452,161 @@
 2026-06-08 21:11:14 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
 2026-06-08 21:11:17 INFO  com.ekart.base.BaseTest - Setup login complete. URL: https://ekartms.netlify.app/login
 2026-06-08 21:11:17 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-10 08:54:52 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-10 08:55:16 INFO  com.ekart.pages.BasePage - Navigated to Home: https://ekartms.netlify.app
+2026-06-10 08:55:16 INFO  com.ekart.base.BaseTest - PASS: Home page loaded | Title: eKart - Online Shopping
+2026-06-10 08:55:17 INFO  com.ekart.base.BaseTest - PASS: Navigated to login page
+2026-06-10 08:55:18 INFO  com.ekart.base.BaseTest - PASS: Navigated to register page
+2026-06-10 08:55:18 INFO  com.ekart.base.BaseTest - PASS: Browser back navigation works
+2026-06-10 08:55:19 INFO  com.ekart.base.BaseTest - PASS: Page refresh works
+2026-06-10 08:55:19 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-10 08:55:19 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-10 08:55:22 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-10 08:55:22 INFO  com.ekart.pages.BasePage - Registering user: testuser_1781061922596@test.com
+2026-06-10 08:55:38 WARN  com.ekart.base.BaseTest - Registration redirect wait timed out — checking URL anyway
+2026-06-10 08:55:39 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-10 08:55:49 INFO  com.ekart.base.BaseTest - PASS: Empty fields validation works
+2026-06-10 08:55:53 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-10 08:56:04 INFO  com.ekart.base.BaseTest - PASS: Invalid email validation works
+2026-06-10 08:56:13 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-10 08:56:13 INFO  com.ekart.base.BaseTest - PASS: Weak password validation works
+2026-06-10 08:56:15 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-10 08:56:35 INFO  com.ekart.base.BaseTest - PASS: Missing required fields validation works
+2026-06-10 08:56:36 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-10 08:56:36 INFO  com.ekart.pages.BasePage - Registering user: aashupalse@gmail.com
+2026-06-10 08:56:38 INFO  com.ekart.base.BaseTest - PASS: Duplicate email validation works
+2026-06-10 08:56:39 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-10 08:56:39 INFO  com.ekart.base.BaseTest - PASS: All required form fields present
+2026-06-10 08:56:39 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-10 08:56:39 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-10 08:56:50 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 08:56:50 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-10 08:57:07 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 08:57:07 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-10 08:57:12 INFO  com.ekart.base.BaseTest - PASS: Wrong password shows error
+2026-06-10 08:57:14 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 08:57:14 INFO  com.ekart.pages.BasePage - Logging in as: nonexistent@fake.com
+2026-06-10 08:57:16 INFO  com.ekart.base.BaseTest - PASS: Non-existent email shows error
+2026-06-10 08:57:17 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:10:53 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-10 09:11:11 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:11:11 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-10 09:12:48 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-10 09:13:29 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-10 09:13:49 INFO  com.ekart.base.BaseTest - INFO: No browser alert on home page (expected)
+2026-06-10 09:14:06 INFO  com.ekart.base.BaseTest - PASS: No unexpected alerts on login page
+2026-06-10 09:14:06 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-10 09:14:32 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-10 09:14:38 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:14:38 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-10 09:14:45 INFO  com.ekart.base.BaseTest - PASS: Valid login | URL: https://ekartms.netlify.app/
+2026-06-10 09:14:45 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:14:45 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-10 09:14:49 INFO  com.ekart.base.BaseTest - PASS: Wrong password shows error
+2026-06-10 09:14:50 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:14:50 INFO  com.ekart.pages.BasePage - Logging in as: nonexistent@fake.com
+2026-06-10 09:14:54 INFO  com.ekart.base.BaseTest - PASS: Non-existent email shows error
+2026-06-10 09:14:54 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:15:05 INFO  com.ekart.base.BaseTest - PASS: Empty email shows validation error
+2026-06-10 09:15:05 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:15:16 INFO  com.ekart.base.BaseTest - PASS: Empty password shows validation error
+2026-06-10 09:15:16 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:15:27 INFO  com.ekart.base.BaseTest - PASS: Both empty fields shows validation error
+2026-06-10 09:15:27 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:15:27 INFO  com.ekart.pages.BasePage - Logging in as: notanemail
+2026-06-10 09:15:38 INFO  com.ekart.base.BaseTest - PASS: Invalid email format shows error
+2026-06-10 09:15:38 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:15:39 INFO  com.ekart.pages.BasePage - Logging in as: wrong@email.com
+2026-06-10 09:15:41 INFO  com.ekart.base.BaseTest - PASS: Error message shown: Invalid email or password
+2026-06-10 09:15:41 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:15:41 INFO  com.ekart.base.BaseTest - PASS: Login heading: Welcome Back
+2026-06-10 09:15:42 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:15:42 INFO  com.ekart.base.BaseTest - PASS: Forgot password link present
+2026-06-10 09:15:42 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-10 09:15:58 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-10 09:16:01 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:16:01 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-10 09:16:07 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-10 09:16:07 INFO  com.ekart.base.BaseTest - User logged in at: https://ekartms.netlify.app/
+2026-06-10 09:16:18 WARN  com.ekart.pages.BasePage - Logout button not found
+2026-06-10 09:16:18 WARN  com.ekart.base.BaseTest - Could not find logout button — user may not be logged in
+2026-06-10 09:16:18 INFO  com.ekart.base.BaseTest - PASS: Logout successful | URL: https://ekartms.netlify.app/
+2026-06-10 09:16:22 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:16:22 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-10 09:16:27 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-10 09:16:27 INFO  com.ekart.base.BaseTest - Token present before logout: eyJhbGciOi...
+2026-06-10 09:16:37 WARN  com.ekart.pages.BasePage - Logout button not found
+2026-06-10 09:16:37 WARN  com.ekart.base.BaseTest - Could not find logout button — user may not be logged in
+2026-06-10 09:16:38 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:16:38 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-10 09:16:44 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-10 09:16:54 WARN  com.ekart.pages.BasePage - Logout button not found
+2026-06-10 09:16:54 WARN  com.ekart.base.BaseTest - Could not find logout button — user may not be logged in
+2026-06-10 09:16:55 INFO  com.ekart.pages.BasePage - Navigated to protected page: /profile
+2026-06-10 09:17:10 WARN  com.ekart.base.BaseTest - Wait for login redirect timed out
+2026-06-10 09:17:11 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:17:11 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-10 09:17:17 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-10 09:17:28 WARN  com.ekart.pages.BasePage - Logout button not found
+2026-06-10 09:17:28 WARN  com.ekart.base.BaseTest - Could not find logout button — user may not be logged in
+2026-06-10 09:17:28 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:17:28 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-10 09:17:34 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-10 09:17:34 INFO  com.ekart.base.BaseTest - PASS: Login again after logout works | URL: https://ekartms.netlify.app/
+2026-06-10 09:17:34 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-10 09:17:53 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-10 09:17:57 INFO  com.ekart.pages.BasePage - Navigated to Home: https://ekartms.netlify.app
+2026-06-10 09:17:59 INFO  com.ekart.base.BaseTest - PASS: Home page loaded | Title: eKart - Online Shopping
+2026-06-10 09:18:00 INFO  com.ekart.base.BaseTest - PASS: Navigated to login page
+2026-06-10 09:18:01 INFO  com.ekart.base.BaseTest - PASS: Navigated to register page
+2026-06-10 09:18:02 INFO  com.ekart.base.BaseTest - PASS: Browser back navigation works
+2026-06-10 09:18:03 INFO  com.ekart.base.BaseTest - PASS: Page refresh works
+2026-06-10 09:18:03 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-10 09:18:26 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-10 09:18:32 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-10 09:18:32 INFO  com.ekart.pages.BasePage - Registering user: testuser_1781063312067@test.com
+2026-06-10 09:18:48 WARN  com.ekart.base.BaseTest - Registration redirect wait timed out — checking URL anyway
+2026-06-10 09:18:49 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-10 09:18:59 INFO  com.ekart.base.BaseTest - PASS: Empty fields validation works
+2026-06-10 09:18:59 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-10 09:19:11 INFO  com.ekart.base.BaseTest - PASS: Invalid email validation works
+2026-06-10 09:19:11 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-10 09:19:12 INFO  com.ekart.base.BaseTest - PASS: Weak password validation works
+2026-06-10 09:19:12 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-10 09:19:33 INFO  com.ekart.base.BaseTest - PASS: Missing required fields validation works
+2026-06-10 09:19:33 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-10 09:19:33 INFO  com.ekart.pages.BasePage - Registering user: aashupalse@gmail.com
+2026-06-10 09:19:37 INFO  com.ekart.base.BaseTest - PASS: Duplicate email validation works
+2026-06-10 09:19:37 INFO  com.ekart.pages.BasePage - Navigated to Register page
+2026-06-10 09:19:37 INFO  com.ekart.base.BaseTest - PASS: All required form fields present
+2026-06-10 09:19:37 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-10 09:19:58 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-10 09:20:05 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:20:05 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-10 09:20:12 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-10 09:20:14 INFO  com.ekart.base.BaseTest - PASS: Session persists after refresh | URL: https://ekartms.netlify.app/
+2026-06-10 09:20:15 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:20:15 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-10 09:20:21 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-10 09:20:25 INFO  com.ekart.base.BaseTest - PASS: Session persists across navigation
+2026-06-10 09:20:25 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-10 09:20:25 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-10 09:20:27 INFO  com.ekart.pages.BasePage - Navigated to protected page: /profile
+2026-06-10 09:20:28 INFO  com.ekart.base.BaseTest - PASS: Unauthenticated access redirected | URL: https://ekartms.netlify.app/login
+2026-06-10 09:20:30 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:20:30 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-10 09:20:35 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-10 09:20:46 WARN  com.ekart.pages.BasePage - Logout button not found
+2026-06-10 09:20:46 WARN  com.ekart.base.BaseTest - Could not find logout button — user may not be logged in
+2026-06-10 09:20:48 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-10 09:20:48 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-10 09:20:53 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-10 09:20:53 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-10 09:20:53 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-10 09:20:53 INFO  com.ekart.base.BaseTest - Session manually cleared
+2026-06-10 09:20:53 INFO  com.ekart.pages.BasePage - Navigated to protected page: /profile
+2026-06-10 09:20:53 INFO  com.ekart.base.BaseTest - PASS: Manual session clear handled correctly | URL: https://ekartms.netlify.app/login
+2026-06-10 09:20:53 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-10 09:20:53 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-10 09:21:04 INFO  com.ekart.base.BaseTest - PASS: Login page accessible when not logged in
+2026-06-10 09:21:04 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.

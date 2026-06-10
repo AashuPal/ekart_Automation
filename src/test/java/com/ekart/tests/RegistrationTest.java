@@ -35,8 +35,12 @@ public class RegistrationTest extends BaseTest {
             "9876543210"
         );
 
-        // Wait for redirect then check URL
-        WaitUtils.waitForUrl(getDriver(), "verify");  // waits up to 15s for URL change
+        // Wait for redirect away from register (app may go to /verify, /login, or home)
+        try {
+            WaitUtils.waitForUrlNotContains(getDriver(), "/register");
+        } catch (Exception e) {
+            log.warn("Registration redirect wait timed out — checking URL anyway");
+        }
 
         String currentUrl = getDriver().getCurrentUrl();
         Assert.assertTrue(
@@ -133,8 +137,8 @@ public class RegistrationTest extends BaseTest {
         registerPage.registerUser(
             "Test User",
             "aashupalse@gmail.com", // existing email
-            "9876543210",
-            "Test@1234"
+            "Test@1234",
+            "9876543210"
         );
 
         Assert.assertTrue(

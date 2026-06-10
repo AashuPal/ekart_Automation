@@ -35,10 +35,19 @@ public class WaitUtils {
         return wait.until(ExpectedConditions.textToBePresentInElementLocated(locator, text));
     }
 
-    // Wait for URL to contain
+    // Wait for URL to contain a fragment
     public static boolean waitForUrl(WebDriver driver, String urlFragment) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(DEFAULT_TIMEOUT));
         return wait.until(ExpectedConditions.urlContains(urlFragment));
+    }
+
+    /**
+     * Wait for the URL to NOT contain the given fragment.
+     * Useful for waiting until navigated away from a page (e.g. after login).
+     */
+    public static boolean waitForUrlNotContains(WebDriver driver, String urlFragment) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(DEFAULT_TIMEOUT));
+        return wait.until(d -> !d.getCurrentUrl().contains(urlFragment));
     }
 
     // Wait for alert

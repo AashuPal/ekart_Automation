@@ -20,15 +20,21 @@
         </classes>
     </test>
 
-    <test name="Alert Tests">
+    <test name="Logout Tests">
         <classes>
-            <class name="com.ekart.tests.AlertTest"/>
+            <class name="com.ekart.tests.LogoutTest"/>
         </classes>
     </test>
 
-    <test name="Logout and Session Handling Tests">
+    <test name="Session Handling Tests">
         <classes>
-            <class name="com.ekart.tests.LogoutTest"/>
+            <class name="com.ekart.tests.SessionTest"/>
+        </classes>
+    </test>
+
+    <test name="Alert Tests">
+        <classes>
+            <class name="com.ekart.tests.AlertTest"/>
         </classes>
     </test>
 
