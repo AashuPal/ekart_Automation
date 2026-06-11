@@ -42,7 +42,7 @@ public class LoginPage extends BasePage {
     private void ensureEmailTab() {
         try {
             click(emailTab);
-            Thread.sleep(300);
+            Thread.sleep(100);
         } catch (Exception e) {
             // already on email tab
         }
@@ -77,7 +77,7 @@ public class LoginPage extends BasePage {
             // Try clicking user menu first
             if (isDisplayed(userMenuBtn)) {
                 click(userMenuBtn);
-                Thread.sleep(500);
+                Thread.sleep(100);
             }
             // Then click logout
             if (isDisplayed(logoutBtn)) {

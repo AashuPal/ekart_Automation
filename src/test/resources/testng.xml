@@ -38,4 +38,10 @@
         </classes>
     </test>
 
+    <test name="Product Listing Tests">
+        <classes>
+            <class name="com.ekart.tests.ProductListingTest"/>
+        </classes>
+    </test>
+
 </suite>

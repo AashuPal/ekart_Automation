@@ -3,14 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ekart.tests.SessionTest">
+      <class name="com.ekart.tests.ProductListingTest">
         <methods>
+          <include name="initPages"/>
+          <include name="testAddProductModalFields"/>
+          <include name="testAddedProductVisibleOnHomePage"/>
+          <include name="testAddProductAppearsInAdminList"/>
+          <include name="testProductDetailUrlMatchesCardHref"/>
+          <include name="testQuantitySelectorOnDetailPage"/>
           <include name="setUp"/>
-          <include name="initLoginPage"/>
-          <include name="testLocalStorageClearedOnLogout"/>
+          <include name="testAdminPageAddProductButtonVisible"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.ekart.tests.SessionTest -->
+      </class> <!-- com.ekart.tests.ProductListingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -90,7 +90,7 @@ public class LogoutPage extends BasePage {
         if (isDisplayed(userAvatarOrName)) {
             log.info("  → User avatar found; clicking to open menu");
             click(userAvatarOrName);
-            pause(400);
+            pause(300);
         } else {
             log.warn("  → User avatar not found — may already be on logout trigger or using inline nav");
         }
@@ -99,7 +99,7 @@ public class LogoutPage extends BasePage {
         if (isDisplayed(logoutMenuItem)) {
             log.info("  → Logout menu item found; clicking");
             click(logoutMenuItem);
-            pause(1000); // allow redirect / state clear
+            pause(300); // allow redirect / state clear
             log.info("  → Logout clicked. Current URL: " + getCurrentUrl());
             return true;
         }
@@ -119,7 +119,7 @@ public class LogoutPage extends BasePage {
         // Enter credentials (reuse LoginPage logic inline)
         LoginPage loginPage = new LoginPage(driver);
         loginPage.login(email, password);
-        pause(2000);
+        pause(300);
 
         log.info("Login complete. URL after login: " + getCurrentUrl());
 
@@ -259,7 +259,7 @@ public class LogoutPage extends BasePage {
         String target = baseUrl + path;
         log.info("Navigating to protected route: " + target);
         driver.get(target);
-        pause(1500);
+        pause(300);
         String landed = getCurrentUrl();
         log.info("  → Landed on: " + landed);
         return landed;
@@ -281,7 +281,7 @@ public class LogoutPage extends BasePage {
      */
     public String refreshAndGetUrl() {
         driver.navigate().refresh();
-        pause(1500);
+        pause(300);
         return getCurrentUrl();
     }
 

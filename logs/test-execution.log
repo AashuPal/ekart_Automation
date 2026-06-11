@@ -610,3 +610,93 @@
 2026-06-10 09:20:53 INFO  com.ekart.base.BaseTest - Browser session cleared
 2026-06-10 09:21:04 INFO  com.ekart.base.BaseTest - PASS: Login page accessible when not logged in
 2026-06-10 09:21:04 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-11 07:37:31 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-11 07:38:33 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-11 07:38:40 INFO  com.ekart.pages.BasePage - Navigated to Products page
+2026-06-11 07:38:51 INFO  com.ekart.base.BaseTest - PASS: Products page loaded | URL: https://ekartms.netlify.app/products
+2026-06-11 07:38:51 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-11 07:38:51 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-11 07:38:52 INFO  com.ekart.pages.BasePage - Navigated to Products page
+2026-06-11 07:39:02 INFO  com.ekart.base.BaseTest - PASS: Product grid is displayed
+2026-06-11 07:39:02 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-11 07:39:02 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-11 07:39:03 INFO  com.ekart.pages.BasePage - Navigated to Products page
+2026-06-11 07:39:23 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-11 07:39:23 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-11 07:39:23 INFO  com.ekart.pages.BasePage - Navigated to Products page
+2026-06-11 07:39:43 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-11 07:39:43 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-11 07:39:44 INFO  com.ekart.pages.BasePage - Navigated to Products page
+2026-06-11 07:40:04 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-11 07:40:04 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-11 07:40:05 INFO  com.ekart.pages.BasePage - Navigated to Products page
+2026-06-11 07:40:25 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-11 07:40:25 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-11 07:40:25 INFO  com.ekart.pages.BasePage - Navigated to Products page
+2026-06-11 07:40:45 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-11 07:40:45 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-11 07:40:46 INFO  com.ekart.pages.BasePage - Navigated to Products page
+2026-06-11 07:41:06 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-11 07:41:06 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-11 07:41:06 INFO  com.ekart.pages.BasePage - Navigated to Products page
+2026-06-11 07:41:27 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-11 07:41:27 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-11 07:41:27 INFO  com.ekart.pages.BasePage - Navigated to Products page
+2026-06-11 07:41:58 WARN  com.ekart.pages.BasePage - Search input not found: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Search products...' or @placeholder='Search' or @type='search'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64165}, goog:processID: 2188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64165/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3be9416c82c742036d8095dc8c6b5078
+2026-06-11 07:42:18 INFO  com.ekart.base.BaseTest - PASS: No results handled correctly
+2026-06-11 07:42:18 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-11 07:42:18 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-11 07:42:21 INFO  com.ekart.pages.BasePage - Navigated to Products page
+2026-06-11 07:42:41 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-11 07:42:41 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-11 07:42:41 INFO  com.ekart.pages.BasePage - Navigated to Products page
+2026-06-11 07:42:52 INFO  com.ekart.pages.BasePage - Navigated to Home page
+2026-06-11 07:43:13 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-11 07:43:13 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-11 07:43:13 INFO  com.ekart.pages.BasePage - Navigated to Products page
+2026-06-11 07:43:33 INFO  com.ekart.pages.BasePage - Session cleared via JS
+2026-06-11 07:43:33 INFO  com.ekart.base.BaseTest - Browser session cleared
+2026-06-11 07:43:33 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-11 08:44:20 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-11 08:44:44 INFO  com.ekart.base.BaseTest - PASS: Product grid visible | Cards: 12
+2026-06-11 08:45:00 INFO  com.ekart.base.BaseTest - Card[0]: name='Samsung Galaxy S24 Ultra' price='₹1,199.99'
+2026-06-11 08:45:00 INFO  com.ekart.base.BaseTest - Card[1]: name='Nike Air Max 90' price='₹110.5'
+2026-06-11 08:45:00 INFO  com.ekart.base.BaseTest - Card[2]: name='Chanel Classic Flap Bag' price='₹8,200'
+2026-06-11 08:45:00 INFO  com.ekart.base.BaseTest - Card[3]: name='Maybelline Super Stay Matte Lipstick' price='₹8.99'
+2026-06-11 08:45:01 INFO  com.ekart.base.BaseTest - Card[4]: name='Zara Leather Biker Jacket' price='₹207.2'
+2026-06-11 08:45:01 INFO  com.ekart.base.BaseTest - PASS: Product card elements verified for first 5 cards
+2026-06-11 08:45:36 INFO  com.ekart.base.BaseTest - INFO: Count badge not found, skipping badge assertion
+2026-06-11 08:45:55 INFO  com.ekart.base.BaseTest - PASS: Card click → detail page | URL: https://ekartms.netlify.app/product/12305e2f-801d-4848-8feb-15c412619197
+2026-06-11 08:46:40 INFO  com.ekart.base.BaseTest - PASS: Detail page elements verified | Name: 'Samsung Galaxy S24 Ultra' Price: '₹1,199.99'
+2026-06-11 08:46:52 INFO  com.ekart.base.BaseTest - PASS: Direct URL navigation | Product: 'Nike Hoodie' | URL: https://ekartms.netlify.app/product/656a732e-9e66-496b-83c0-8991a7a987c0
+2026-06-11 08:46:53 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-11 08:46:53 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-11 08:46:54 INFO  com.ekart.base.BaseTest - Login attempted as: user@ekart.com
+2026-06-11 08:47:58 INFO  com.ekart.base.BaseTest - PASS: Price filter | Before=12 After=12
+2026-06-11 08:48:31 INFO  com.ekart.base.BaseTest - INFO: No stock badge present on this product — acceptable if stock data absent
+2026-06-11 08:49:37 INFO  com.ekart.base.BaseTest - PASS: Reviews section visible | Review count: 0
+2026-06-11 08:49:37 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-11 08:56:33 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-11 08:56:54 INFO  com.ekart.base.BaseTest - PASS: Product grid visible | Cards: 12
+2026-06-11 08:57:11 INFO  com.ekart.base.BaseTest - Card[0]: name='Samsung Galaxy S24 Ultra' price='₹1,199.99'
+2026-06-11 08:57:11 INFO  com.ekart.base.BaseTest - Card[1]: name='Nike Air Max 90' price='₹110.5'
+2026-06-11 08:57:11 INFO  com.ekart.base.BaseTest - Card[2]: name='Chanel Classic Flap Bag' price='₹8,200'
+2026-06-11 08:57:11 INFO  com.ekart.base.BaseTest - Card[3]: name='Maybelline Super Stay Matte Lipstick' price='₹8.99'
+2026-06-11 08:57:11 INFO  com.ekart.base.BaseTest - Card[4]: name='Zara Leather Biker Jacket' price='₹207.2'
+2026-06-11 08:57:11 INFO  com.ekart.base.BaseTest - PASS: Product card elements verified for first 5 cards
+2026-06-11 08:57:51 INFO  com.ekart.base.BaseTest - INFO: Count badge not found, skipping badge assertion
+2026-06-11 08:58:09 INFO  com.ekart.base.BaseTest - PASS: Card click → detail page | URL: https://ekartms.netlify.app/product/12305e2f-801d-4848-8feb-15c412619197
+2026-06-11 08:58:54 INFO  com.ekart.base.BaseTest - PASS: Detail page elements verified | Name: 'Samsung Galaxy S24 Ultra' Price: '₹1,199.99'
+2026-06-11 08:59:07 INFO  com.ekart.base.BaseTest - PASS: Direct URL navigation | Product: 'Nike Hoodie' | URL: https://ekartms.netlify.app/product/656a732e-9e66-496b-83c0-8991a7a987c0
+2026-06-11 08:59:08 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-11 08:59:08 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-11 08:59:08 INFO  com.ekart.base.BaseTest - Login attempted as: user@ekart.com
+2026-06-11 09:00:04 INFO  com.ekart.base.BaseTest - PASS: Price filter | Before=12 After=5
+2026-06-11 09:00:36 INFO  com.ekart.base.BaseTest - INFO: No stock badge present on this product — acceptable if stock data absent
+2026-06-11 09:01:45 INFO  com.ekart.base.BaseTest - PASS: Reviews section visible | Review count: 0
+2026-06-11 09:01:45 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.

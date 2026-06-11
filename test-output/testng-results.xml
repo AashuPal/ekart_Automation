@@ -1,55 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="15" passed="9" failed="3" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-10T09:19:58 IST" name="Default suite" finished-at="2026-06-10T09:21:04 IST" duration-ms="66210">
+  <suite started-at="2026-06-11T08:56:33 IST" name="Default suite" finished-at="2026-06-11T09:01:46 IST" duration-ms="312593">
     <groups>
     </groups>
-    <test started-at="2026-06-10T09:19:58 IST" name="Default test" finished-at="2026-06-10T09:21:04 IST" duration-ms="66210">
-      <class name="com.ekart.tests.SessionTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ekart.tests.SessionTest@56113384]" started-at="2026-06-10T09:19:58 IST" name="setUp" finished-at="2026-06-10T09:20:02 IST" duration-ms="3916" status="PASS">
+    <test started-at="2026-06-11T08:56:33 IST" name="Default test" finished-at="2026-06-11T09:01:46 IST" duration-ms="312593">
+      <class name="com.ekart.tests.ProductListingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:56:33 IST" name="setUp" finished-at="2026-06-11T08:56:37 IST" duration-ms="3664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initLoginPage()[pri:0, instance:com.ekart.tests.SessionTest@56113384]" started-at="2026-06-10T09:20:02 IST" name="initLoginPage" finished-at="2026-06-10T09:20:02 IST" duration-ms="51" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:56:37 IST" name="initPages" finished-at="2026-06-11T08:56:37 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initLoginPage -->
-        <test-method signature="testSessionPersistsAfterRefresh()[pri:1, instance:com.ekart.tests.SessionTest@56113384]" started-at="2026-06-10T09:20:02 IST" name="testSessionPersistsAfterRefresh" description="TC_SESSION_001: Session persists after page refresh" finished-at="2026-06-10T09:20:14 IST" duration-ms="12094" status="PASS">
+        </test-method> <!-- initPages -->
+        <test-method signature="testProductGridVisibleOnHomePage()[pri:1, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:56:37 IST" name="testProductGridVisibleOnHomePage" description="TC_PROD_001: Home page loads with product grid visible" finished-at="2026-06-11T08:56:54 IST" duration-ms="17618" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSessionPersistsAfterRefresh -->
-        <test-method is-config="true" signature="initLoginPage()[pri:0, instance:com.ekart.tests.SessionTest@56113384]" started-at="2026-06-10T09:20:14 IST" name="initLoginPage" finished-at="2026-06-10T09:20:14 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- testProductGridVisibleOnHomePage -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:56:55 IST" name="initPages" finished-at="2026-06-11T08:56:55 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initLoginPage -->
-        <test-method signature="testSessionPersistsAcrossNavigation()[pri:2, instance:com.ekart.tests.SessionTest@56113384]" started-at="2026-06-10T09:20:14 IST" name="testSessionPersistsAcrossNavigation" description="TC_SESSION_002: Session persists across page navigation" finished-at="2026-06-10T09:20:25 IST" duration-ms="10379" status="PASS">
+        </test-method> <!-- initPages -->
+        <test-method signature="testProductCardElementsVisible()[pri:2, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:56:55 IST" name="testProductCardElementsVisible" description="TC_PROD_002: Each product card shows name, price, and image" finished-at="2026-06-11T08:57:11 IST" duration-ms="16766" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSessionPersistsAcrossNavigation -->
-        <test-method signature="testUnauthenticatedRedirectToLogin()[pri:3, instance:com.ekart.tests.SessionTest@56113384]" started-at="2026-06-10T09:20:25 IST" name="testUnauthenticatedRedirectToLogin" description="TC_SESSION_003: Unauthenticated access redirects to login" finished-at="2026-06-10T09:20:28 IST" duration-ms="3467" status="PASS">
+        </test-method> <!-- testProductCardElementsVisible -->
+        <test-method signature="testProductCountBadgeConsistency()[pri:3, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:57:11 IST" name="testProductCountBadgeConsistency" description="TC_PROD_003: Product count badge is consistent" finished-at="2026-06-11T08:57:51 IST" duration-ms="40169" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUnauthenticatedRedirectToLogin -->
-        <test-method is-config="true" signature="initLoginPage()[pri:0, instance:com.ekart.tests.SessionTest@56113384]" started-at="2026-06-10T09:20:25 IST" name="initLoginPage" finished-at="2026-06-10T09:20:25 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- testProductCountBadgeConsistency -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:57:11 IST" name="initPages" finished-at="2026-06-11T08:57:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initLoginPage -->
-        <test-method is-config="true" signature="initLoginPage()[pri:0, instance:com.ekart.tests.SessionTest@56113384]" started-at="2026-06-10T09:20:28 IST" name="initLoginPage" finished-at="2026-06-10T09:20:28 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- initPages -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:57:51 IST" name="initPages" finished-at="2026-06-11T08:57:51 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initLoginPage -->
-        <test-method signature="testLocalStorageClearedOnLogout()[pri:4, instance:com.ekart.tests.SessionTest@56113384]" started-at="2026-06-10T09:20:28 IST" name="testLocalStorageClearedOnLogout" description="TC_SESSION_004: localStorage cleared after logout" finished-at="2026-06-10T09:20:46 IST" duration-ms="17958" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        </test-method> <!-- initPages -->
+        <test-method signature="testClickProductCardOpensDetailPage()[pri:4, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:57:51 IST" name="testClickProductCardOpensDetailPage" description="TC_PROD_004: Clicking product card opens product detail page" finished-at="2026-06-11T08:58:09 IST" duration-ms="17708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickProductCardOpensDetailPage -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:58:09 IST" name="initPages" finished-at="2026-06-11T08:58:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="testProductDetailUrlMatchesCardHref()[pri:5, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:58:09 IST" name="testProductDetailUrlMatchesCardHref" description="TC_PROD_005: Product detail page URL matches card href" finished-at="2026-06-11T08:58:26 IST" duration-ms="16941" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[localStorage token should be cleared after logout expected [true] but found [false]]]>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=149.0.7827.54)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [576d8419c75292dab89ee82e5e00b2ed, getElementAttribute {name=href, id=f.F8ECB913060C152C8078FAD10D558693.d.3F07BAB1461CBBEE39D6B938E43F8372.e.906}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62196}, goog:processID: 7756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62196/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (576d8419c75292dab89ee82e5e00b2ed)] -> css selector: a[href*='/product/']]
+Session ID: 576d8419c75292dab89ee82e5e00b2ed]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: localStorage token should be cleared after logout expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at com.ekart.tests.SessionTest.testLocalStorageClearedOnLogout(SessionTest.java:107)
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=149.0.7827.54)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [576d8419c75292dab89ee82e5e00b2ed, getElementAttribute {name=href, id=f.F8ECB913060C152C8078FAD10D558693.d.3F07BAB1461CBBEE39D6B938E43F8372.e.906}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62196}, goog:processID: 7756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62196/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (576d8419c75292dab89ee82e5e00b2ed)] -> css selector: a[href*='/product/']]
+Session ID: 576d8419c75292dab89ee82e5e00b2ed
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:149)
+at com.ekart.pages.ProductListingPage.getCardHref(ProductListingPage.java:178)
+at com.ekart.pages.ProductListingPage.getCardProductId(ProductListingPage.java:182)
+at com.ekart.tests.ProductListingTest.testProductDetailUrlMatchesCardHref(ProductListingTest.java:168)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -78,31 +115,274 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLocalStorageClearedOnLogout -->
-        <test-method signature="testManualSessionClearRedirectsToLogin()[pri:5, instance:com.ekart.tests.SessionTest@56113384]" started-at="2026-06-10T09:20:46 IST" name="testManualSessionClearRedirectsToLogin" description="TC_SESSION_005: Clearing session manually redirects to login" finished-at="2026-06-10T09:20:53 IST" duration-ms="7298" status="PASS">
+        </test-method> <!-- testProductDetailUrlMatchesCardHref -->
+        <test-method signature="testProductDetailPageElements()[pri:6, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:58:26 IST" name="testProductDetailPageElements" description="TC_PROD_006: Product detail page renders name, price, and action buttons" finished-at="2026-06-11T08:58:54 IST" duration-ms="28158" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testManualSessionClearRedirectsToLogin -->
-        <test-method is-config="true" signature="initLoginPage()[pri:0, instance:com.ekart.tests.SessionTest@56113384]" started-at="2026-06-10T09:20:46 IST" name="initLoginPage" finished-at="2026-06-10T09:20:46 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- testProductDetailPageElements -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:58:26 IST" name="initPages" finished-at="2026-06-11T08:58:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initLoginPage -->
-        <test-method is-config="true" signature="initLoginPage()[pri:0, instance:com.ekart.tests.SessionTest@56113384]" started-at="2026-06-10T09:20:53 IST" name="initLoginPage" finished-at="2026-06-10T09:20:53 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- initPages -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:58:54 IST" name="initPages" finished-at="2026-06-11T08:58:54 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initLoginPage -->
-        <test-method signature="testLoginPageAccessibleWhenNotLoggedIn()[pri:6, instance:com.ekart.tests.SessionTest@56113384]" started-at="2026-06-10T09:20:53 IST" name="testLoginPageAccessibleWhenNotLoggedIn" description="TC_SESSION_006: Login page accessible when not logged in" finished-at="2026-06-10T09:21:04 IST" duration-ms="10386" status="PASS">
+        </test-method> <!-- initPages -->
+        <test-method signature="testDirectProductUrlNavigation()[pri:7, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:58:54 IST" name="testDirectProductUrlNavigation" description="TC_PROD_007: Direct URL navigation to known product page works" finished-at="2026-06-11T08:59:07 IST" duration-ms="12819" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginPageAccessibleWhenNotLoggedIn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ekart.tests.SessionTest@56113384]" started-at="2026-06-10T09:21:04 IST" name="tearDown" finished-at="2026-06-10T09:21:04 IST" duration-ms="552" status="PASS">
+        </test-method> <!-- testDirectProductUrlNavigation -->
+        <test-method signature="testAdminPageAddProductButtonVisible()[pri:8, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:59:07 IST" name="testAdminPageAddProductButtonVisible" description="TC_PROD_008: Admin can access /admin and sees Add Product button" finished-at="2026-06-11T08:59:34 IST" duration-ms="27301" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for com.ekart.pages.AdminProductPage$$Lambda/0x0000000035330250@6bcc3f27 (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62196}, goog:processID: 7756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62196/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 576d8419c75292dab89ee82e5e00b2ed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.ekart.pages.AdminProductPage$$Lambda/0x0000000035330250@6bcc3f27 (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62196}, goog:processID: 7756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62196/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 576d8419c75292dab89ee82e5e00b2ed
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.ekart.pages.AdminProductPage.waitForAdminLoad(AdminProductPage.java:110)
+at com.ekart.pages.AdminProductPage.navigateToAdmin(AdminProductPage.java:105)
+at com.ekart.tests.ProductListingTest.testAdminPageAddProductButtonVisible(ProductListingTest.java:245)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminPageAddProductButtonVisible -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:59:07 IST" name="initPages" finished-at="2026-06-11T08:59:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="testAddProductModalFields()[pri:9, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:59:34 IST" name="testAddProductModalFields" description="TC_PROD_009: Add Product modal opens with all required form fields" finished-at="2026-06-11T08:59:34 IST" depends-on-methods="com.ekart.tests.ProductListingTest.testAdminPageAddProductButtonVisible" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.ekart.tests.ProductListingTest.testAddProductModalFields() on instance com.ekart.tests.ProductListingTest@6d9f7a80 depends on not successfully finished methods 
+[com.ekart.tests.ProductListingTest.testAdminPageAddProductButtonVisible() on instance com.ekart.tests.ProductListingTest@6d9f7a80]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.ekart.tests.ProductListingTest.testAddProductModalFields() on instance com.ekart.tests.ProductListingTest@6d9f7a80 depends on not successfully finished methods 
+[com.ekart.tests.ProductListingTest.testAdminPageAddProductButtonVisible() on instance com.ekart.tests.ProductListingTest@6d9f7a80]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:157)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductModalFields -->
+        <test-method signature="testAddProductAppearsInAdminList()[pri:10, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:59:34 IST" name="testAddProductAppearsInAdminList" description="TC_PROD_010: Product added via admin appears in admin product list" finished-at="2026-06-11T08:59:34 IST" depends-on-methods="com.ekart.tests.ProductListingTest.testAddProductModalFields" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.ekart.tests.ProductListingTest.testAddProductAppearsInAdminList() on instance com.ekart.tests.ProductListingTest@6d9f7a80 depends on not successfully finished methods 
+[com.ekart.tests.ProductListingTest.testAddProductModalFields() on instance com.ekart.tests.ProductListingTest@6d9f7a80]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.ekart.tests.ProductListingTest.testAddProductAppearsInAdminList() on instance com.ekart.tests.ProductListingTest@6d9f7a80 depends on not successfully finished methods 
+[com.ekart.tests.ProductListingTest.testAddProductModalFields() on instance com.ekart.tests.ProductListingTest@6d9f7a80]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:157)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductAppearsInAdminList -->
+        <test-method signature="testAddedProductVisibleOnHomePage()[pri:11, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:59:34 IST" name="testAddedProductVisibleOnHomePage" description="TC_PROD_011: Newly added product is visible on the public home page" finished-at="2026-06-11T08:59:34 IST" depends-on-methods="com.ekart.tests.ProductListingTest.testAddProductAppearsInAdminList" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.ekart.tests.ProductListingTest.testAddedProductVisibleOnHomePage() on instance com.ekart.tests.ProductListingTest@6d9f7a80 depends on not successfully finished methods 
+[com.ekart.tests.ProductListingTest.testAddProductAppearsInAdminList() on instance com.ekart.tests.ProductListingTest@6d9f7a80]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.ekart.tests.ProductListingTest.testAddedProductVisibleOnHomePage() on instance com.ekart.tests.ProductListingTest@6d9f7a80 depends on not successfully finished methods 
+[com.ekart.tests.ProductListingTest.testAddProductAppearsInAdminList() on instance com.ekart.tests.ProductListingTest@6d9f7a80]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:157)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddedProductVisibleOnHomePage -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:59:34 IST" name="initPages" finished-at="2026-06-11T08:59:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="testPriceFilterNarrowsResults()[pri:12, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T08:59:34 IST" name="testPriceFilterNarrowsResults" description="TC_PROD_012: Price filter reduces the visible product count" finished-at="2026-06-11T09:00:04 IST" duration-ms="29875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPriceFilterNarrowsResults -->
+        <test-method signature="testStockStatusOnDetailPage()[pri:13, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T09:00:04 IST" name="testStockStatusOnDetailPage" description="TC_PROD_013: Stock status badge is visible on product detail page" finished-at="2026-06-11T09:00:47 IST" duration-ms="42174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStockStatusOnDetailPage -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T09:00:04 IST" name="initPages" finished-at="2026-06-11T09:00:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="testQuantitySelectorOnDetailPage()[pri:14, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T09:00:47 IST" name="testQuantitySelectorOnDetailPage" description="TC_PROD_014: Quantity selector on detail page works correctly" finished-at="2026-06-11T09:01:21 IST" duration-ms="34380" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //button[.//*[name()='svg' and .//*[@d and contains(@d,'M12 5v14')]]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62196}, goog:processID: 7756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62196/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 576d8419c75292dab89ee82e5e00b2ed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[.//*[name()='svg' and .//*[@d and contains(@d,'M12 5v14')]]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62196}, goog:processID: 7756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62196/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 576d8419c75292dab89ee82e5e00b2ed
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.ekart.utils.WaitUtils.waitForClickable(WaitUtils.java:29)
+at com.ekart.pages.BasePage.click(BasePage.java:20)
+at com.ekart.pages.ProductDetailPage.increaseQuantity(ProductDetailPage.java:177)
+at com.ekart.tests.ProductListingTest.testQuantitySelectorOnDetailPage(ProductListingTest.java:426)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuantitySelectorOnDetailPage -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T09:00:47 IST" name="initPages" finished-at="2026-06-11T09:00:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T09:01:21 IST" name="initPages" finished-at="2026-06-11T09:01:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="testReviewsSectionOnDetailPage()[pri:15, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T09:01:21 IST" name="testReviewsSectionOnDetailPage" description="TC_PROD_015: Reviews section is rendered on product detail page" finished-at="2026-06-11T09:01:45 IST" duration-ms="24347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReviewsSectionOnDetailPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ekart.tests.ProductListingTest@6d9f7a80]" started-at="2026-06-11T09:01:45 IST" name="tearDown" finished-at="2026-06-11T09:01:46 IST" duration-ms="485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.ekart.tests.SessionTest -->
+      </class> <!-- com.ekart.tests.ProductListingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

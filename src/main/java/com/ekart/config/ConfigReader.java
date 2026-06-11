@@ -47,4 +47,8 @@ public class ConfigReader {
     public static String getValidPassword()     { return get("login.valid.password"); }
     public static String getInvalidEmail()      { return get("login.invalid.email"); }
     public static String getInvalidPassword()   { return get("login.invalid.password"); }
+
+    // Admin credentials
+    public static String getAdminEmail()        { return get("admin.email"); }
+    public static String getAdminPassword()     { return get("admin.password"); }
 }
