@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/3/3</td>
+<td>Tests passed/Failed/Skipped:</td><td>15/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 11 08:56:33 IST 2026</td>
+<td>Started on:</td><td>Fri Jun 12 07:52:13 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>312 seconds (312593 ms)</td>
+<tr><td>Total time:</td><td>235 seconds (235159 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,18 +76,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.ekart.tests.ProductListingTest.testAdminPageAddProductButtonVisible()'><b>testAdminPageAddProductButtonVisible</b><br>Test class: com.ekart.tests.ProductListingTest<br>Test method: TC_PROD_008: Admin can access /admin and sees Add Product button</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.ekart.pages.AdminProductPage$$Lambda/0x0000000035330250@6bcc3f27 (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62196}, goog:processID: 7756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62196/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 576d8419c75292dab89ee82e5e00b2ed
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.ekart.pages.AdminProductPage.waitForAdminLoad(AdminProductPage.java:110)
-	at com.ekart.pages.AdminProductPage.navigateToAdmin(AdminProductPage.java:105)
-	at com.ekart.tests.ProductListingTest.testAdminPageAddProductButtonVisible(ProductListingTest.java:245)
+<td title='com.ekart.tests.ProductValidationTest.testDiscountBadgeMatchesCalculation()'><b>testDiscountBadgeMatchesCalculation</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_VAL_004: Discount badge percentage matches calculated discount</td>
+<td><div><pre>java.lang.AssertionError: Discount badge (15.0%) does not match calculated (-8400.0%). base=65.0 selling=5525.0 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.ekart.tests.ProductValidationTest.testDiscountBadgeMatchesCalculation(ProductValidationTest.java:154)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -114,18 +108,12 @@ Session ID: 576d8419c75292dab89ee82e5e00b2ed
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace915540950", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace915540950'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.ekart.pages.AdminProductPage$$Lambda/0x0000000035330250@6bcc3f27 (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62196}, goog:processID: 7756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62196/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 576d8419c75292dab89ee82e5e00b2ed
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.ekart.pages.AdminProductPage.waitForAdminLoad(AdminProductPage.java:110)
-	at com.ekart.pages.AdminProductPage.navigateToAdmin(AdminProductPage.java:105)
-	at com.ekart.tests.ProductListingTest.testAdminPageAddProductButtonVisible(ProductListingTest.java:245)
+</pre></div><a href='#' onClick='toggleBox("stack-trace407877261", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace407877261'><pre>java.lang.AssertionError: Discount badge (15.0%) does not match calculated (-8400.0%). base=65.0 selling=5525.0 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.ekart.tests.ProductValidationTest.testDiscountBadgeMatchesCalculation(ProductValidationTest.java:154)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -153,35 +141,15 @@ Session ID: 576d8419c75292dab89ee82e5e00b2ed
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>27</td>
-<td>com.ekart.tests.ProductListingTest@6d9f7a80</td></tr>
+<td>2</td>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
 <tr>
-<td title='com.ekart.tests.ProductListingTest.testProductDetailUrlMatchesCardHref()'><b>testProductDetailUrlMatchesCardHref</b><br>Test class: com.ekart.tests.ProductListingTest<br>Test method: TC_PROD_005: Product detail page URL matches card href</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: chrome=149.0.7827.54)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [576d8419c75292dab89ee82e5e00b2ed, getElementAttribute {name=href, id=f.F8ECB913060C152C8078FAD10D558693.d.3F07BAB1461CBBEE39D6B938E43F8372.e.906}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62196}, goog:processID: 7756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62196/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (576d8419c75292dab89ee82e5e00b2ed)] -&gt; css selector: a[href*=&apos;/product/&apos;]]
-Session ID: 576d8419c75292dab89ee82e5e00b2ed
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:149)
-	at com.ekart.pages.ProductListingPage.getCardHref(ProductListingPage.java:178)
-	at com.ekart.pages.ProductListingPage.getCardProductId(ProductListingPage.java:182)
-	at com.ekart.tests.ProductListingTest.testProductDetailUrlMatchesCardHref(ProductListingTest.java:168)
+<td title='com.ekart.tests.ProductValidationTest.testBasePriceGreaterThanOrEqualToSellingPrice()'><b>testBasePriceGreaterThanOrEqualToSellingPrice</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_VAL_003: Base price >= selling price (no negative discount)</td>
+<td><div><pre>java.lang.AssertionError: Base price (65.0) must be &gt;= selling price (5525.0) expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.ekart.tests.ProductValidationTest.testBasePriceGreaterThanOrEqualToSellingPrice(ProductValidationTest.java:120)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -208,32 +176,12 @@ Session ID: 576d8419c75292dab89ee82e5e00b2ed
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1642905321", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1642905321'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: chrome=149.0.7827.54)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [576d8419c75292dab89ee82e5e00b2ed, getElementAttribute {name=href, id=f.F8ECB913060C152C8078FAD10D558693.d.3F07BAB1461CBBEE39D6B938E43F8372.e.906}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62196}, goog:processID: 7756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62196/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (576d8419c75292dab89ee82e5e00b2ed)] -&gt; css selector: a[href*=&apos;/product/&apos;]]
-Session ID: 576d8419c75292dab89ee82e5e00b2ed
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:149)
-	at com.ekart.pages.ProductListingPage.getCardHref(ProductListingPage.java:178)
-	at com.ekart.pages.ProductListingPage.getCardProductId(ProductListingPage.java:182)
-	at com.ekart.tests.ProductListingTest.testProductDetailUrlMatchesCardHref(ProductListingTest.java:168)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1092822", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1092822'><pre>java.lang.AssertionError: Base price (65.0) must be &gt;= selling price (5525.0) expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.ekart.tests.ProductValidationTest.testBasePriceGreaterThanOrEqualToSellingPrice(ProductValidationTest.java:120)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -261,90 +209,8 @@ Session ID: 576d8419c75292dab89ee82e5e00b2ed
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>16</td>
-<td>com.ekart.tests.ProductListingTest@6d9f7a80</td></tr>
-<tr>
-<td title='com.ekart.tests.ProductListingTest.testQuantitySelectorOnDetailPage()'><b>testQuantitySelectorOnDetailPage</b><br>Test class: com.ekart.tests.ProductListingTest<br>Test method: TC_PROD_014: Quantity selector on detail page works correctly</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[.//*[name()=&apos;svg&apos; and .//*[@d and contains(@d,&apos;M12 5v14&apos;)]]] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62196}, goog:processID: 7756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62196/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 576d8419c75292dab89ee82e5e00b2ed
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.ekart.utils.WaitUtils.waitForClickable(WaitUtils.java:29)
-	at com.ekart.pages.BasePage.click(BasePage.java:20)
-	at com.ekart.pages.ProductDetailPage.increaseQuantity(ProductDetailPage.java:177)
-	at com.ekart.tests.ProductListingTest.testQuantitySelectorOnDetailPage(ProductListingTest.java:426)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace631766751", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace631766751'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[.//*[name()=&apos;svg&apos; and .//*[@d and contains(@d,&apos;M12 5v14&apos;)]]] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.55 (3188f8a607ae..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62196}, goog:processID: 7756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62196/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 576d8419c75292dab89ee82e5e00b2ed
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.ekart.utils.WaitUtils.waitForClickable(WaitUtils.java:29)
-	at com.ekart.pages.BasePage.click(BasePage.java:20)
-	at com.ekart.pages.ProductDetailPage.increaseQuantity(ProductDetailPage.java:177)
-	at com.ekart.tests.ProductListingTest.testQuantitySelectorOnDetailPage(ProductListingTest.java:426)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>34</td>
-<td>com.ekart.tests.ProductListingTest@6d9f7a80</td></tr>
+<td>2</td>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -355,203 +221,80 @@ Session ID: 576d8419c75292dab89ee82e5e00b2ed
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.ekart.tests.ProductListingTest.testClickProductCardOpensDetailPage()'><b>testClickProductCardOpensDetailPage</b><br>Test class: com.ekart.tests.ProductListingTest<br>Test method: TC_PROD_004: Clicking product card opens product detail page</td>
+<td title='com.ekart.tests.ProductValidationTest.testUrlProductIdMatchesClickedCard()'><b>testUrlProductIdMatchesClickedCard</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_NAV_002: URL product-id matches the card that was clicked</td>
 <td></td>
 <td>17</td>
-<td>com.ekart.tests.ProductListingTest@6d9f7a80</td></tr>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
 <tr>
-<td title='com.ekart.tests.ProductListingTest.testProductCardElementsVisible()'><b>testProductCardElementsVisible</b><br>Test class: com.ekart.tests.ProductListingTest<br>Test method: TC_PROD_002: Each product card shows name, price, and image</td>
-<td></td>
-<td>16</td>
-<td>com.ekart.tests.ProductListingTest@6d9f7a80</td></tr>
-<tr>
-<td title='com.ekart.tests.ProductListingTest.testDirectProductUrlNavigation()'><b>testDirectProductUrlNavigation</b><br>Test class: com.ekart.tests.ProductListingTest<br>Test method: TC_PROD_007: Direct URL navigation to known product page works</td>
+<td title='com.ekart.tests.ProductValidationTest.testDirectUrlLoadsCorrectProduct()'><b>testDirectUrlLoadsCorrectProduct</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_NAV_004: Direct URL navigation loads the correct product</td>
 <td></td>
 <td>12</td>
-<td>com.ekart.tests.ProductListingTest@6d9f7a80</td></tr>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
 <tr>
-<td title='com.ekart.tests.ProductListingTest.testReviewsSectionOnDetailPage()'><b>testReviewsSectionOnDetailPage</b><br>Test class: com.ekart.tests.ProductListingTest<br>Test method: TC_PROD_015: Reviews section is rendered on product detail page</td>
+<td title='com.ekart.tests.ProductValidationTest.testDetailNameMatchesListingCardName()'><b>testDetailNameMatchesListingCardName</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_VAL_008: Product name on detail page matches name on listing card</td>
 <td></td>
-<td>24</td>
-<td>com.ekart.tests.ProductListingTest@6d9f7a80</td></tr>
+<td>19</td>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
 <tr>
-<td title='com.ekart.tests.ProductListingTest.testPriceFilterNarrowsResults()'><b>testPriceFilterNarrowsResults</b><br>Test class: com.ekart.tests.ProductListingTest<br>Test method: TC_PROD_012: Price filter reduces the visible product count</td>
+<td title='com.ekart.tests.ProductValidationTest.testInvalidProductUrlShowsNotFound()'><b>testInvalidProductUrlShowsNotFound</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_NAV_007: Invalid product UUID shows not-found state, not crash</td>
 <td></td>
-<td>29</td>
-<td>com.ekart.tests.ProductListingTest@6d9f7a80</td></tr>
+<td>31</td>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
 <tr>
-<td title='com.ekart.tests.ProductListingTest.testProductDetailPageElements()'><b>testProductDetailPageElements</b><br>Test class: com.ekart.tests.ProductListingTest<br>Test method: TC_PROD_006: Product detail page renders name, price, and action buttons</td>
+<td title='com.ekart.tests.ProductValidationTest.testClickCardLandsOnProductUrl()'><b>testClickCardLandsOnProductUrl</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_NAV_001: Clicking any card navigates to /product/<uuid> URL</td>
 <td></td>
-<td>28</td>
-<td>com.ekart.tests.ProductListingTest@6d9f7a80</td></tr>
+<td>16</td>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
 <tr>
-<td title='com.ekart.tests.ProductListingTest.testStockStatusOnDetailPage()'><b>testStockStatusOnDetailPage</b><br>Test class: com.ekart.tests.ProductListingTest<br>Test method: TC_PROD_013: Stock status badge is visible on product detail page</td>
+<td title='com.ekart.tests.ProductValidationTest.testEachCardLoadsUniqueProduct()'><b>testEachCardLoadsUniqueProduct</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_NAV_005: Navigating card-by-card loads different products each time</td>
 <td></td>
-<td>42</td>
-<td>com.ekart.tests.ProductListingTest@6d9f7a80</td></tr>
+<td>23</td>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
 <tr>
-<td title='com.ekart.tests.ProductListingTest.testProductGridVisibleOnHomePage()'><b>testProductGridVisibleOnHomePage</b><br>Test class: com.ekart.tests.ProductListingTest<br>Test method: TC_PROD_001: Home page loads with product grid visible</td>
+<td title='com.ekart.tests.ProductValidationTest.testSellingPriceFormat()'><b>testSellingPriceFormat</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_VAL_002: Selling price has valid currency format</td>
 <td></td>
-<td>17</td>
-<td>com.ekart.tests.ProductListingTest@6d9f7a80</td></tr>
+<td>1</td>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
 <tr>
-<td title='com.ekart.tests.ProductListingTest.testProductCountBadgeConsistency()'><b>testProductCountBadgeConsistency</b><br>Test class: com.ekart.tests.ProductListingTest<br>Test method: TC_PROD_003: Product count badge is consistent</td>
+<td title='com.ekart.tests.ProductValidationTest.testProductNameNotEmpty()'><b>testProductNameNotEmpty</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_VAL_001: Product name is non-empty and not a placeholder</td>
 <td></td>
-<td>40</td>
-<td>com.ekart.tests.ProductListingTest@6d9f7a80</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>4</td>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
 <tr>
-<td title='com.ekart.tests.ProductListingTest.testAddProductModalFields()'><b>testAddProductModalFields</b><br>Test class: com.ekart.tests.ProductListingTest<br>Test method: TC_PROD_009: Add Product modal opens with all required form fields</td>
-<td><div><pre>java.lang.Throwable: Method com.ekart.tests.ProductListingTest.testAddProductModalFields() on instance com.ekart.tests.ProductListingTest@6d9f7a80 depends on not successfully finished methods 
-[com.ekart.tests.ProductListingTest.testAdminPageAddProductButtonVisible() on instance com.ekart.tests.ProductListingTest@6d9f7a80]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:157)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace780566650", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace780566650'><pre>java.lang.Throwable: Method com.ekart.tests.ProductListingTest.testAddProductModalFields() on instance com.ekart.tests.ProductListingTest@6d9f7a80 depends on not successfully finished methods 
-[com.ekart.tests.ProductListingTest.testAdminPageAddProductButtonVisible() on instance com.ekart.tests.ProductListingTest@6d9f7a80]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:157)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.ekart.tests.ProductListingTest@6d9f7a80</td></tr>
+<td title='com.ekart.tests.ProductValidationTest.testDetailPriceMatchesListingCardPrice()'><b>testDetailPriceMatchesListingCardPrice</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_VAL_009: Product price on detail page matches price shown on listing card</td>
+<td></td>
+<td>19</td>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
 <tr>
-<td title='com.ekart.tests.ProductListingTest.testAddedProductVisibleOnHomePage()'><b>testAddedProductVisibleOnHomePage</b><br>Test class: com.ekart.tests.ProductListingTest<br>Test method: TC_PROD_011: Newly added product is visible on the public home page</td>
-<td><div><pre>java.lang.Throwable: Method com.ekart.tests.ProductListingTest.testAddedProductVisibleOnHomePage() on instance com.ekart.tests.ProductListingTest@6d9f7a80 depends on not successfully finished methods 
-[com.ekart.tests.ProductListingTest.testAddProductAppearsInAdminList() on instance com.ekart.tests.ProductListingTest@6d9f7a80]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:157)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace982565180", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace982565180'><pre>java.lang.Throwable: Method com.ekart.tests.ProductListingTest.testAddedProductVisibleOnHomePage() on instance com.ekart.tests.ProductListingTest@6d9f7a80 depends on not successfully finished methods 
-[com.ekart.tests.ProductListingTest.testAddProductAppearsInAdminList() on instance com.ekart.tests.ProductListingTest@6d9f7a80]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:157)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.ekart.tests.ProductListingTest@6d9f7a80</td></tr>
+<td title='com.ekart.tests.ProductValidationTest.testProductImageLoads()'><b>testProductImageLoads</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_VAL_007: Main product image loads with valid src</td>
+<td></td>
+<td>1</td>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
 <tr>
-<td title='com.ekart.tests.ProductListingTest.testAddProductAppearsInAdminList()'><b>testAddProductAppearsInAdminList</b><br>Test class: com.ekart.tests.ProductListingTest<br>Test method: TC_PROD_010: Product added via admin appears in admin product list</td>
-<td><div><pre>java.lang.Throwable: Method com.ekart.tests.ProductListingTest.testAddProductAppearsInAdminList() on instance com.ekart.tests.ProductListingTest@6d9f7a80 depends on not successfully finished methods 
-[com.ekart.tests.ProductListingTest.testAddProductModalFields() on instance com.ekart.tests.ProductListingTest@6d9f7a80]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:157)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1494158416", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1494158416'><pre>java.lang.Throwable: Method com.ekart.tests.ProductListingTest.testAddProductAppearsInAdminList() on instance com.ekart.tests.ProductListingTest@6d9f7a80 depends on not successfully finished methods 
-[com.ekart.tests.ProductListingTest.testAddProductModalFields() on instance com.ekart.tests.ProductListingTest@6d9f7a80]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:157)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.ekart.tests.ProductListingTest@6d9f7a80</td></tr>
+<td title='com.ekart.tests.ProductValidationTest.testBrowserBackReturnsToListing()'><b>testBrowserBackReturnsToListing</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_NAV_003: Browser Back from detail page returns to listing with cards intact</td>
+<td></td>
+<td>32</td>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
+<tr>
+<td title='com.ekart.tests.ProductValidationTest.testMultipleCardsHaveUniqueProductUrls()'><b>testMultipleCardsHaveUniqueProductUrls</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_NAV_008: Multiple cards each produce a unique /product/<id> URL</td>
+<td></td>
+<td>16</td>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
+<tr>
+<td title='com.ekart.tests.ProductValidationTest.testProductDescriptionNotEmpty()'><b>testProductDescriptionNotEmpty</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_VAL_006: Product description is non-empty</td>
+<td></td>
+<td>1</td>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
+<tr>
+<td title='com.ekart.tests.ProductValidationTest.testBrandNameVisible()'><b>testBrandNameVisible</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_VAL_005: Brand name is visible and non-empty on detail page</td>
+<td></td>
+<td>1</td>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
+<tr>
+<td title='com.ekart.tests.ProductValidationTest.testBackToHomeFromDetailPage()'><b>testBackToHomeFromDetailPage</b><br>Test class: com.ekart.tests.ProductValidationTest<br>Test method: TC_NAV_006: 'Back to Home' breadcrumb returns to home page</td>
+<td></td>
+<td>27</td>
+<td>com.ekart.tests.ProductValidationTest@6d9f7a80</td></tr>
 </table><p>
 </body>
 </html>

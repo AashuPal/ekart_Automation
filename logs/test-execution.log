@@ -700,3 +700,26 @@ Session ID: 3be9416c82c742036d8095dc8c6b5078
 2026-06-11 09:00:36 INFO  com.ekart.base.BaseTest - INFO: No stock badge present on this product — acceptable if stock data absent
 2026-06-11 09:01:45 INFO  com.ekart.base.BaseTest - PASS: Reviews section visible | Review count: 0
 2026-06-11 09:01:45 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-12 07:51:46 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-12 07:51:56 INFO  com.ekart.base.BaseTest - PASS TC_VAL_001 | name='Nike Hoodie'
+2026-06-12 07:51:58 INFO  com.ekart.base.BaseTest - PASS TC_VAL_002 | sellingPrice='₹55.25'
+2026-06-12 07:52:14 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-12 07:52:20 INFO  com.ekart.base.BaseTest - PASS TC_VAL_001 | name='Nike Hoodie'
+2026-06-12 07:52:22 INFO  com.ekart.base.BaseTest - PASS TC_VAL_002 | sellingPrice='₹55.25'
+2026-06-12 07:52:28 INFO  com.ekart.base.BaseTest - PASS TC_VAL_005 | brand='NIKE'
+2026-06-12 07:52:30 INFO  com.ekart.base.BaseTest - PASS TC_VAL_006 | description length=51
+2026-06-12 07:52:32 INFO  com.ekart.base.BaseTest - PASS TC_VAL_007 | Product image visible
+2026-06-12 07:52:51 INFO  com.ekart.base.BaseTest - PASS TC_VAL_008 | card='Samsung Galaxy S24 Ultra' detail='Samsung Galaxy S24 Ultra'
+2026-06-12 07:53:10 INFO  com.ekart.base.BaseTest - PASS TC_VAL_009 | cardPrice='₹1,199.99' detailPrice='₹1,199.99'
+2026-06-12 07:53:27 INFO  com.ekart.base.BaseTest - PASS TC_NAV_001 | URL: https://ekartms.netlify.app/product/12305e2f-801d-4848-8feb-15c412619197
+2026-06-12 07:53:44 INFO  com.ekart.base.BaseTest - PASS TC_NAV_002 | expected=173876a7-f798-46ce-97dc-f25e227f53df actual=173876a7-f798-46ce-97dc-f25e227f53df
+2026-06-12 07:54:17 INFO  com.ekart.base.BaseTest - PASS TC_NAV_003 | cards after back=12 URL: https://ekartms.netlify.app/
+2026-06-12 07:54:29 INFO  com.ekart.base.BaseTest - PASS TC_NAV_004 | product='Nike Hoodie' ID=656a732e-9e66-496b-83c0-8991a7a987c0
+2026-06-12 07:54:48 INFO  com.ekart.base.BaseTest - Card[0] → id=12305e2f-801d-4848-8feb-15c412619197 name='Samsung Galaxy S24 Ultra'
+2026-06-12 07:54:50 INFO  com.ekart.base.BaseTest - Card[1] → id=173876a7-f798-46ce-97dc-f25e227f53df name='Nike Air Max 90'
+2026-06-12 07:54:52 INFO  com.ekart.base.BaseTest - Card[2] → id=284ba681-7a97-47d6-8d78-f5f7d8dd190b name='Chanel Classic Flap Bag'
+2026-06-12 07:54:52 INFO  com.ekart.base.BaseTest - PASS TC_NAV_005 | Visited unique products: [12305e2f-801d-4848-8feb-15c412619197, 173876a7-f798-46ce-97dc-f25e227f53df, 284ba681-7a97-47d6-8d78-f5f7d8dd190b]
+2026-06-12 07:55:20 INFO  com.ekart.base.BaseTest - PASS TC_NAV_006 | URL after back: https://ekartms.netlify.app/
+2026-06-12 07:55:51 INFO  com.ekart.base.BaseTest - PASS TC_NAV_007 | notFoundShown=true URL: https://ekartms.netlify.app/product/00000000-0000-0000-0000-000000000000
+2026-06-12 07:56:08 INFO  com.ekart.base.BaseTest - PASS TC_NAV_008 | Verified 6 unique product card URLs
+2026-06-12 07:56:08 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.

@@ -3,19 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ekart.tests.ProductListingTest">
+      <class name="com.ekart.tests.ProductValidationTest">
         <methods>
-          <include name="initPages"/>
-          <include name="testAddProductModalFields"/>
-          <include name="testAddedProductVisibleOnHomePage"/>
-          <include name="testAddProductAppearsInAdminList"/>
-          <include name="testProductDetailUrlMatchesCardHref"/>
-          <include name="testQuantitySelectorOnDetailPage"/>
+          <include name="testBasePriceGreaterThanOrEqualToSellingPrice"/>
+          <include name="testDiscountBadgeMatchesCalculation"/>
           <include name="setUp"/>
-          <include name="testAdminPageAddProductButtonVisible"/>
+          <include name="initPages"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.ekart.tests.ProductListingTest -->
+      </class> <!-- com.ekart.tests.ProductValidationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
