@@ -9,7 +9,7 @@ import java.time.Duration;
  */
 public class WaitUtils {
 
-	private static final int DEFAULT_TIMEOUT = 15;
+	private static final int DEFAULT_TIMEOUT = 1;
 
 	/** Wait until element is VISIBLE */
 	public static WebElement waitForVisible(WebDriver driver, By locator) {
@@ -69,7 +69,7 @@ public class WaitUtils {
 	 */
 	public static boolean waitForInvisibleSafe(WebDriver driver, By locator) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1));
 			return wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
 		} catch (Exception e) {
 			return true; // element not present = already invisible = OK
@@ -78,8 +78,8 @@ public class WaitUtils {
 
 	/** Fluent wait — polls every 500ms, ignores NoSuchElement + StaleElement */
 	public static WebElement fluentWait(WebDriver driver, By locator) {
-		FluentWait<WebDriver> fluentWait = new FluentWait<>(driver).withTimeout(Duration.ofSeconds(20))
-				.pollingEvery(Duration.ofMillis(100)).ignoring(NoSuchElementException.class)
+		FluentWait<WebDriver> fluentWait = new FluentWait<>(driver).withTimeout(Duration.ofSeconds(1))
+				.pollingEvery(Duration.ofMillis(10)).ignoring(NoSuchElementException.class)
 				.ignoring(StaleElementReferenceException.class);
 		return fluentWait.until(d -> d.findElement(locator));
 	}

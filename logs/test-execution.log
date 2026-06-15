@@ -723,3 +723,133 @@ Session ID: 3be9416c82c742036d8095dc8c6b5078
 2026-06-12 07:55:51 INFO  com.ekart.base.BaseTest - PASS TC_NAV_007 | notFoundShown=true URL: https://ekartms.netlify.app/product/00000000-0000-0000-0000-000000000000
 2026-06-12 07:56:08 INFO  com.ekart.base.BaseTest - PASS TC_NAV_008 | Verified 6 unique product card URLs
 2026-06-12 07:56:08 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-15 00:38:13 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-15 00:39:47 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'phone'
+2026-06-15 00:41:05 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'laptop'
+2026-06-15 00:41:05 INFO  com.ekart.base.BaseTest - PASS TC_SRCH_002 | Heading: 'Search Results'
+2026-06-15 00:46:25 INFO  com.ekart.components.SearchFilterComponent - Filter panel opened
+2026-06-15 00:46:35 INFO  com.ekart.base.BaseTest - PASS TC_FILT_001 | Filter panel open/close works
+2026-06-15 00:47:27 INFO  com.ekart.components.SearchFilterComponent - Filter panel opened
+2026-06-15 00:47:27 INFO  com.ekart.components.SearchFilterComponent - Price range set: ₹100 – ₹1000
+2026-06-15 00:47:48 INFO  com.ekart.components.SearchFilterComponent - Filters applied
+2026-06-15 00:48:34 INFO  com.ekart.components.SearchFilterComponent - Filter panel opened
+2026-06-15 00:48:55 INFO  com.ekart.components.SearchFilterComponent - Filters applied
+2026-06-15 00:48:56 INFO  com.ekart.base.BaseTest - PASS TC_FILT_003 | Before=12 After=12
+2026-06-15 00:50:40 INFO  com.ekart.components.SearchFilterComponent - Filter panel opened
+2026-06-15 00:50:40 INFO  com.ekart.components.SearchFilterComponent - Price range set: ₹500 – ₹1000
+2026-06-15 00:51:01 INFO  com.ekart.components.SearchFilterComponent - Filters applied
+2026-06-15 00:51:21 INFO  com.ekart.components.SearchFilterComponent - Filters cleared
+2026-06-15 00:51:32 INFO  com.ekart.base.BaseTest - PASS TC_FILT_005 | Before=12 Filtered=12 AfterClear=12
+2026-06-15 00:52:18 WARN  com.ekart.components.SearchFilterComponent - Could not sort by 'Price: Low to High': Cannot locate option with text: Price: Low to High
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: unknown
+2026-06-15 00:53:05 WARN  com.ekart.components.SearchFilterComponent - Could not sort by 'Price: High to Low': Cannot locate option with text: Price: High to Low
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: unknown
+2026-06-15 00:53:52 INFO  com.ekart.components.SearchFilterComponent - Filter panel opened
+2026-06-15 00:53:52 INFO  com.ekart.components.SearchFilterComponent - Min rating set: 4★
+2026-06-15 00:54:13 INFO  com.ekart.components.SearchFilterComponent - Filters applied
+2026-06-15 00:54:13 INFO  com.ekart.base.BaseTest - PASS TC_FILT_008 | Before=12 After 4★ filter=12
+2026-06-15 00:55:43 INFO  com.ekart.base.BaseTest - PASS TC_DYN_001 | Stable card count: 12
+2026-06-15 00:56:31 WARN  com.ekart.components.SearchFilterComponent - Could not sort by 'Price: Low to High': Cannot locate option with text: Price: Low to High
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: unknown
+2026-06-15 00:56:32 INFO  com.ekart.base.BaseTest - PASS TC_DYN_002 | Names before=12 after sort=12
+2026-06-15 00:57:19 INFO  com.ekart.components.SearchFilterComponent - Filter panel opened
+2026-06-15 00:57:19 INFO  com.ekart.components.SearchFilterComponent - Price range set: ₹100 – ₹5000
+2026-06-15 00:57:39 INFO  com.ekart.components.SearchFilterComponent - Filters applied
+2026-06-15 00:57:40 INFO  com.ekart.base.BaseTest - PASS TC_DYN_003 | Baseline=12 Stabilized=12
+2026-06-15 00:58:36 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-15 00:59:47 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'phone'
+2026-06-15 01:01:07 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'laptop'
+2026-06-15 01:01:07 INFO  com.ekart.base.BaseTest - PASS TC_SRCH_002 | Heading: 'Search Results'
+2026-06-15 01:02:14 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'shirt'
+2026-06-15 01:02:24 INFO  com.ekart.base.BaseTest - INFO TC_SRCH_003 | No products found for 'shirt' — skipping relevance check
+2026-06-15 01:03:31 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'xyznotaproduct12345qwerty'
+2026-06-15 01:03:43 INFO  com.ekart.base.BaseTest - PASS TC_SRCH_004 | Empty state: true | Count: 0
+2026-06-15 01:04:50 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'laptop'
+2026-06-15 01:05:41 INFO  com.ekart.base.BaseTest - PASS TC_SRCH_005 | allCount=12 searchCount=0 afterClear=12
+2026-06-15 01:06:48 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'PHONE'
+2026-06-15 01:08:07 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'phone'
+2026-06-15 01:08:17 INFO  com.ekart.base.BaseTest - PASS TC_SRCH_006 | PHONE=0 phone=0
+2026-06-15 01:09:25 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'pho'
+2026-06-15 01:09:35 INFO  com.ekart.base.BaseTest - PASS TC_SRCH_007 | Partial 'pho' results: 0
+2026-06-15 01:10:33 INFO  com.ekart.components.SearchFilterComponent - Filter panel opened
+2026-06-15 01:10:44 INFO  com.ekart.base.BaseTest - PASS TC_FILT_001 | Filter panel open/close works
+2026-06-15 01:11:31 INFO  com.ekart.components.SearchFilterComponent - Filter panel opened
+2026-06-15 01:11:31 INFO  com.ekart.components.SearchFilterComponent - Price range set: ₹100 – ₹1000
+2026-06-15 01:11:52 INFO  com.ekart.components.SearchFilterComponent - Filters applied
+2026-06-15 01:12:39 INFO  com.ekart.components.SearchFilterComponent - Filter panel opened
+2026-06-15 01:13:00 INFO  com.ekart.components.SearchFilterComponent - Filters applied
+2026-06-15 01:13:01 INFO  com.ekart.base.BaseTest - PASS TC_FILT_003 | Before=12 After=12
+2026-06-15 01:13:57 INFO  com.ekart.components.SearchFilterComponent - Filter panel opened
+2026-06-15 01:13:58 INFO  com.ekart.components.SearchFilterComponent - Price range set: ₹200 – ₹2000
+2026-06-15 01:14:20 INFO  com.ekart.components.SearchFilterComponent - Filters applied
+2026-06-15 01:14:20 INFO  com.ekart.base.BaseTest - PASS TC_FILT_004 | Active filter count: 2
+2026-06-15 01:15:06 INFO  com.ekart.components.SearchFilterComponent - Filter panel opened
+2026-06-15 01:15:07 INFO  com.ekart.components.SearchFilterComponent - Price range set: ₹500 – ₹1000
+2026-06-15 01:15:27 INFO  com.ekart.components.SearchFilterComponent - Filters applied
+2026-06-15 01:15:48 INFO  com.ekart.components.SearchFilterComponent - Filters cleared
+2026-06-15 01:15:58 INFO  com.ekart.base.BaseTest - PASS TC_FILT_005 | Before=12 Filtered=12 AfterClear=12
+2026-06-15 01:16:46 WARN  com.ekart.components.SearchFilterComponent - Could not sort by 'Price: Low to High': Cannot locate option with text: Price: Low to High
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: unknown
+2026-06-15 01:17:33 WARN  com.ekart.components.SearchFilterComponent - Could not sort by 'Price: High to Low': Cannot locate option with text: Price: High to Low
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: unknown
+2026-06-15 01:17:59 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-15 01:19:10 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'phone'
+2026-06-15 01:20:28 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'laptop'
+2026-06-15 01:20:28 INFO  com.ekart.base.BaseTest - PASS TC_SRCH_002 | Heading: 'Search Results'
+2026-06-15 01:21:35 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'shirt'
+2026-06-15 01:21:45 INFO  com.ekart.base.BaseTest - INFO TC_SRCH_003 | No products found for 'shirt' — skipping relevance check
+2026-06-15 01:22:52 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'xyznotaproduct12345qwerty'
+2026-06-15 01:23:02 INFO  com.ekart.base.BaseTest - PASS TC_SRCH_004 | Empty state: true | Count: 0
+2026-06-15 01:24:09 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'laptop'
+2026-06-15 01:24:59 INFO  com.ekart.base.BaseTest - PASS TC_SRCH_005 | allCount=12 searchCount=0 afterClear=12
+2026-06-15 01:26:09 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'PHONE'
+2026-06-15 01:27:28 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'phone'
+2026-06-15 01:30:11 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-15 01:31:05 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'mobiles'
+2026-06-15 01:31:56 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'laptop'
+2026-06-15 01:31:56 INFO  com.ekart.base.BaseTest - PASS TC_SRCH_002 | Heading: 'Search Results'
+2026-06-15 01:32:44 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'shirt'
+2026-06-15 01:32:46 INFO  com.ekart.base.BaseTest - INFO TC_SRCH_003 | No products found for 'shirt' — skipping relevance check
+2026-06-15 01:33:36 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'xyznotaproduct12345qwerty'
+2026-06-15 01:33:38 INFO  com.ekart.base.BaseTest - PASS TC_SRCH_004 | Empty state: true | Count: 0
+2026-06-15 01:34:02 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-15 01:34:27 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'laptop'
+2026-06-15 01:34:55 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'mobiles'
+2026-06-15 01:35:01 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-15 01:35:09 INFO  com.ekart.base.BaseTest - PASS TC_SRCH_005 | allCount=12 searchCount=0 afterClear=12
+2026-06-15 01:36:00 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'PHONE'
+2026-06-15 01:36:51 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'phone'
+2026-06-15 01:36:53 INFO  com.ekart.base.BaseTest - PASS TC_SRCH_006 | PHONE=0 phone=0
+2026-06-15 01:37:41 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'pho'
+2026-06-15 01:37:44 INFO  com.ekart.base.BaseTest - PASS TC_SRCH_007 | Partial 'pho' results: 0
+2026-06-15 01:38:14 INFO  com.ekart.components.SearchFilterComponent - Filter panel opened
+2026-06-15 01:38:17 INFO  com.ekart.base.BaseTest - PASS TC_FILT_001 | Filter panel open/close works
+2026-06-15 01:38:46 INFO  com.ekart.components.SearchFilterComponent - Filter panel opened
+2026-06-15 01:38:46 INFO  com.ekart.components.SearchFilterComponent - Price range set: ₹100 – ₹1000
+2026-06-15 01:39:07 INFO  com.ekart.components.SearchFilterComponent - Filters applied
+2026-06-15 01:39:36 INFO  com.ekart.components.SearchFilterComponent - Filter panel opened
+2026-06-15 01:39:57 INFO  com.ekart.components.SearchFilterComponent - Filters applied
+2026-06-15 01:39:57 INFO  com.ekart.base.BaseTest - PASS TC_FILT_003 | Before=12 After=12
+2026-06-15 01:40:06 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-15 01:40:30 INFO  com.ekart.components.SearchFilterComponent - Filter panel opened
+2026-06-15 01:40:30 INFO  com.ekart.components.SearchFilterComponent - Price range set: ₹200 – ₹2000
+2026-06-15 01:40:50 INFO  com.ekart.components.SearchFilterComponent - Filters applied
+2026-06-15 01:40:50 INFO  com.ekart.base.BaseTest - PASS TC_FILT_004 | Active filter count: 2
+2026-06-15 01:40:54 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-15 01:41:01 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'mobiles'
+2026-06-15 01:41:06 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.

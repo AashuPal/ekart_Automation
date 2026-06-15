@@ -61,8 +61,8 @@ public class WaitHelper {
     /** Fluent wait - polls every 500ms, ignores NoSuchElement */
     public WebElement fluentWait(By locator) {
         Wait<WebDriver> fluentWait = new FluentWait<>(driver)
-            .withTimeout(Duration.ofSeconds(30))
-            .pollingEvery(Duration.ofMillis(500))
+            .withTimeout(Duration.ofSeconds(1))
+            .pollingEvery(Duration.ofMillis(5))
             .ignoring(NoSuchElementException.class);
         return fluentWait.until(d -> d.findElement(locator));
     }

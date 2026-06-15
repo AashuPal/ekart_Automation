@@ -48,5 +48,16 @@
 			<class name="com.ekart.tests.ProductValidationTest" />
 		</classes>
 	</test>
+	<test name="Search Tests">
+		<classes>
+			<class name="com.ekart.tests.SearchTest" />
+		</classes>
+	</test>
+
+	<test name="Search and Filter Tests">
+		<classes>
+			<class name="com.ekart.tests.SearchFilterTest" />
+		</classes>
+	</test>
 
 </suite>
