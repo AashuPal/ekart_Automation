@@ -3,37 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ekart.tests.SearchFilterTest">
+      <class name="com.ekart.tests.AddToCartTest">
         <methods>
-          <include name="testSortByPriceLowToHigh"/>
-          <include name="testComponentFluientChaining"/>
-          <include name="testSearchNoResultsShowsEmptyState"/>
-          <include name="testLoadingSpinnerDisappearsBeforeAssert"/>
-          <include name="testComponentResetsCleanly"/>
-          <include name="testComponentStateReaders"/>
+          <include name="testTotalEqualsSubtotalPlusShippingPlusTax"/>
+          <include name="testFreeShippingAboveFiveHundred"/>
+          <include name="testSubtotalEqualsRowTotalsSum"/>
+          <include name="testIncreaseQtyUpdatesRowTotal"/>
+          <include name="testDecreaseQtyUpdatesRowTotal"/>
+          <include name="testTaxIsEighteenPercent"/>
           <include name="setUp"/>
-          <include name="testFilterPanelOpenClose"/>
-          <include name="testCombinedSearchAndFilter"/>
-          <include name="testPartialKeywordSearch"/>
-          <include name="testPriceRangeFilter"/>
-          <include name="testNoStaleElementOnGridLoad"/>
-          <include name="testMinPriceOnlyFilter"/>
-          <include name="testFilterCountStabilizesAfterApply"/>
           <include name="tearDown"/>
-          <include name="testEmptyStateDynamicElement"/>
-          <include name="setup"/>
-          <include name="testRatingFilter"/>
-          <include name="testSortByPriceHighToLow"/>
-          <include name="testActiveFilterCountBadge"/>
-          <include name="testNoStaleElementAfterSort"/>
-          <include name="testSearchChangesHeading"/>
-          <include name="testClearFilterRestoresResults"/>
-          <include name="testSearchResultsRelevance"/>
-          <include name="testSearchReturnsResults"/>
-          <include name="testSearchIsCaseInsensitive"/>
-          <include name="testClearSearchRestoresAllProducts"/>
+          <include name="initPages"/>
         </methods>
-      </class> <!-- com.ekart.tests.SearchFilterTest -->
+      </class> <!-- com.ekart.tests.AddToCartTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

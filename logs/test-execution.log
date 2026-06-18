@@ -853,3 +853,696 @@ Driver info: driver.version: unknown
 2026-06-15 01:40:54 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
 2026-06-15 01:41:01 INFO  com.ekart.components.SearchFilterComponent - Searched for: 'mobiles'
 2026-06-15 01:41:06 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-18 08:23:15 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-18 08:23:23 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:23:23 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:23:25 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:23:25 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:23:25 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:23:25 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:23:29 INFO  com.ekart.utils.DynamicElementHandler - Count changed from 0 to 1
+2026-06-18 08:23:29 INFO  com.ekart.base.BaseTest - PASS TC_CART_001 | Cart count: 0 → 1
+2026-06-18 08:23:30 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:23:30 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:23:35 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-18 08:23:50 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-18 08:23:54 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:23:54 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:23:56 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:23:56 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:23:56 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:23:56 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:24:03 INFO  com.ekart.utils.DynamicElementHandler - Count changed from 0 to 1
+2026-06-18 08:24:03 INFO  com.ekart.base.BaseTest - PASS TC_CART_001 | Cart count: 0 → 1
+2026-06-18 08:24:04 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:24:04 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:24:06 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:24:06 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:24:06 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:24:06 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:24:14 INFO  com.ekart.base.BaseTest - PASS TC_CART_002 | Items in cart: 1
+2026-06-18 08:24:15 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:24:15 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:24:18 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:24:18 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:24:18 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:24:18 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:24:23 INFO  com.ekart.base.BaseTest - PASS TC_CART_003 | Detail='Nike Hoodie' Cart=[Nike Hoodie]
+2026-06-18 08:24:23 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:24:23 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:24:25 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:24:25 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:24:25 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:24:25 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:24:33 INFO  com.ekart.base.BaseTest - PASS TC_CART_004 | DetailPrice=5525.0 CartPrice=5525.0
+2026-06-18 08:24:34 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:24:34 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:24:36 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:24:36 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:24:36 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:24:36 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:24:45 INFO  com.ekart.base.BaseTest - PASS TC_CART_005 | Heading count=1 Rows=1
+2026-06-18 08:24:45 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:24:45 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:24:47 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:24:47 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:24:47 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:24:47 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:24:53 INFO  com.ekart.base.BaseTest - PASS TC_CART_006 | localStorage cart count=1
+2026-06-18 08:24:53 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:24:53 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:24:55 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:24:55 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:24:55 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:24:55 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:25:02 INFO  com.ekart.base.BaseTest - PASS TC_CART_007 | rows=1 qty=2
+2026-06-18 08:25:03 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:25:03 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:25:04 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:25:04 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:25:04 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:25:04 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:25:22 INFO  com.ekart.base.BaseTest - PASS TC_CART_008 | 2 products in cart | id1=12305e2f-801d-4848-8feb-15c412619197 id2=173876a7-f798-46ce-97dc-f25e227f53df
+2026-06-18 08:25:23 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:25:23 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:25:24 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:25:24 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:25:24 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:25:24 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:25:30 INFO  com.ekart.base.BaseTest - PASS TC_CART_009 | Initial qty=1
+2026-06-18 08:25:30 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:25:30 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:25:32 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:25:32 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:25:32 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:25:32 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:25:37 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:25:37 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:25:39 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:25:39 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:25:39 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:25:39 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:25:50 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:25:50 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:25:51 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:25:51 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:25:51 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:25:51 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:25:57 INFO  com.ekart.base.BaseTest - PASS TC_CART_012 | Qty stays at 1 when minus clicked at minimum
+2026-06-18 08:25:57 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:25:57 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:25:59 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:25:59 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:25:59 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:25:59 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:26:15 INFO  com.ekart.base.BaseTest - PASS TC_CART_013 | Removed 'Samsung Galaxy S24 Ultra' | rows 2→1
+2026-06-18 08:26:15 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:26:15 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:26:17 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:26:17 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:26:17 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:26:17 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:26:24 INFO  com.ekart.base.BaseTest - PASS TC_CART_014 | Empty state shown after last item removed
+2026-06-18 08:26:25 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:26:25 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:26:26 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:26:26 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:26:26 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:26:26 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:26:42 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:26:42 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:26:44 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:26:44 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:26:44 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:26:44 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:26:49 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:26:49 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:26:51 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:26:51 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:26:51 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:26:51 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:26:57 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:26:57 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:26:58 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:26:58 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:26:58 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:26:58 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:27:04 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:27:04 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:27:05 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:27:05 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:27:05 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:27:05 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:27:13 INFO  com.ekart.base.BaseTest - PASS TC_CART_019 | 'Nike Hoodie' moved to wishlist
+2026-06-18 08:27:13 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:27:13 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:27:15 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:27:15 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:27:15 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:27:15 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:27:25 INFO  com.ekart.base.BaseTest - PASS TC_CART_020 | URL after continue shopping: https://ekartms.netlify.app/
+2026-06-18 08:27:25 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-18 08:31:25 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-18 08:31:30 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:31:30 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:31:32 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:31:32 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:31:32 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:31:32 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:31:37 INFO  com.ekart.utils.DynamicElementHandler - Count changed from 0 to 1
+2026-06-18 08:31:37 INFO  com.ekart.base.BaseTest - PASS TC_CART_001 | Cart count: 0 → 1
+2026-06-18 08:31:37 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:31:37 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:31:39 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:31:39 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:31:39 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:31:39 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:31:46 INFO  com.ekart.base.BaseTest - PASS TC_CART_002 | Items in cart: 1
+2026-06-18 08:31:46 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:31:46 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:31:48 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:31:48 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:31:48 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:31:48 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:31:53 INFO  com.ekart.base.BaseTest - PASS TC_CART_003 | Detail='Nike Hoodie' Cart=[Nike Hoodie]
+2026-06-18 08:31:53 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:31:53 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:31:55 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:31:55 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:31:55 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:31:55 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:32:00 INFO  com.ekart.base.BaseTest - PASS TC_CART_004 | DetailPrice=5525.0 CartPrice=5525.0
+2026-06-18 08:32:01 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:32:01 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:32:02 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:32:02 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:32:02 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:32:02 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:32:07 INFO  com.ekart.base.BaseTest - PASS TC_CART_005 | Heading count=1 Rows=1
+2026-06-18 08:32:07 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:32:07 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:32:09 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:32:09 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:32:09 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:32:09 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:32:14 INFO  com.ekart.base.BaseTest - PASS TC_CART_006 | localStorage cart count=1
+2026-06-18 08:32:14 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:32:14 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:32:16 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:32:16 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:32:16 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:32:16 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:33:25 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-18 08:33:29 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:33:29 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:33:31 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:33:31 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:33:31 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:33:31 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:33:35 INFO  com.ekart.utils.DynamicElementHandler - Count changed from 0 to 1
+2026-06-18 08:33:35 INFO  com.ekart.base.BaseTest - PASS TC_CART_001 | Cart count: 0 → 1
+2026-06-18 08:33:36 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:33:36 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:33:37 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:33:37 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:33:37 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:33:37 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:33:44 INFO  com.ekart.base.BaseTest - PASS TC_CART_002 | Items in cart: 1
+2026-06-18 08:33:45 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:33:45 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:33:47 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:33:47 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:33:47 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:33:47 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:33:52 INFO  com.ekart.base.BaseTest - PASS TC_CART_003 | Detail='Nike Hoodie' Cart=[Nike Hoodie]
+2026-06-18 08:33:52 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:33:52 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:33:54 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:33:54 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:33:54 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:33:54 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:33:59 INFO  com.ekart.base.BaseTest - PASS TC_CART_004 | DetailPrice=5525.0 CartPrice=5525.0
+2026-06-18 08:33:59 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:33:59 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:34:01 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:34:01 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:34:01 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:34:01 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:34:06 INFO  com.ekart.base.BaseTest - PASS TC_CART_005 | Heading count=1 Rows=1
+2026-06-18 08:34:06 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:34:06 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:34:08 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:34:08 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:34:08 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:34:08 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:34:12 INFO  com.ekart.base.BaseTest - PASS TC_CART_006 | localStorage cart count=1
+2026-06-18 08:34:13 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:34:13 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:34:15 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:34:15 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:34:15 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:34:15 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:34:22 INFO  com.ekart.base.BaseTest - PASS TC_CART_007 | rows=1 qty=2
+2026-06-18 08:34:23 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:34:23 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:34:25 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:34:25 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:34:25 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:34:25 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:34:55 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-18 08:34:59 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:34:59 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:35:01 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:35:01 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:35:01 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:35:01 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:35:05 INFO  com.ekart.utils.DynamicElementHandler - Count changed from 0 to 1
+2026-06-18 08:35:05 INFO  com.ekart.base.BaseTest - PASS TC_CART_001 | Cart count: 0 → 1
+2026-06-18 08:35:05 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:35:05 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:35:07 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:35:07 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:35:07 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:35:07 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:35:14 INFO  com.ekart.base.BaseTest - PASS TC_CART_002 | Items in cart: 1
+2026-06-18 08:35:14 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:35:14 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:35:16 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:35:16 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:35:16 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:35:16 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:35:22 INFO  com.ekart.base.BaseTest - PASS TC_CART_003 | Detail='Nike Hoodie' Cart=[Nike Hoodie]
+2026-06-18 08:35:23 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:35:23 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:35:25 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:35:25 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:35:25 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:35:25 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:35:31 INFO  com.ekart.base.BaseTest - PASS TC_CART_004 | DetailPrice=5525.0 CartPrice=5525.0
+2026-06-18 08:35:32 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:35:32 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:35:34 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:35:34 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:35:34 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:35:34 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:35:38 INFO  com.ekart.base.BaseTest - PASS TC_CART_005 | Heading count=1 Rows=1
+2026-06-18 08:35:38 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:35:38 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:35:40 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:35:40 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:35:40 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:35:40 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:35:44 INFO  com.ekart.base.BaseTest - PASS TC_CART_006 | localStorage cart count=1
+2026-06-18 08:35:45 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:35:45 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:35:48 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:35:48 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:35:48 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:35:48 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:35:55 INFO  com.ekart.base.BaseTest - PASS TC_CART_007 | rows=1 qty=2
+2026-06-18 08:35:55 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:35:55 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:35:57 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:35:57 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:35:57 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:35:57 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:36:13 INFO  com.ekart.base.BaseTest - PASS TC_CART_008 | 2 products in cart | id1=12305e2f-801d-4848-8feb-15c412619197 id2=173876a7-f798-46ce-97dc-f25e227f53df
+2026-06-18 08:36:14 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:36:14 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:36:15 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:36:15 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:36:15 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:36:15 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:36:20 INFO  com.ekart.base.BaseTest - PASS TC_CART_009 | Initial qty=1
+2026-06-18 08:36:20 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:36:20 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:36:22 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:36:22 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:36:22 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:36:22 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:36:27 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:36:27 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:36:29 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:36:29 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:36:29 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:36:29 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:36:40 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:36:40 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:36:42 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:36:42 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:36:42 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:36:42 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:36:46 INFO  com.ekart.base.BaseTest - PASS TC_CART_012 | Qty stays at 1 when minus clicked at minimum
+2026-06-18 08:36:47 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:36:47 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:36:48 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:36:48 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:36:49 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:36:49 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:37:01 INFO  com.ekart.base.BaseTest - PASS TC_CART_013 | Removed 'Samsung Galaxy S24 Ultra' | rows 2→1
+2026-06-18 08:37:02 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:37:02 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:37:03 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:37:03 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:37:03 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:37:03 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:37:10 INFO  com.ekart.base.BaseTest - PASS TC_CART_014 | Empty state shown after last item removed
+2026-06-18 08:37:10 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:37:10 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:37:12 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:37:12 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:37:12 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:37:12 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:37:27 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:37:27 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:37:29 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:37:29 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:37:29 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:37:29 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:37:34 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:37:34 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:37:36 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:37:36 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:37:36 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:37:36 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:37:41 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:37:41 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:37:43 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:37:43 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:37:43 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:37:43 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:37:48 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:37:48 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:37:49 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:37:49 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:37:49 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:37:49 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:41:35 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-18 08:41:40 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:41:40 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:41:42 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:41:42 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:41:42 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:41:42 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:41:46 INFO  com.ekart.utils.DynamicElementHandler - Count changed from 0 to 1
+2026-06-18 08:41:46 INFO  com.ekart.base.BaseTest - PASS TC_CART_001 | Cart count: 0 → 1
+2026-06-18 08:41:47 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:41:47 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:41:49 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:41:49 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:41:49 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:41:49 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:41:58 INFO  com.ekart.base.BaseTest - PASS TC_CART_002 | Items in cart: 1
+2026-06-18 08:41:59 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:41:59 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:42:00 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:42:00 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:42:00 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:42:00 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:42:07 INFO  com.ekart.base.BaseTest - PASS TC_CART_003 | Detail='Nike Hoodie' Cart=[Nike Hoodie]
+2026-06-18 08:42:08 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:42:08 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:42:09 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:42:09 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:42:09 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:42:09 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:42:13 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:42:13 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:42:15 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:42:15 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:42:15 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:42:15 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:42:20 INFO  com.ekart.base.BaseTest - PASS TC_CART_005 | Heading count=1 Rows=1
+2026-06-18 08:42:21 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:42:21 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:42:23 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:42:23 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:42:23 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:42:23 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:42:27 INFO  com.ekart.base.BaseTest - PASS TC_CART_006 | localStorage cart count=1
+2026-06-18 08:42:27 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:42:27 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:42:29 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:42:29 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:42:29 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:42:29 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:42:36 INFO  com.ekart.base.BaseTest - PASS TC_CART_007 | rows=1 qty=2
+2026-06-18 08:42:37 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:42:37 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:42:38 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:42:38 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:42:38 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:42:38 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:42:53 INFO  com.ekart.base.BaseTest - PASS TC_CART_008 | 2 products in cart | id1=12305e2f-801d-4848-8feb-15c412619197 id2=173876a7-f798-46ce-97dc-f25e227f53df
+2026-06-18 08:42:53 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:42:53 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:42:55 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:42:55 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:42:55 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:42:55 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:43:00 INFO  com.ekart.base.BaseTest - PASS TC_CART_009 | Initial qty=1
+2026-06-18 08:43:00 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:43:00 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:43:02 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:43:02 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:43:02 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:43:02 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:43:08 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:43:08 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:43:09 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:43:09 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:43:09 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:43:09 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:43:20 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:43:20 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:43:22 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:43:22 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:43:22 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:43:22 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:43:27 INFO  com.ekart.base.BaseTest - PASS TC_CART_012 | Qty stays at 1 when minus clicked at minimum
+2026-06-18 08:43:27 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:43:27 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:43:29 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:43:29 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:43:29 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:43:29 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:43:45 INFO  com.ekart.base.BaseTest - PASS TC_CART_013 | Removed 'Samsung Galaxy S24 Ultra' | rows 2→1
+2026-06-18 08:43:45 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:43:45 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:43:47 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:43:47 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:43:47 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:43:47 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:43:54 INFO  com.ekart.base.BaseTest - PASS TC_CART_014 | Empty state shown after last item removed
+2026-06-18 08:43:55 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:43:55 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:43:56 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:43:56 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:43:56 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:43:56 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:44:12 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:44:12 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:44:13 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:44:13 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:44:13 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:44:13 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:44:18 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:44:18 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:44:20 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:44:20 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:44:20 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:44:20 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:44:24 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:44:24 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:44:26 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:44:26 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:44:26 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:44:26 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:44:50 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:44:50 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:44:51 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:44:51 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:44:51 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:44:51 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:44:58 INFO  com.ekart.base.BaseTest - PASS TC_CART_019 | 'Nike Hoodie' moved to wishlist
+2026-06-18 08:44:58 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:44:58 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:45:00 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:45:00 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:45:00 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:45:00 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:45:09 INFO  com.ekart.base.BaseTest - PASS TC_CART_020 | URL after continue shopping: https://ekartms.netlify.app/
+2026-06-18 08:45:09 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-18 08:46:17 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-18 08:46:21 INFO  com.ekart.base.BaseTest - INFO: No browser alert on home page (expected)
+2026-06-18 08:46:23 INFO  com.ekart.base.BaseTest - PASS: No unexpected alerts on login page
+2026-06-18 08:46:23 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
+2026-06-18 08:46:58 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-18 08:47:06 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:47:06 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:47:08 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:47:08 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:47:08 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:47:08 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:47:12 INFO  com.ekart.utils.DynamicElementHandler - Count changed from 0 to 1
+2026-06-18 08:47:12 INFO  com.ekart.base.BaseTest - PASS TC_CART_001 | Cart count: 0 → 1
+2026-06-18 08:47:16 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:47:16 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:47:18 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:47:18 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:47:18 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:47:18 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:47:26 INFO  com.ekart.base.BaseTest - PASS TC_CART_002 | Items in cart: 1
+2026-06-18 08:47:27 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:47:27 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:47:28 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:47:28 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:47:28 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:47:28 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:47:33 INFO  com.ekart.base.BaseTest - PASS TC_CART_003 | Detail='Nike Hoodie' Cart=[Nike Hoodie]
+2026-06-18 08:47:34 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:47:34 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:47:36 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:47:36 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:47:36 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:47:36 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:47:41 INFO  com.ekart.base.BaseTest - PASS TC_CART_004 | DetailPrice=5525.0 CartPrice=5525.0
+2026-06-18 08:47:41 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:47:41 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:47:49 INFO  com.ekart.base.BaseTest - Starting | Browser: chrome | URL: https://ekartms.netlify.app
+2026-06-18 08:47:54 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:47:54 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:47:56 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:47:56 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:47:56 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:47:56 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:48:04 INFO  com.ekart.utils.DynamicElementHandler - Count changed from 0 to 1
+2026-06-18 08:48:05 INFO  com.ekart.base.BaseTest - PASS TC_CART_001 | Cart count: 0 → 1
+2026-06-18 08:48:05 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:48:05 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:48:07 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:48:07 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:48:07 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:48:07 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:48:19 INFO  com.ekart.base.BaseTest - PASS TC_CART_002 | Items in cart: 1
+2026-06-18 08:48:21 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:48:21 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:48:23 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:48:23 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:48:23 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:48:23 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:48:36 INFO  com.ekart.base.BaseTest - PASS TC_CART_003 | Detail='Nike Hoodie' Cart=[Nike Hoodie]
+2026-06-18 08:48:38 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:48:38 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:48:40 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:48:40 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:48:40 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:48:40 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:48:50 INFO  com.ekart.base.BaseTest - PASS TC_CART_004 | DetailPrice=5525.0 CartPrice=5525.0
+2026-06-18 08:48:51 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:48:51 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:48:53 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:48:53 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:48:53 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:48:53 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:49:03 INFO  com.ekart.base.BaseTest - PASS TC_CART_005 | Heading count=1 Rows=1
+2026-06-18 08:49:04 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:49:04 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:49:06 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:49:06 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:49:06 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:49:06 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:49:11 INFO  com.ekart.base.BaseTest - PASS TC_CART_006 | localStorage cart count=1
+2026-06-18 08:49:12 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:49:12 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:49:13 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:49:13 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:49:14 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:49:14 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:49:31 INFO  com.ekart.base.BaseTest - PASS TC_CART_007 | rows=1 qty=2
+2026-06-18 08:49:31 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:49:31 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:49:33 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:49:33 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:49:33 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:49:33 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:49:47 INFO  com.ekart.base.BaseTest - PASS TC_CART_008 | 2 products in cart | id1=12305e2f-801d-4848-8feb-15c412619197 id2=173876a7-f798-46ce-97dc-f25e227f53df
+2026-06-18 08:49:48 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:49:48 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:49:49 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:49:49 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:49:49 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:49:49 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:49:54 INFO  com.ekart.base.BaseTest - PASS TC_CART_009 | Initial qty=1
+2026-06-18 08:49:54 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:49:54 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:49:57 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:49:57 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:49:57 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:49:57 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:50:03 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:50:03 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:50:05 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:50:05 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:50:05 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:50:05 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:50:15 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:50:15 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:50:17 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:50:17 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:50:17 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:50:17 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:50:22 INFO  com.ekart.base.BaseTest - PASS TC_CART_012 | Qty stays at 1 when minus clicked at minimum
+2026-06-18 08:50:23 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:50:23 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:50:24 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:50:24 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:50:24 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:50:24 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:50:40 INFO  com.ekart.base.BaseTest - PASS TC_CART_013 | Removed 'Samsung Galaxy S24 Ultra' | rows 2→1
+2026-06-18 08:50:40 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:50:40 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:50:42 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:50:42 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:50:42 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:50:42 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:50:49 INFO  com.ekart.base.BaseTest - PASS TC_CART_014 | Empty state shown after last item removed
+2026-06-18 08:50:49 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:50:49 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:50:52 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:50:52 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:50:52 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:50:52 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:51:12 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:51:12 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:51:14 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:51:14 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:51:14 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:51:14 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:51:19 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:51:19 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:51:21 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:51:21 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:51:21 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:51:21 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:51:26 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:51:26 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:51:28 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:51:28 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:51:28 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:51:28 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:51:33 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:51:33 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:51:35 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:51:35 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:51:35 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:51:35 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:51:42 INFO  com.ekart.base.BaseTest - PASS TC_CART_019 | 'Nike Hoodie' moved to wishlist
+2026-06-18 08:51:43 INFO  com.ekart.pages.BasePage - Navigated to Login page
+2026-06-18 08:51:43 INFO  com.ekart.pages.BasePage - Logging in as: user@ekart.com
+2026-06-18 08:51:44 WARN  com.ekart.base.BaseTest - Redirect wait timed out after login
+2026-06-18 08:51:44 INFO  com.ekart.base.BaseTest - Logged in as: user@ekart.com
+2026-06-18 08:51:45 INFO  com.ekart.pages.CartPage - Cart cleared via localStorage
+2026-06-18 08:51:45 INFO  com.ekart.base.BaseTest - Cart cleared before test
+2026-06-18 08:51:55 INFO  com.ekart.base.BaseTest - PASS TC_CART_020 | URL after continue shopping: https://ekartms.netlify.app/
+2026-06-18 08:51:55 INFO  com.ekart.base.BaseTest - Tests complete. Closing browser.
