@@ -49,23 +49,48 @@ public class AddToCartTest extends BaseTest {
     private ProductDetailPage  detailPage;
     private CartPage           cartPage;
 
+    /**
+     * @BeforeClass — login ONCE before all AddToCart tests.
+     * Runs after BaseTest.setUp() which initialises the driver.
+     */
+    @BeforeClass(dependsOnMethods = "setUp")
+    public void loginOnce() {
+        getDriver().manage().timeouts()
+            .pageLoadTimeout(java.time.Duration.ofSeconds(60));
+        loginAsValidUser();
+        log.info("Logged in once for AddToCartTest suite");
+    }
+
+    /**
+     * @BeforeMethod — before each test: reinit pages, recover session if expired,
+     * navigate to home, clear cart. Does NOT login again.
+     */
     @BeforeMethod
     public void initPages() {
         listingPage = new ProductListingPage(getDriver());
         detailPage  = new ProductDetailPage(getDriver());
         cartPage    = new CartPage(getDriver());
 
-        // Set page load timeout explicitly before every test
-        getDriver().manage().timeouts()
-            .pageLoadTimeout(java.time.Duration.ofSeconds(60));
-
-        // Login first — cart operations require authentication
-        loginAsValidUser();
-
-        // Clear cart via localStorage after login for clean state
+        // Silently re-login if session expired between tests
         try {
+            String url = getDriver().getCurrentUrl();
+            if (url.contains("/login") || url.contains("/register")) {
+                log.warn("Session expired — re-logging in");
+                loginAsValidUser();
+            }
+        } catch (Exception ignored) {}
+
+        // Navigate to home and clear cart for clean state
+        try {
+            getDriver().get(baseUrl);
+            WaitUtils.waitForPageReady(getDriver());
             cartPage.clearCartViaLocalStorage();
             log.info("Cart cleared before test");
+        } catch (org.openqa.selenium.TimeoutException e) {
+            log.warn("Page load timed out — retrying");
+            getDriver().navigate().refresh();
+            WaitUtils.waitForPageReady(getDriver());
+            cartPage.clearCartViaLocalStorage();
         } catch (Exception e) {
             log.warn("Could not clear cart: " + e.getMessage());
         }

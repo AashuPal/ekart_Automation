@@ -24,10 +24,14 @@ public class BaseTest {
         baseUrl = ConfigReader.getBaseUrl();
         log.info("Starting | Browser: " + browser + " | URL: " + baseUrl);
         DriverManager.initDriver(browser);
+
+        // Set timeouts once after driver init
+        getDriver().manage().timeouts()
+            .pageLoadTimeout(java.time.Duration.ofSeconds(60))
+            .implicitlyWait(java.time.Duration.ofSeconds(0)); // keep 0 — use explicit waits
     }
 
-    // alwaysRun=true ensures browser is closed even when tests fail
-    @AfterClass(alwaysRun = true)
+    @AfterClass
     public void tearDown() {
         log.info("Tests complete. Closing browser.");
         DriverManager.quitDriver();
@@ -42,28 +46,49 @@ public class BaseTest {
     // =========================================================
 
     /**
-     * Login with valid credentials from config.properties.
-     * Waits for redirect away from the login page.
+     * Login with valid credentials.
+     * Idempotent — skips login if session already active.
+     * Call from @BeforeClass so login happens ONCE per suite.
      */
     protected void loginAsValidUser() {
+        // Skip if already authenticated
+        try {
+            String url = getDriver().getCurrentUrl();
+            if (!url.contains("/login") && !url.contains("/register")
+                    && !url.equals("data:,") && !url.isEmpty()) {
+                log.info("Session active — skipping login | URL: " + url);
+                return;
+            }
+        } catch (Exception ignored) {}
+
         LoginPage loginPage = new LoginPage(getDriver());
-        loginPage.navigateTo(baseUrl);
+        loginPage.navigateTo(baseUrl);   // LoginPage.navigateTo() appends /login internally
         loginPage.login(
             ConfigReader.getValidEmail(),
             ConfigReader.getValidPassword()
         );
-        // Wait for redirect away from login (not just for "/" which is in every URL)
         try {
             WaitUtils.waitForUrlNotContains(getDriver(), "/login");
         } catch (Exception e) {
-            log.warn("Redirect wait timed out after login");
+            log.warn("Login redirect timed out");
         }
-        log.info("Logged in as: " + ConfigReader.getValidEmail());
+        String afterUrl = getDriver().getCurrentUrl();
+        if (afterUrl.contains("/login")) {
+            log.error("Login may have failed — still on: " + afterUrl);
+        } else {
+            log.info("Login successful | URL: " + afterUrl);
+
+            // Refresh once after login so React re-hydrates
+            // and localStorage session token is stable before tests begin
+            getDriver().navigate().refresh();
+            WaitUtils.waitForPageReady(getDriver());
+            log.info("Post-login refresh done | URL: " + getDriver().getCurrentUrl());
+        }
     }
 
     /**
-     * Login with custom credentials.
-     * Use this for invalid login tests.
+     * Login with custom credentials
+     * Use this for invalid login tests
      */
     protected void loginAs(String email, String password) {
         LoginPage loginPage = new LoginPage(getDriver());
@@ -73,7 +98,7 @@ public class BaseTest {
     }
 
     /**
-     * Logout utility — use in any test that needs to log out.
+     * Logout utility — use in any test that needs to log out
      */
     protected void logoutCurrentUser() {
         LoginPage loginPage = new LoginPage(getDriver());
@@ -91,8 +116,8 @@ public class BaseTest {
     }
 
     /**
-     * Clear browser session (localStorage + sessionStorage).
-     * Simulates session expiry.
+     * Clear browser session (localStorage + sessionStorage)
+     * Simulates session expiry
      */
     protected void clearBrowserSession() {
         LoginPage loginPage = new LoginPage(getDriver());
@@ -101,7 +126,7 @@ public class BaseTest {
     }
 
     /**
-     * Check if currently logged in.
+     * Check if currently logged in
      */
     protected boolean isUserLoggedIn() {
         LoginPage loginPage = new LoginPage(getDriver());

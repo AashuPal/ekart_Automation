@@ -59,10 +59,15 @@
 			<class name="com.ekart.tests.SearchFilterTest" />
 		</classes>
 	</test>
-	
+
 	<test name="Add To Cart Tests">
 		<classes>
 			<class name="com.ekart.tests.AddToCartTest" />
+		</classes>
+	</test>
+	<test name="Cart Validation Tests">
+		<classes>
+			<class name="com.ekart.tests.CartValidationTest" />
 		</classes>
 	</test>
 

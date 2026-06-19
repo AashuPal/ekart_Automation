@@ -1,103 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="14" failed="6" skipped="0">
+<testng-results ignored="0" total="27" passed="20" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-18T08:47:49 IST" name="Default suite" finished-at="2026-06-18T08:51:57 IST" duration-ms="247379">
+  <suite started-at="2026-06-19T08:13:53 IST" name="Default suite" finished-at="2026-06-19T08:18:14 IST" duration-ms="260194">
     <groups>
     </groups>
-    <test started-at="2026-06-18T08:47:49 IST" name="Default test" finished-at="2026-06-18T08:51:57 IST" duration-ms="247379">
-      <class name="com.ekart.tests.AddToCartTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:47:49 IST" name="setUp" finished-at="2026-06-18T08:47:51 IST" duration-ms="2145" status="PASS">
+    <test started-at="2026-06-19T08:13:53 IST" name="Default test" finished-at="2026-06-19T08:18:14 IST" duration-ms="260194">
+      <class name="com.ekart.tests.CartValidationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:13:53 IST" name="setUp" finished-at="2026-06-19T08:13:57 IST" duration-ms="3171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:47:51 IST" name="initPages" finished-at="2026-06-18T08:47:56 IST" duration-ms="4061" status="PASS">
+        <test-method is-config="true" signature="loginOnce()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:13:57 IST" name="loginOnce" finished-at="2026-06-19T08:14:11 IST" depends-on-methods="com.ekart.base.BaseTest.setUp" duration-ms="14629" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testAddToCartUpdatesNavIcon()[pri:1, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:47:56 IST" name="testAddToCartUpdatesNavIcon" description="TC_CART_001: Add product from detail page — cart icon count updates" finished-at="2026-06-18T08:48:05 IST" duration-ms="8973" status="PASS">
+        </test-method> <!-- loginOnce -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:14:11 IST" name="setup" finished-at="2026-06-19T08:14:17 IST" duration-ms="6021" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAddToCartUpdatesNavIcon -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:48:05 IST" name="initPages" finished-at="2026-06-18T08:48:07 IST" duration-ms="2315" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testCartPageHeadingVisible()[pri:1, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:14:17 IST" name="testCartPageHeadingVisible" description="TC_CIV_001: Cart page loads with &#039;Shopping Cart&#039; heading" finished-at="2026-06-19T08:14:22 IST" duration-ms="4594" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testProductAppearsInCart()[pri:2, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:48:07 IST" name="testProductAppearsInCart" description="TC_CART_002: Product appears on cart page after adding from detail page" finished-at="2026-06-18T08:48:19 IST" duration-ms="12058" status="PASS">
+        </test-method> <!-- testCartPageHeadingVisible -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:14:22 IST" name="setup" finished-at="2026-06-19T08:14:23 IST" duration-ms="1098" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testProductAppearsInCart -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:48:19 IST" name="initPages" finished-at="2026-06-18T08:48:23 IST" duration-ms="4060" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testCartItemNamesVisible()[pri:2, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:14:23 IST" name="testCartItemNamesVisible" description="TC_CIV_002: Each cart item has a visible non-empty name" finished-at="2026-06-19T08:14:41 IST" duration-ms="17861" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testCartItemNameMatchesDetailPage()[pri:3, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:48:23 IST" name="testCartItemNameMatchesDetailPage" description="TC_CART_003: Product name in cart matches name on detail page" finished-at="2026-06-18T08:48:36 IST" duration-ms="12820" status="PASS">
+        </test-method> <!-- testCartItemNamesVisible -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:14:41 IST" name="setup" finished-at="2026-06-19T08:14:42 IST" duration-ms="456" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCartItemNameMatchesDetailPage -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:48:36 IST" name="initPages" finished-at="2026-06-18T08:48:40 IST" duration-ms="3871" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testCartItemUnitPricesVisible()[pri:3, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:14:42 IST" name="testCartItemUnitPricesVisible" description="TC_CIV_003: Each cart item has a visible unit price &gt; 0" finished-at="2026-06-19T08:15:03 IST" duration-ms="21178" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testCartItemPriceMatchesDetailPage()[pri:4, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:48:40 IST" name="testCartItemPriceMatchesDetailPage" description="TC_CART_004: Product price in cart matches price on detail page" finished-at="2026-06-18T08:48:50 IST" duration-ms="9965" status="PASS">
+        </test-method> <!-- testCartItemUnitPricesVisible -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:15:03 IST" name="setup" finished-at="2026-06-19T08:15:03 IST" duration-ms="756" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCartItemPriceMatchesDetailPage -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:48:50 IST" name="initPages" finished-at="2026-06-18T08:48:53 IST" duration-ms="2920" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testCartItemRowTotalsVisible()[pri:4, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:15:03 IST" name="testCartItemRowTotalsVisible" description="TC_CIV_004: Each cart item has a visible row total &gt; 0" finished-at="2026-06-19T08:15:21 IST" duration-ms="18023" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testCartHeadingBadgeCount()[pri:5, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:48:53 IST" name="testCartHeadingBadgeCount" description="TC_CART_005: Cart heading badge shows correct item count" finished-at="2026-06-18T08:49:03 IST" duration-ms="10834" status="PASS">
+        </test-method> <!-- testCartItemRowTotalsVisible -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:15:21 IST" name="setup" finished-at="2026-06-19T08:15:23 IST" duration-ms="1952" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCartHeadingBadgeCount -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:49:03 IST" name="initPages" finished-at="2026-06-18T08:49:06 IST" duration-ms="2423" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testCartItemImageVisible()[pri:5, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:15:23 IST" name="testCartItemImageVisible" description="TC_CIV_005: Cart item product image is visible" finished-at="2026-06-19T08:15:30 IST" duration-ms="6311" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testLocalStorageContainsProduct()[pri:6, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:49:06 IST" name="testLocalStorageContainsProduct" description="TC_CART_006: localStorage contains added product ID" finished-at="2026-06-18T08:49:11 IST" duration-ms="5297" status="PASS">
+        </test-method> <!-- testCartItemImageVisible -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:15:30 IST" name="setup" finished-at="2026-06-19T08:15:31 IST" duration-ms="869" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLocalStorageContainsProduct -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:49:11 IST" name="initPages" finished-at="2026-06-18T08:49:14 IST" duration-ms="2385" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testCartItemIsClickableLink()[pri:6, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:15:31 IST" name="testCartItemIsClickableLink" description="TC_CIV_006: Cart item name is a clickable product link" finished-at="2026-06-19T08:15:35 IST" duration-ms="3926" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testAddingSameProductTwiceIncreasesQuantity()[pri:7, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:49:14 IST" name="testAddingSameProductTwiceIncreasesQuantity" description="TC_CART_007: Adding same product twice increases quantity, not row count" finished-at="2026-06-18T08:49:31 IST" duration-ms="17160" status="PASS">
+        </test-method> <!-- testCartItemIsClickableLink -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:15:35 IST" name="setup" finished-at="2026-06-19T08:15:35 IST" duration-ms="859" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAddingSameProductTwiceIncreasesQuantity -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:49:31 IST" name="initPages" finished-at="2026-06-18T08:49:33 IST" duration-ms="2486" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testOrderSummaryVisible()[pri:7, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:15:35 IST" name="testOrderSummaryVisible" description="TC_CIV_007: Order summary section visible with subtotal, tax, total" finished-at="2026-06-19T08:15:40 IST" duration-ms="4362" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testAddMultipleDifferentProducts()[pri:8, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:49:33 IST" name="testAddMultipleDifferentProducts" description="TC_CART_008: Adding multiple different products — all appear in cart" finished-at="2026-06-18T08:49:47 IST" duration-ms="14311" status="PASS">
+        </test-method> <!-- testOrderSummaryVisible -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:15:40 IST" name="setup" finished-at="2026-06-19T08:15:41 IST" duration-ms="854" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAddMultipleDifferentProducts -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:49:47 IST" name="initPages" finished-at="2026-06-18T08:49:49 IST" duration-ms="2018" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testHeadingBadgeMatchesRows()[pri:8, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:15:41 IST" name="testHeadingBadgeMatchesRows" description="TC_CIV_008: Heading badge count matches actual visible row count" finished-at="2026-06-19T08:15:54 IST" duration-ms="13633" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testInitialQuantityIsOne()[pri:9, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:49:49 IST" name="testInitialQuantityIsOne" description="TC_CART_009: Quantity starts at 1 after first add" finished-at="2026-06-18T08:49:54 IST" duration-ms="4819" status="PASS">
+        </test-method> <!-- testHeadingBadgeMatchesRows -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:15:54 IST" name="setup" finished-at="2026-06-19T08:15:55 IST" duration-ms="632" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInitialQuantityIsOne -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:49:54 IST" name="initPages" finished-at="2026-06-18T08:49:57 IST" duration-ms="2222" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testLocalStorageCountMatchesRows()[pri:9, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:15:55 IST" name="testLocalStorageCountMatchesRows" description="TC_CIV_009: localStorage item count matches visible cart rows" finished-at="2026-06-19T08:16:07 IST" duration-ms="11729" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testIncreaseQtyUpdatesRowTotal()[pri:10, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:49:57 IST" name="testIncreaseQtyUpdatesRowTotal" description="TC_CART_010: Increasing quantity updates row total (price × qty)" finished-at="2026-06-18T08:50:03 IST" duration-ms="6036" status="FAIL">
+        </test-method> <!-- testLocalStorageCountMatchesRows -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:07 IST" name="setup" finished-at="2026-06-19T08:16:07 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRemoveItemUpdatesBadge()[pri:10, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:07 IST" name="testRemoveItemUpdatesBadge" description="TC_CIV_010: Removing an item updates heading badge count" finished-at="2026-06-19T08:16:19 IST" duration-ms="11618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveItemUpdatesBadge -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:19 IST" name="setup" finished-at="2026-06-19T08:16:19 IST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDefaultQuantityIsOne()[pri:11, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:19 IST" name="testDefaultQuantityIsOne" description="TC_QTY_001: Default quantity is 1 when product first added" finished-at="2026-06-19T08:16:22 IST" duration-ms="3207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDefaultQuantityIsOne -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:22 IST" name="setup" finished-at="2026-06-19T08:16:23 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPlusButtonIncrementsQty()[pri:12, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:23 IST" name="testPlusButtonIncrementsQty" description="TC_QTY_002: Plus button increments quantity by 1 each click" finished-at="2026-06-19T08:16:28 IST" duration-ms="4837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlusButtonIncrementsQty -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:28 IST" name="setup" finished-at="2026-06-19T08:16:28 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testMinusButtonDecrementsQty()[pri:13, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:28 IST" name="testMinusButtonDecrementsQty" description="TC_QTY_003: Minus button decrements quantity by 1 each click" finished-at="2026-06-19T08:16:33 IST" duration-ms="4720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinusButtonDecrementsQty -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:33 IST" name="setup" finished-at="2026-06-19T08:16:33 IST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testQtyCannotGoBelowOne()[pri:14, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:33 IST" name="testQtyCannotGoBelowOne" description="TC_QTY_004: Quantity cannot go below 1 (minus disabled at minimum)" finished-at="2026-06-19T08:16:38 IST" duration-ms="4274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQtyCannotGoBelowOne -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:38 IST" name="setup" finished-at="2026-06-19T08:16:38 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testQtyPersistsAfterRefresh()[pri:15, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:38 IST" name="testQtyPersistsAfterRefresh" description="TC_QTY_005: Quantity persists after page refresh" finished-at="2026-06-19T08:16:43 IST" duration-ms="4779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQtyPersistsAfterRefresh -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:43 IST" name="setup" finished-at="2026-06-19T08:16:44 IST" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddSameProductIncreasesQtyNotRows()[pri:16, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:44 IST" name="testAddSameProductIncreasesQtyNotRows" description="TC_QTY_006: Adding same product again increases qty, not row count" finished-at="2026-06-19T08:16:50 IST" duration-ms="5717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSameProductIncreasesQtyNotRows -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:50 IST" name="setup" finished-at="2026-06-19T08:16:50 IST" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testIndependentQuantitiesPerItem()[pri:17, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:16:50 IST" name="testIndependentQuantitiesPerItem" description="TC_QTY_007: Two different items maintain independent quantities" finished-at="2026-06-19T08:17:02 IST" duration-ms="12215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIndependentQuantitiesPerItem -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:02 IST" name="setup" finished-at="2026-06-19T08:17:03 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUnitPriceMatchesDetailPage()[pri:18, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:03 IST" name="testUnitPriceMatchesDetailPage" description="TC_PRC_001: Unit price in cart matches selling price on detail page" finished-at="2026-06-19T08:17:07 IST" duration-ms="4130" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Row total must equal unitPrice × qty. 5525.0 × 2 = 11050.0 but got 1105.0 expected [11050.0] but found [1105.0]]]>
+              <![CDATA[Cart unit price (5525.0) must match detail page price (55.25) expected [55.25] but found [5525.0]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Row total must equal unitPrice × qty. 5525.0 × 2 = 11050.0 but got 1105.0 expected [11050.0] but found [1105.0]
+              <![CDATA[java.lang.AssertionError: Cart unit price (5525.0) must match detail page price (55.25) expected [55.25] but found [5525.0]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEquals(Assert.java:698)
-at com.ekart.tests.AddToCartTest.testIncreaseQtyUpdatesRowTotal(AddToCartTest.java:324)
+at com.ekart.tests.CartValidationTest.testUnitPriceMatchesDetailPage(CartValidationTest.java:556)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -129,22 +197,30 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testIncreaseQtyUpdatesRowTotal -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:50:03 IST" name="initPages" finished-at="2026-06-18T08:50:05 IST" duration-ms="2056" status="PASS">
+        </test-method> <!-- testUnitPriceMatchesDetailPage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:07 IST" name="setup" finished-at="2026-06-19T08:17:08 IST" duration-ms="617" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testDecreaseQtyUpdatesRowTotal()[pri:11, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:50:05 IST" name="testDecreaseQtyUpdatesRowTotal" description="TC_CART_011: Decreasing quantity updates row total correctly" finished-at="2026-06-18T08:50:15 IST" duration-ms="10399" status="FAIL">
+        </test-method> <!-- setup -->
+        <test-method signature="testRowTotalEqualsUnitPriceAtQtyOne()[pri:19, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:08 IST" name="testRowTotalEqualsUnitPriceAtQtyOne" description="TC_PRC_002: Row total = unit price × quantity when qty=1" finished-at="2026-06-19T08:17:12 IST" duration-ms="3628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRowTotalEqualsUnitPriceAtQtyOne -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:12 IST" name="setup" finished-at="2026-06-19T08:17:12 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRowTotalUpdatesAfterIncrease()[pri:20, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:12 IST" name="testRowTotalUpdatesAfterIncrease" description="TC_PRC_003: Row total updates correctly after quantity increase" finished-at="2026-06-19T08:17:16 IST" duration-ms="3629" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Row total must be price × qty. Expected=11050.0 Got=1105.0 expected [11050.0] but found [1105.0]]]>
+              <![CDATA[Row total after increase: expected=11050.0 got=1105.0 (unitPrice=5525.0 qty=2) expected [11050.0] but found [1105.0]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Row total must be price × qty. Expected=11050.0 Got=1105.0 expected [11050.0] but found [1105.0]
+              <![CDATA[java.lang.AssertionError: Row total after increase: expected=11050.0 got=1105.0 (unitPrice=5525.0 qty=2) expected [11050.0] but found [1105.0]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEquals(Assert.java:698)
-at com.ekart.tests.AddToCartTest.testDecreaseQtyUpdatesRowTotal(AddToCartTest.java:358)
+at com.ekart.tests.CartValidationTest.testRowTotalUpdatesAfterIncrease(CartValidationTest.java:598)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -176,46 +252,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDecreaseQtyUpdatesRowTotal -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:50:15 IST" name="initPages" finished-at="2026-06-18T08:50:17 IST" duration-ms="2187" status="PASS">
+        </test-method> <!-- testRowTotalUpdatesAfterIncrease -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:16 IST" name="setup" finished-at="2026-06-19T08:17:16 IST" duration-ms="562" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testQuantityCannotGoBelowOne()[pri:12, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:50:17 IST" name="testQuantityCannotGoBelowOne" description="TC_CART_012: Quantity cannot go below 1 (minus disabled at qty=1)" finished-at="2026-06-18T08:50:22 IST" duration-ms="4962" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testQuantityCannotGoBelowOne -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:50:22 IST" name="initPages" finished-at="2026-06-18T08:50:24 IST" duration-ms="2052" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testRemoveItemFromCart()[pri:13, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:50:24 IST" name="testRemoveItemFromCart" description="TC_CART_013: Remove item — item disappears from cart" finished-at="2026-06-18T08:50:40 IST" duration-ms="15707" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRemoveItemFromCart -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:50:40 IST" name="initPages" finished-at="2026-06-18T08:50:42 IST" duration-ms="2121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testRemoveLastItemShowsEmptyState()[pri:14, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:50:42 IST" name="testRemoveLastItemShowsEmptyState" description="TC_CART_014: Removing last item shows empty cart state" finished-at="2026-06-18T08:50:49 IST" duration-ms="6895" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRemoveLastItemShowsEmptyState -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:50:49 IST" name="initPages" finished-at="2026-06-18T08:50:52 IST" duration-ms="2575" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testSubtotalEqualsRowTotalsSum()[pri:15, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:50:52 IST" name="testSubtotalEqualsRowTotalsSum" description="TC_CART_015: Order summary subtotal = sum of all row totals" finished-at="2026-06-18T08:51:12 IST" duration-ms="20348" status="FAIL">
+        </test-method> <!-- setup -->
+        <test-method signature="testRowTotalUpdatesAfterDecrease()[pri:21, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:16 IST" name="testRowTotalUpdatesAfterDecrease" description="TC_PRC_004: Row total updates correctly after quantity decrease" finished-at="2026-06-19T08:17:20 IST" duration-ms="4132" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Order summary subtotal (131049.0) must equal sum of row totals (121104.0) expected [121104.0] but found [131049.0]]]>
+              <![CDATA[Row total after decrease: expected=11050.0 got=1105.0 (unitPrice=5525.0 qty=2) expected [11050.0] but found [1105.0]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Order summary subtotal (131049.0) must equal sum of row totals (121104.0) expected [121104.0] but found [131049.0]
+              <![CDATA[java.lang.AssertionError: Row total after decrease: expected=11050.0 got=1105.0 (unitPrice=5525.0 qty=2) expected [11050.0] but found [1105.0]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEquals(Assert.java:698)
-at com.ekart.tests.AddToCartTest.testSubtotalEqualsRowTotalsSum(AddToCartTest.java:478)
+at com.ekart.tests.CartValidationTest.testRowTotalUpdatesAfterDecrease(CartValidationTest.java:629)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -247,22 +299,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSubtotalEqualsRowTotalsSum -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:51:12 IST" name="initPages" finished-at="2026-06-18T08:51:14 IST" duration-ms="2003" status="PASS">
+        </test-method> <!-- testRowTotalUpdatesAfterDecrease -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:20 IST" name="setup" finished-at="2026-06-19T08:17:21 IST" duration-ms="482" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testTaxIsEighteenPercent()[pri:16, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:51:14 IST" name="testTaxIsEighteenPercent" description="TC_CART_016: Tax = 18% of subtotal" finished-at="2026-06-18T08:51:19 IST" duration-ms="5091" status="FAIL">
+        </test-method> <!-- setup -->
+        <test-method signature="testSubtotalEqualsSumOfRowTotals()[pri:22, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:21 IST" name="testSubtotalEqualsSumOfRowTotals" description="TC_PRC_005: Order summary subtotal equals sum of all row totals" finished-at="2026-06-19T08:17:33 IST" duration-ms="12100" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Tax must be ~18% of subtotal. subtotal=5525.0 expected=995.0 got=10.0 expected [995.0] but found [10.0]]]>
+              <![CDATA[Subtotal (131049.0) must equal sum of row totals (121104.0) expected [121104.0] but found [131049.0]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Tax must be ~18% of subtotal. subtotal=5525.0 expected=995.0 got=10.0 expected [995.0] but found [10.0]
+              <![CDATA[java.lang.AssertionError: Subtotal (131049.0) must equal sum of row totals (121104.0) expected [121104.0] but found [131049.0]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEquals(Assert.java:698)
-at com.ekart.tests.AddToCartTest.testTaxIsEighteenPercent(AddToCartTest.java:503)
+at com.ekart.tests.CartValidationTest.testSubtotalEqualsSumOfRowTotals(CartValidationTest.java:654)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -294,22 +346,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTaxIsEighteenPercent -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:51:19 IST" name="initPages" finished-at="2026-06-18T08:51:21 IST" duration-ms="2023" status="PASS">
+        </test-method> <!-- testSubtotalEqualsSumOfRowTotals -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:33 IST" name="setup" finished-at="2026-06-19T08:17:34 IST" duration-ms="558" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testFreeShippingAboveFiveHundred()[pri:17, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:51:21 IST" name="testFreeShippingAboveFiveHundred" description="TC_CART_017: Shipping is FREE when subtotal &gt; ₹500" finished-at="2026-06-18T08:51:26 IST" duration-ms="4611" status="FAIL">
+        </test-method> <!-- setup -->
+        <test-method signature="testTaxIsPositive()[pri:23, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:34 IST" name="testTaxIsPositive" description="TC_PRC_006: Tax is &gt; 0 when subtotal is non-zero" finished-at="2026-06-19T08:17:37 IST" duration-ms="3437" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Shipping must be FREE (0) when subtotal=5525.0 > ₹500. Got=40.0 expected [0.0] but found [40.0]]]>
+              <![CDATA[Tax % must be between 1–30. Got=0.18099547511312217% (tax=10.0 subtotal=5525.0) expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Shipping must be FREE (0) when subtotal=5525.0 > ₹500. Got=40.0 expected [0.0] but found [40.0]
+              <![CDATA[java.lang.AssertionError: Tax % must be between 1–30. Got=0.18099547511312217% (tax=10.0 subtotal=5525.0) expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEquals(Assert.java:728)
-at com.ekart.tests.AddToCartTest.testFreeShippingAboveFiveHundred(AddToCartTest.java:526)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.ekart.tests.CartValidationTest.testTaxIsPositive(CartValidationTest.java:675)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -341,22 +393,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFreeShippingAboveFiveHundred -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:51:26 IST" name="initPages" finished-at="2026-06-18T08:51:28 IST" duration-ms="2026" status="PASS">
+        </test-method> <!-- testTaxIsPositive -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:37 IST" name="setup" finished-at="2026-06-19T08:17:38 IST" duration-ms="604" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testTotalEqualsSubtotalPlusShippingPlusTax()[pri:18, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:51:28 IST" name="testTotalEqualsSubtotalPlusShippingPlusTax" description="TC_CART_018: Total = subtotal + shipping + tax" finished-at="2026-06-18T08:51:33 IST" duration-ms="5371" status="FAIL">
+        </test-method> <!-- setup -->
+        <test-method signature="testTotalEqualsSubtotalPlusShippingPlusTax()[pri:24, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:38 IST" name="testTotalEqualsSubtotalPlusShippingPlusTax" description="TC_PRC_007: Total = subtotal + shipping + tax" finished-at="2026-06-19T08:17:41 IST" duration-ms="3460" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Total must equal subtotal + shipping + tax. 5525.0 + 40.0 + 10.0 = 5575.0 but UI shows 10525.0 expected [5575.0] but found [10525.0]]]>
+              <![CDATA[Total (10525.0) must equal subtotal+shipping+tax (5525.0+40.0+10.0=5575.0) expected [5575.0] but found [10525.0]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Total must equal subtotal + shipping + tax. 5525.0 + 40.0 + 10.0 = 5575.0 but UI shows 10525.0 expected [5575.0] but found [10525.0]
+              <![CDATA[java.lang.AssertionError: Total (10525.0) must equal subtotal+shipping+tax (5525.0+40.0+10.0=5575.0) expected [5575.0] but found [10525.0]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEquals(Assert.java:698)
-at com.ekart.tests.AddToCartTest.testTotalEqualsSubtotalPlusShippingPlusTax(AddToCartTest.java:552)
+at com.ekart.tests.CartValidationTest.testTotalEqualsSubtotalPlusShippingPlusTax(CartValidationTest.java:695)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -389,27 +441,74 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTotalEqualsSubtotalPlusShippingPlusTax -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:51:33 IST" name="initPages" finished-at="2026-06-18T08:51:35 IST" duration-ms="1987" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:41 IST" name="setup" finished-at="2026-06-19T08:17:42 IST" duration-ms="611" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testMoveToWishlistRemovesFromCart()[pri:19, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:51:35 IST" name="testMoveToWishlistRemovesFromCart" description="TC_CART_019: Move to Wishlist removes item from cart" finished-at="2026-06-18T08:51:42 IST" duration-ms="6954" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testPricesHaveCurrencySymbol()[pri:25, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:42 IST" name="testPricesHaveCurrencySymbol" description="TC_PRC_008: All prices display with ₹ currency symbol" finished-at="2026-06-19T08:17:45 IST" duration-ms="3245" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMoveToWishlistRemovesFromCart -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:51:42 IST" name="initPages" finished-at="2026-06-18T08:51:45 IST" duration-ms="2518" status="PASS">
+        </test-method> <!-- testPricesHaveCurrencySymbol -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:45 IST" name="setup" finished-at="2026-06-19T08:17:46 IST" duration-ms="856" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="testContinueShoppingNavigatesHome()[pri:20, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:51:45 IST" name="testContinueShoppingNavigatesHome" description="TC_CART_020: Continue Shopping navigates back to home page" finished-at="2026-06-18T08:51:55 IST" duration-ms="10273" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testAllPricesAreValidNumbers()[pri:26, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:17:46 IST" name="testAllPricesAreValidNumbers" description="TC_PRC_009: All price values are valid numbers (no NaN / 0 / null)" finished-at="2026-06-19T08:18:00 IST" duration-ms="13824" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testContinueShoppingNavigatesHome -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ekart.tests.AddToCartTest@1522d8a0]" started-at="2026-06-18T08:51:55 IST" name="tearDown" finished-at="2026-06-18T08:51:57 IST" duration-ms="1900" status="PASS">
+        </test-method> <!-- testAllPricesAreValidNumbers -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:18:00 IST" name="setup" finished-at="2026-06-19T08:18:01 IST" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPricesRecalculateAfterRemove()[pri:27, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:18:01 IST" name="testPricesRecalculateAfterRemove" description="TC_PRC_010: All prices recalculate correctly after removing one item" finished-at="2026-06-19T08:18:13 IST" duration-ms="12179" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Total must equal subtotal+shipping+tax after remove. 1105.0+40.0+20.0=1165.0 UI=1705.0 expected [1165.0] but found [1705.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Total must equal subtotal+shipping+tax after remove. 1105.0+40.0+20.0=1165.0 UI=1705.0 expected [1165.0] but found [1705.0]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEquals(Assert.java:698)
+at com.ekart.tests.CartValidationTest.testPricesRecalculateAfterRemove(CartValidationTest.java:789)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPricesRecalculateAfterRemove -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ekart.tests.CartValidationTest@3b2c0e88]" started-at="2026-06-19T08:18:13 IST" name="tearDown" finished-at="2026-06-19T08:18:14 IST" duration-ms="836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.ekart.tests.AddToCartTest -->
+      </class> <!-- com.ekart.tests.CartValidationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
