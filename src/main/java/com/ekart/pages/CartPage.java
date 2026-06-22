@@ -11,21 +11,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Page Object: Cart Page  (/cart)
- *
- * Cart is localStorage-based. Key localStorage structure:
- *  [{ productId, productName, unitPrice, quantity, imageUrl }]
- *
- * Covers:
- *  - Navigate to /cart
- *  - Cart item list (names, prices, quantities)
- *  - Quantity increment / decrement per item
- *  - Remove item
- *  - Move to wishlist
- *  - Order summary (subtotal, shipping, tax, total)
- *  - Empty cart state
- *  - Proceed to Checkout button
- *  - localStorage read/write helpers
+ * Page Object: Cart Page (/cart)
+ * Cart is localStorage-based.
  */
 public class CartPage extends BasePage {
 
@@ -45,46 +32,32 @@ public class CartPage extends BasePage {
     private static final By ITEM_NAME =
         By.cssSelector("a.font-semibold.text-gray-900");
 
+    // Unit price element from frontend CartPage.jsx
     private static final By ITEM_PRICE =
         By.cssSelector("p.text-indigo-600.font-extrabold");
 
     private static final By ITEM_QUANTITY =
         By.cssSelector("span.px-4.py-2.font-bold");
 
+    // Row total element from frontend CartPage.jsx
     private static final By ITEM_TOTAL =
-        By.xpath(".//p[contains(@class,'font-extrabold') and contains(@class,'text-gray-900')]");
-
-    // ── Quantity controls (relative to each row) ──────────────────────────────
-    private static final By QTY_MINUS =
-        By.xpath(".//button[.//*[name()='svg' and @class[contains(.,'FiMinus')]]] " +
-                 "| .//button[contains(@class,'hover:bg-gray-100')][1]");
-
-    private static final By QTY_PLUS =
-        By.xpath(".//button[.//*[name()='svg' and @class[contains(.,'FiPlus')]]] " +
-                 "| .//button[contains(@class,'hover:bg-gray-100')][2]");
-
-    // ── Remove / move to wishlist ─────────────────────────────────────────────
-    private static final By REMOVE_BUTTON =
-        By.xpath(".//button[@title='Remove item']");
-
-    private static final By MOVE_TO_WISHLIST =
-        By.xpath(".//button[.//span[text()='Move to Wishlist']]");
+        By.cssSelector("p.font-extrabold.text-gray-900");
 
     // ── Order summary ─────────────────────────────────────────────────────────
     private static final By ORDER_SUMMARY_HEADING =
         By.xpath("//h2[text()='Order Summary']");
 
     private static final By SUBTOTAL_VALUE =
-        By.xpath("//span[text()='Subtotal']/following-sibling::span[contains(@class,'font-semibold')]");
+        By.xpath("//span[normalize-space(text())='Subtotal']/following-sibling::span[contains(@class,'font-semibold')]");
 
     private static final By SHIPPING_VALUE =
-        By.xpath("//span[text()='Shipping']/following-sibling::span");
+        By.xpath("//span[normalize-space(text())='Shipping']/following-sibling::span");
 
     private static final By TAX_VALUE =
-        By.xpath("//span[contains(text(),'Tax')]/following-sibling::span[contains(@class,'font-semibold')]");
+        By.xpath("//span[contains(normalize-space(text()),'Tax')]/following-sibling::span[contains(@class,'font-semibold')]");
 
     private static final By TOTAL_VALUE =
-        By.xpath("//span[text()='Total']/following-sibling::span[contains(@class,'text-indigo-600')]");
+        By.xpath("//span[normalize-space(text())='Total']/following-sibling::span[contains(@class,'text-indigo-600')]");
 
     private static final By FREE_SHIPPING_MSG =
         By.xpath("//p[contains(@class,'text-green-600') and contains(.,'FREE')]");
@@ -99,13 +72,6 @@ public class CartPage extends BasePage {
     // ── Empty state ───────────────────────────────────────────────────────────
     private static final By EMPTY_CART_HEADING =
         By.xpath("//h2[text()='Your cart is empty']");
-
-    private static final By EMPTY_CART_LINK =
-        By.xpath("//a[.//span[text()='Continue Shopping']]");
-
-    // ── Toast notification ────────────────────────────────────────────────────
-    private static final By TOAST_MESSAGE =
-        By.cssSelector("div[class*='toast'], [class*='Toastify'], [id*='toast']");
 
     public CartPage(WebDriver driver) {
         super(driver);
@@ -152,7 +118,6 @@ public class CartPage extends BasePage {
         return isDisplayed(EMPTY_CART_HEADING);
     }
 
-    /** Returns names of all items in cart. */
     public List<String> getCartItemNames() {
         return getCartRows().stream()
             .map(row -> {
@@ -163,16 +128,13 @@ public class CartPage extends BasePage {
             .collect(Collectors.toList());
     }
 
-    /** Returns unit price of item at given index (0-based). */
     public double getItemUnitPrice(int index) {
         try {
             List<WebElement> rows = getCartRows();
-            String raw = rows.get(index).findElement(ITEM_PRICE).getText();
-            return parsePrice(raw);
+            return parsePrice(rows.get(index).findElement(ITEM_PRICE).getText());
         } catch (Exception e) { return -1; }
     }
 
-    /** Returns quantity of item at given index. */
     public int getItemQuantity(int index) {
         try {
             List<WebElement> rows = getCartRows();
@@ -181,16 +143,13 @@ public class CartPage extends BasePage {
         } catch (Exception e) { return -1; }
     }
 
-    /** Returns row total (price × qty) of item at given index. */
     public double getItemRowTotal(int index) {
         try {
             List<WebElement> rows = getCartRows();
-            String raw = rows.get(index).findElement(ITEM_TOTAL).getText();
-            return parsePrice(raw);
+            return parsePrice(rows.get(index).findElement(ITEM_TOTAL).getText());
         } catch (Exception e) { return -1; }
     }
 
-    /** Returns true if a product with the given name is in the cart rows. */
     public boolean isProductInCart(String productName) {
         return getCartItemNames().stream()
             .anyMatch(n -> n.toLowerCase().contains(productName.toLowerCase()));
@@ -202,17 +161,15 @@ public class CartPage extends BasePage {
 
     public void increaseQuantity(int rowIndex) {
         WebElement row = getCartRows().get(rowIndex);
-        List<WebElement> btns = row.findElements(
-            By.cssSelector("button.p-2\\.5"));
-        if (btns.size() >= 2) btns.get(1).click(); // Plus is second button
+        List<WebElement> btns = row.findElements(By.cssSelector("button.p-2\\.5"));
+        if (btns.size() >= 2) btns.get(1).click();
         else log.warn("Plus button not found at row " + rowIndex);
     }
 
     public void decreaseQuantity(int rowIndex) {
         WebElement row = getCartRows().get(rowIndex);
-        List<WebElement> btns = row.findElements(
-            By.cssSelector("button.p-2\\.5"));
-        if (!btns.isEmpty()) btns.get(0).click(); // Minus is first button
+        List<WebElement> btns = row.findElements(By.cssSelector("button.p-2\\.5"));
+        if (!btns.isEmpty()) btns.get(0).click();
         else log.warn("Minus button not found at row " + rowIndex);
     }
 
@@ -222,10 +179,9 @@ public class CartPage extends BasePage {
 
     public void removeItem(int rowIndex) {
         List<WebElement> rows = getCartRows();
-        WebElement removeBtn = rows.get(rowIndex)
-            .findElement(By.xpath(".//button[@title='Remove item']"));
-        removeBtn.click();
-        // Wait for row count to decrease
+        rows.get(rowIndex)
+            .findElement(By.xpath(".//button[@title='Remove item']"))
+            .click();
         int before = rows.size();
         try {
             new WebDriverWait(driver, Duration.ofSeconds(10))
@@ -235,9 +191,9 @@ public class CartPage extends BasePage {
 
     public void moveToWishlist(int rowIndex) {
         List<WebElement> rows = getCartRows();
-        WebElement btn = rows.get(rowIndex)
-            .findElement(By.xpath(".//button[.//span[text()='Move to Wishlist']]"));
-        btn.click();
+        rows.get(rowIndex)
+            .findElement(By.xpath(".//button[.//span[text()='Move to Wishlist']]"))
+            .click();
         int before = rows.size();
         try {
             new WebDriverWait(driver, Duration.ofSeconds(10))
@@ -261,7 +217,7 @@ public class CartPage extends BasePage {
     public double getShipping() {
         try {
             String text = driver.findElement(SHIPPING_VALUE).getText().trim();
-            if (text.equalsIgnoreCase("FREE") || text.equals("₹0") || text.equals("0")) return 0.0;
+            if (text.equalsIgnoreCase("FREE")) return 0.0;
             return parsePrice(text);
         } catch (Exception e) { return -1; }
     }
@@ -294,10 +250,9 @@ public class CartPage extends BasePage {
     }
 
     // =========================================================================
-    // Item count badge in heading
+    // Item count badge
     // =========================================================================
 
-    /** Returns the number shown in the cart heading badge: "Shopping Cart (3 items)" → 3 */
     public int getHeadingItemCount() {
         try {
             String text = driver.findElement(ITEM_COUNT_BADGE).getText();
@@ -306,52 +261,64 @@ public class CartPage extends BasePage {
     }
 
     // =========================================================================
-    // localStorage helpers (JS-based, no API call needed)
+    // localStorage helpers
     // =========================================================================
 
-    /** Reads cart array from localStorage and returns raw JSON string. */
     public String getCartLocalStorage() {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        Object result = js.executeScript("return localStorage.getItem('cart');");
+        Object result = ((JavascriptExecutor) driver)
+            .executeScript("return localStorage.getItem('cart');");
         return result == null ? "[]" : result.toString();
     }
 
-    /** Returns number of items in localStorage cart. */
     public int getLocalStorageCartCount() {
         String json = getCartLocalStorage();
         if (json.equals("[]") || json.equals("null")) return 0;
-        // Count occurrences of "productId" as proxy for item count
-        int count = 0;
-        int idx = 0;
+        int count = 0, idx = 0;
         while ((idx = json.indexOf("productId", idx)) != -1) { count++; idx++; }
         return count;
     }
 
-    /** Clears the cart in localStorage directly (faster than UI clicks). */
     public void clearCartViaLocalStorage() {
-        ((JavascriptExecutor) driver)
-            .executeScript("localStorage.setItem('cart', '[]'); " +
-                           "window.dispatchEvent(new Event('cartUpdated'));");
+        ((JavascriptExecutor) driver).executeScript(
+            "localStorage.setItem('cart', '[]');" +
+            "window.dispatchEvent(new Event('cartUpdated'));");
         log.info("Cart cleared via localStorage");
     }
 
-    /** Returns true if localStorage cart contains the given product ID. */
     public boolean localStorageContainsProduct(String productId) {
         return getCartLocalStorage().contains(productId);
     }
 
     // =========================================================================
-    // Private
+    // Private — parsePrice
     // =========================================================================
 
+    /**
+     * Parses Indian locale price strings to double.
+     *
+     * Examples:
+     *   "₹5,525"    → 5525.0
+     *   "₹1,31,049" → 131049.0
+     *   "FREE"      → 0.0
+     *   "₹55.25"    → 55.25  (genuine decimal — not a locale comma issue)
+     *
+     * Key rule: remove ALL commas before parsing so "5,525" → "5525" not "5.525"
+     */
     private double parsePrice(String raw) {
+        if (raw == null || raw.trim().isEmpty()) return 0.0;
         try {
-            // Remove currency symbol, spaces, and Indian-locale commas (e.g. ₹5,525 → 5525)
-            String cleaned = raw.replaceAll("[₹Rs.\\s]", "").replace(",", "");
-            return Double.parseDouble(cleaned);
+            String s = raw.trim();
+            if (s.equalsIgnoreCase("FREE")) return 0.0;
+            // Remove ₹ symbol (Unicode \u20B9) and Rs
+            s = s.replace("\u20B9", "").replace("\u20b9", "");
+            s = s.replace("Rs.", "").replace("Rs", "");
+            // Remove Indian locale commas BEFORE parsing
+            // "5,525" → "5525"  |  "1,31,049" → "131049"
+            s = s.replace(",", "").replaceAll("\\s+", "").trim();
+            return s.isEmpty() ? 0.0 : Double.parseDouble(s);
         } catch (NumberFormatException e) {
             log.warn("Cannot parse price: '" + raw + "'");
-            return 0;
+            return 0.0;
         }
     }
 }

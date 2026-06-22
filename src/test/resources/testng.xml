@@ -70,5 +70,10 @@
 			<class name="com.ekart.tests.CartValidationTest" />
 		</classes>
 	</test>
+	<test name="Cart Operations Tests">
+		<classes>
+			<class name="com.ekart.tests.CartOperationsTest" />
+		</classes>
+	</test>
 
 </suite>
