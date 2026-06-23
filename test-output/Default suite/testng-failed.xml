@@ -3,21 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ekart.tests.CartValidationTest">
+      <class name="com.ekart.tests.CheckoutTest">
         <methods>
-          <include name="testRowTotalUpdatesAfterDecrease"/>
-          <include name="testTaxIsPositive"/>
-          <include name="testUnitPriceMatchesDetailPage"/>
-          <include name="testPricesRecalculateAfterRemove"/>
+          <include name="testCardPaymentShowsCardForm"/>
+          <include name="testReviewStepShowsDetails"/>
+          <include name="testReviewOrderAdvancesToStep3"/>
           <include name="loginOnce"/>
-          <include name="testSubtotalEqualsSumOfRowTotals"/>
+          <include name="testBackFromStep3ReturnsToStep2"/>
           <include name="setup"/>
+          <include name="testCardFormVisibilityToggle"/>
           <include name="setUp"/>
-          <include name="testTotalEqualsSubtotalPlusShippingPlusTax"/>
           <include name="tearDown"/>
-          <include name="testRowTotalUpdatesAfterIncrease"/>
         </methods>
-      </class> <!-- com.ekart.tests.CartValidationTest -->
+      </class> <!-- com.ekart.tests.CheckoutTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
