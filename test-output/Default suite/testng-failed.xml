@@ -3,19 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ekart.tests.CheckoutTest">
+      <class name="com.ekart.tests.OrderSummaryTest">
         <methods>
-          <include name="testCardPaymentShowsCardForm"/>
-          <include name="testReviewStepShowsDetails"/>
-          <include name="testReviewOrderAdvancesToStep3"/>
+          <include name="testShippingRuleDataDriven" invocation-numbers="1 2 3"/>
           <include name="loginOnce"/>
-          <include name="testBackFromStep3ReturnsToStep2"/>
           <include name="setup"/>
-          <include name="testCardFormVisibilityToggle"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="testSummaryAtThreshold" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- com.ekart.tests.CheckoutTest -->
+      </class> <!-- com.ekart.tests.OrderSummaryTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,102 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="10" failed="5" skipped="0">
+<testng-results ignored="0" total="20" passed="15" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-23T08:32:00 IST" name="Default suite" finished-at="2026-06-23T08:34:40 IST" duration-ms="159383">
+  <suite started-at="2026-06-25T08:16:10 IST" name="Default suite" finished-at="2026-06-25T08:18:17 IST" duration-ms="127980">
     <groups>
     </groups>
-    <test started-at="2026-06-23T08:32:00 IST" name="Default test" finished-at="2026-06-23T08:34:40 IST" duration-ms="159383">
-      <class name="com.ekart.tests.CheckoutTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:32:00 IST" name="setUp" finished-at="2026-06-23T08:32:04 IST" duration-ms="3714" status="PASS">
+    <test started-at="2026-06-25T08:16:10 IST" name="Default test" finished-at="2026-06-25T08:18:17 IST" duration-ms="127980">
+      <class name="com.ekart.tests.OrderSummaryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:16:10 IST" name="setUp" finished-at="2026-06-25T08:16:15 IST" duration-ms="4997" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginOnce()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:32:04 IST" name="loginOnce" finished-at="2026-06-23T08:32:14 IST" depends-on-methods="com.ekart.base.BaseTest.setUp" duration-ms="10326" status="PASS">
+        <test-method is-config="true" signature="loginOnce()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:16:15 IST" name="loginOnce" finished-at="2026-06-25T08:16:27 IST" depends-on-methods="com.ekart.base.BaseTest.setUp" duration-ms="12211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginOnce -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:32:15 IST" name="setup" finished-at="2026-06-23T08:32:20 IST" duration-ms="5202" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:16:27 IST" name="setup" finished-at="2026-06-25T08:16:28 IST" duration-ms="827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testProceedToCheckoutNavigation()[pri:1, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:32:20 IST" name="testProceedToCheckoutNavigation" description="TC_CHK_001: Proceed to Checkout button navigates to /checkout" finished-at="2026-06-23T08:32:24 IST" duration-ms="4678" status="PASS">
+        <test-method signature="testOrderSummaryAllValuesVisible()[pri:1, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:16:28 IST" name="testOrderSummaryAllValuesVisible" description="TC_SUM_001: Order Summary section visible with all 4 values" finished-at="2026-06-25T08:16:34 IST" duration-ms="6077" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testProceedToCheckoutNavigation -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:32:24 IST" name="setup" finished-at="2026-06-23T08:32:34 IST" duration-ms="9716" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testCheckoutStep1Loads()[pri:2, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:32:34 IST" name="testCheckoutStep1Loads" description="TC_CHK_002: Checkout page loads with Step 1 Shipping active" finished-at="2026-06-23T08:32:47 IST" duration-ms="12606" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCheckoutStep1Loads -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:32:47 IST" name="setup" finished-at="2026-06-23T08:32:52 IST" duration-ms="5504" status="PASS">
+        </test-method> <!-- testOrderSummaryAllValuesVisible -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:16:34 IST" name="setup" finished-at="2026-06-25T08:16:35 IST" duration-ms="1264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testShippingFormFieldsVisible()[pri:3, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:32:52 IST" name="testShippingFormFieldsVisible" description="TC_CHK_003: All required shipping form fields are visible" finished-at="2026-06-23T08:32:55 IST" duration-ms="2674" status="PASS">
+        <test-method signature="testSubtotalEqualsSumOfRows()[pri:2, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:16:35 IST" name="testSubtotalEqualsSumOfRows" description="TC_SUM_002: Subtotal equals sum of all item row totals" finished-at="2026-06-25T08:16:51 IST" duration-ms="15988" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testShippingFormFieldsVisible -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:32:55 IST" name="setup" finished-at="2026-06-23T08:33:00 IST" duration-ms="4889" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testContinueToPaymentWithValidAddress()[pri:4, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:33:00 IST" name="testContinueToPaymentWithValidAddress" description="TC_CHK_004: Valid address fills + Continue to Payment advances to Step 2" finished-at="2026-06-23T08:33:06 IST" duration-ms="6560" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testContinueToPaymentWithValidAddress -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:33:06 IST" name="setup" finished-at="2026-06-23T08:33:10 IST" duration-ms="3858" status="PASS">
+        </test-method> <!-- testSubtotalEqualsSumOfRows -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:16:51 IST" name="setup" finished-at="2026-06-25T08:16:52 IST" duration-ms="1290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testPaymentOptionsVisible()[pri:5, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:33:10 IST" name="testPaymentOptionsVisible" description="TC_CHK_005: Step 2 shows all 3 payment options COD, CARD, UPI" finished-at="2026-06-23T08:33:15 IST" duration-ms="4246" status="PASS">
+        <test-method signature="testShippingRuleDataDriven(java.lang.String,java.lang.String,java.lang.String,int,double)[pri:3, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:16:52 IST" name="testShippingRuleDataDriven" description="TC_SUM_003: [Data-Driven] Shipping = 0 when subtotal &gt; 500, else 40" data-provider="orderSummaryDataset" finished-at="2026-06-25T08:16:56 IST" duration-ms="3996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DS_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qty=1 subtotal=5525 → shipping=40]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPaymentOptionsVisible -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:33:15 IST" name="setup" finished-at="2026-06-23T08:33:19 IST" duration-ms="3943" status="PASS">
+        </test-method> <!-- testShippingRuleDataDriven -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:16:56 IST" name="setup" finished-at="2026-06-25T08:16:57 IST" duration-ms="692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCardPaymentShowsCardForm()[pri:6, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:33:19 IST" name="testCardPaymentShowsCardForm" description="TC_CHK_006: Selecting CARD payment reveals card detail form" finished-at="2026-06-23T08:33:24 IST" duration-ms="5540" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="testShippingRuleDataDriven(java.lang.String,java.lang.String,java.lang.String,int,double)[pri:3, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:16:57 IST" name="testShippingRuleDataDriven" description="TC_SUM_003: [Data-Driven] Shipping = 0 when subtotal &gt; 500, else 40" data-provider="orderSummaryDataset" finished-at="2026-06-25T08:17:01 IST" duration-ms="3618" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DS_002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qty=2 subtotal=11050 → FREE ship]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[element click intercepted: Element <input type="radio" name="payment" class="mr-3" value="CARD"> is not clickable at point (211, 4). Other element would receive the click: <div class="flex items-center justify-between h-16">...</div>
-  (Session info: chrome=149.0.7827.155)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [005d774ab17e91038d8d018e23886907, clickElement {id=f.62EA0D8DBB3F64D1E9F01075F4026466.d.BB7D0D179B51DB81163BD8FB1337F6CC.e.1847}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.155, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54069}, goog:processID: 6420, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54069/devtoo..., se:cdpVersion: 149.0.7827.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (005d774ab17e91038d8d018e23886907)] -> xpath: //input[@type='radio' and @value='CARD']]
-Session ID: 005d774ab17e91038d8d018e23886907]]>
+              <![CDATA[[DS_002] qty=2 subtotal=11050 → FREE ship | subtotal=110.5 expected=0.0 actual=40.0 expected [0.0] but found [40.0]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="radio" name="payment" class="mr-3" value="CARD"> is not clickable at point (211, 4). Other element would receive the click: <div class="flex items-center justify-between h-16">...</div>
-  (Session info: chrome=149.0.7827.155)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [005d774ab17e91038d8d018e23886907, clickElement {id=f.62EA0D8DBB3F64D1E9F01075F4026466.d.BB7D0D179B51DB81163BD8FB1337F6CC.e.1847}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.155, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54069}, goog:processID: 6420, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54069/devtoo..., se:cdpVersion: 149.0.7827.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (005d774ab17e91038d8d018e23886907)] -> xpath: //input[@type='radio' and @value='CARD']]
-Session ID: 005d774ab17e91038d8d018e23886907
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at com.ekart.pages.BasePage.click(BasePage.java:20)
-at com.ekart.pages.CheckoutPage.selectPaymentMethod(CheckoutPage.java:228)
-at com.ekart.tests.CheckoutTest.testCardPaymentShowsCardForm(CheckoutTest.java:209)
+              <![CDATA[java.lang.AssertionError: [DS_002] qty=2 subtotal=11050 → FREE ship | subtotal=110.5 expected=0.0 actual=40.0 expected [0.0] but found [40.0]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEquals(Assert.java:698)
+at com.ekart.tests.OrderSummaryTest.testShippingRuleDataDriven(OrderSummaryTest.java:188)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -125,52 +136,52 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCardPaymentShowsCardForm -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:33:24 IST" name="setup" finished-at="2026-06-23T08:33:28 IST" duration-ms="3579" status="PASS">
+        </test-method> <!-- testShippingRuleDataDriven -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:01 IST" name="setup" finished-at="2026-06-25T08:17:01 IST" duration-ms="540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testReviewOrderAdvancesToStep3()[pri:7, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:33:28 IST" name="testReviewOrderAdvancesToStep3" description="TC_CHK_007: Review Order advances to Step 3 review page" finished-at="2026-06-23T08:33:35 IST" duration-ms="7527" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="testShippingRuleDataDriven(java.lang.String,java.lang.String,java.lang.String,int,double)[pri:3, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:01 IST" name="testShippingRuleDataDriven" description="TC_SUM_003: [Data-Driven] Shipping = 0 when subtotal &gt; 500, else 40" data-provider="orderSummaryDataset" finished-at="2026-06-25T08:17:05 IST" duration-ms="3934" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DS_003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qty=3 subtotal=16575 → FREE ship]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[element click intercepted: Element <input type="radio" name="payment" class="mr-3" value="COD" checked=""> is not clickable at point (211, 6). Other element would receive the click: <div class="flex items-center justify-between h-16">...</div>
-  (Session info: chrome=149.0.7827.155)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [005d774ab17e91038d8d018e23886907, clickElement {id=f.62EA0D8DBB3F64D1E9F01075F4026466.d.B5E28352BEBD2FF269CE3EE684A9B6A2.e.2118}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.155, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54069}, goog:processID: 6420, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54069/devtoo..., se:cdpVersion: 149.0.7827.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (005d774ab17e91038d8d018e23886907)] -> xpath: //input[@type='radio' and @value='COD']]
-Session ID: 005d774ab17e91038d8d018e23886907]]>
+              <![CDATA[[DS_003] qty=3 subtotal=16575 → FREE ship | subtotal=165.75 expected=0.0 actual=40.0 expected [0.0] but found [40.0]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="radio" name="payment" class="mr-3" value="COD" checked=""> is not clickable at point (211, 6). Other element would receive the click: <div class="flex items-center justify-between h-16">...</div>
-  (Session info: chrome=149.0.7827.155)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [005d774ab17e91038d8d018e23886907, clickElement {id=f.62EA0D8DBB3F64D1E9F01075F4026466.d.B5E28352BEBD2FF269CE3EE684A9B6A2.e.2118}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.155, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54069}, goog:processID: 6420, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54069/devtoo..., se:cdpVersion: 149.0.7827.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (005d774ab17e91038d8d018e23886907)] -> xpath: //input[@type='radio' and @value='COD']]
-Session ID: 005d774ab17e91038d8d018e23886907
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at com.ekart.pages.BasePage.click(BasePage.java:20)
-at com.ekart.pages.CheckoutPage.selectPaymentMethod(CheckoutPage.java:225)
-at com.ekart.tests.CheckoutTest.testReviewOrderAdvancesToStep3(CheckoutTest.java:227)
+              <![CDATA[java.lang.AssertionError: [DS_003] qty=3 subtotal=16575 → FREE ship | subtotal=165.75 expected=0.0 actual=40.0 expected [0.0] but found [40.0]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEquals(Assert.java:698)
+at com.ekart.tests.OrderSummaryTest.testShippingRuleDataDriven(OrderSummaryTest.java:188)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -199,52 +210,52 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testReviewOrderAdvancesToStep3 -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:33:35 IST" name="setup" finished-at="2026-06-23T08:33:39 IST" duration-ms="3698" status="PASS">
+        </test-method> <!-- testShippingRuleDataDriven -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:05 IST" name="setup" finished-at="2026-06-25T08:17:06 IST" duration-ms="967" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testReviewStepShowsDetails()[pri:8, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:33:39 IST" name="testReviewStepShowsDetails" description="TC_CHK_008: Review step shows shipping address and payment method" finished-at="2026-06-23T08:33:44 IST" duration-ms="4990" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="testShippingRuleDataDriven(java.lang.String,java.lang.String,java.lang.String,int,double)[pri:3, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:06 IST" name="testShippingRuleDataDriven" description="TC_SUM_003: [Data-Driven] Shipping = 0 when subtotal &gt; 500, else 40" data-provider="orderSummaryDataset" finished-at="2026-06-25T08:17:10 IST" duration-ms="4115" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DS_004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qty=5 subtotal=27625 → FREE ship]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[element click intercepted: Element <input type="radio" name="payment" class="mr-3" value="COD" checked=""> is not clickable at point (211, 6). Other element would receive the click: <div class="flex items-center justify-between h-16">...</div>
-  (Session info: chrome=149.0.7827.155)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [005d774ab17e91038d8d018e23886907, clickElement {id=f.62EA0D8DBB3F64D1E9F01075F4026466.d.47FB0969FF5835C033E6E6A9EEB111D0.e.2390}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.155, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54069}, goog:processID: 6420, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54069/devtoo..., se:cdpVersion: 149.0.7827.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (005d774ab17e91038d8d018e23886907)] -> xpath: //input[@type='radio' and @value='COD']]
-Session ID: 005d774ab17e91038d8d018e23886907]]>
+              <![CDATA[[DS_004] qty=5 subtotal=27625 → FREE ship | subtotal=276.25 expected=0.0 actual=40.0 expected [0.0] but found [40.0]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="radio" name="payment" class="mr-3" value="COD" checked=""> is not clickable at point (211, 6). Other element would receive the click: <div class="flex items-center justify-between h-16">...</div>
-  (Session info: chrome=149.0.7827.155)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [005d774ab17e91038d8d018e23886907, clickElement {id=f.62EA0D8DBB3F64D1E9F01075F4026466.d.47FB0969FF5835C033E6E6A9EEB111D0.e.2390}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.155, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54069}, goog:processID: 6420, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54069/devtoo..., se:cdpVersion: 149.0.7827.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (005d774ab17e91038d8d018e23886907)] -> xpath: //input[@type='radio' and @value='COD']]
-Session ID: 005d774ab17e91038d8d018e23886907
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at com.ekart.pages.BasePage.click(BasePage.java:20)
-at com.ekart.pages.CheckoutPage.selectPaymentMethod(CheckoutPage.java:225)
-at com.ekart.tests.CheckoutTest.testReviewStepShowsDetails(CheckoutTest.java:249)
+              <![CDATA[java.lang.AssertionError: [DS_004] qty=5 subtotal=27625 → FREE ship | subtotal=276.25 expected=0.0 actual=40.0 expected [0.0] but found [40.0]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEquals(Assert.java:698)
+at com.ekart.tests.OrderSummaryTest.testShippingRuleDataDriven(OrderSummaryTest.java:188)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -273,84 +284,401 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testReviewStepShowsDetails -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:33:44 IST" name="setup" finished-at="2026-06-23T08:33:48 IST" duration-ms="3712" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testMissingRequiredFieldsBlocksStep1()[pri:9, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:33:48 IST" name="testMissingRequiredFieldsBlocksStep1" description="TC_VAL_001: Missing required address fields blocks Step 1 to Step 2" finished-at="2026-06-23T08:33:55 IST" duration-ms="7253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMissingRequiredFieldsBlocksStep1 -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:33:55 IST" name="setup" finished-at="2026-06-23T08:33:59 IST" duration-ms="3685" status="PASS">
+        </test-method> <!-- testShippingRuleDataDriven -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:10 IST" name="setup" finished-at="2026-06-25T08:17:11 IST" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testPostalCodeMaxLength()[pri:10, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:33:59 IST" name="testPostalCodeMaxLength" description="TC_VAL_002: Postal code field enforces maximum 6 digit length" finished-at="2026-06-23T08:34:00 IST" duration-ms="1584" status="PASS">
+        <test-method signature="testShippingRuleDataDriven(java.lang.String,java.lang.String,java.lang.String,int,double)[pri:3, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:11 IST" name="testShippingRuleDataDriven" description="TC_SUM_003: [Data-Driven] Shipping = 0 when subtotal &gt; 500, else 40" data-provider="orderSummaryDataset" finished-at="2026-06-25T08:17:16 IST" duration-ms="4978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DS_005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qty=10 subtotal=55250 → FREE ship]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostalCodeMaxLength -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:34:00 IST" name="setup" finished-at="2026-06-23T08:34:04 IST" duration-ms="3352" status="PASS">
+        </test-method> <!-- testShippingRuleDataDriven -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:16 IST" name="setup" finished-at="2026-06-25T08:17:16 IST" duration-ms="559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testPhoneMaxLength()[pri:11, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:34:04 IST" name="testPhoneMaxLength" description="TC_VAL_003: Phone field enforces maximum 10 digit length" finished-at="2026-06-23T08:34:05 IST" duration-ms="1501" status="PASS">
+        <test-method signature="testTaxCalculationDataDriven(java.lang.String,java.lang.String,java.lang.String,int,double)[pri:4, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:16 IST" name="testTaxCalculationDataDriven" description="TC_SUM_004: [Data-Driven] Tax = Math.round(subtotal x 0.18)" data-provider="orderSummaryDataset" finished-at="2026-06-25T08:17:20 IST" duration-ms="3802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DS_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qty=1 subtotal=5525 → shipping=40]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPhoneMaxLength -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:34:05 IST" name="setup" finished-at="2026-06-23T08:34:08 IST" duration-ms="3446" status="PASS">
+        </test-method> <!-- testTaxCalculationDataDriven -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:20 IST" name="setup" finished-at="2026-06-25T08:17:20 IST" duration-ms="483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testBackFromStep2RetainsData()[pri:12, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:34:08 IST" name="testBackFromStep2RetainsData" description="TC_VAL_004: Back button on Step 2 returns to Step 1 with data intact" finished-at="2026-06-23T08:34:13 IST" duration-ms="4758" status="PASS">
+        <test-method signature="testTaxCalculationDataDriven(java.lang.String,java.lang.String,java.lang.String,int,double)[pri:4, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:20 IST" name="testTaxCalculationDataDriven" description="TC_SUM_004: [Data-Driven] Tax = Math.round(subtotal x 0.18)" data-provider="orderSummaryDataset" finished-at="2026-06-25T08:17:24 IST" duration-ms="3565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DS_002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qty=2 subtotal=11050 → FREE ship]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBackFromStep2RetainsData -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:34:13 IST" name="setup" finished-at="2026-06-23T08:34:17 IST" duration-ms="3699" status="PASS">
+        </test-method> <!-- testTaxCalculationDataDriven -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:24 IST" name="setup" finished-at="2026-06-25T08:17:25 IST" duration-ms="521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testBackFromStep3ReturnsToStep2()[pri:13, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:34:17 IST" name="testBackFromStep3ReturnsToStep2" description="TC_VAL_005: Back button on Step 3 returns to Step 2 payment page" finished-at="2026-06-23T08:34:22 IST" duration-ms="4946" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="testTaxCalculationDataDriven(java.lang.String,java.lang.String,java.lang.String,int,double)[pri:4, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:25 IST" name="testTaxCalculationDataDriven" description="TC_SUM_004: [Data-Driven] Tax = Math.round(subtotal x 0.18)" data-provider="orderSummaryDataset" finished-at="2026-06-25T08:17:29 IST" duration-ms="4003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DS_003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qty=3 subtotal=16575 → FREE ship]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTaxCalculationDataDriven -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:29 IST" name="setup" finished-at="2026-06-25T08:17:29 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTaxCalculationDataDriven(java.lang.String,java.lang.String,java.lang.String,int,double)[pri:4, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:29 IST" name="testTaxCalculationDataDriven" description="TC_SUM_004: [Data-Driven] Tax = Math.round(subtotal x 0.18)" data-provider="orderSummaryDataset" finished-at="2026-06-25T08:17:33 IST" duration-ms="3857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DS_004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qty=5 subtotal=27625 → FREE ship]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTaxCalculationDataDriven -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:33 IST" name="setup" finished-at="2026-06-25T08:17:33 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTaxCalculationDataDriven(java.lang.String,java.lang.String,java.lang.String,int,double)[pri:4, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:33 IST" name="testTaxCalculationDataDriven" description="TC_SUM_004: [Data-Driven] Tax = Math.round(subtotal x 0.18)" data-provider="orderSummaryDataset" finished-at="2026-06-25T08:17:39 IST" duration-ms="5073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DS_005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qty=10 subtotal=55250 → FREE ship]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTaxCalculationDataDriven -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:39 IST" name="setup" finished-at="2026-06-25T08:17:39 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFreeShippingNudge()[pri:5, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:39 IST" name="testFreeShippingNudge" description="TC_SUM_005: Free shipping nudge absent when subtotal &gt; 500" finished-at="2026-06-25T08:17:43 IST" duration-ms="4042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFreeShippingNudge -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:43 IST" name="setup" finished-at="2026-06-25T08:17:44 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTotalFormulaDataDriven(java.lang.String,java.lang.String,java.lang.String,int)[pri:6, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:44 IST" name="testTotalFormulaDataDriven" description="TC_TOT_001: [Data-Driven] Total = subtotal + shipping + tax" data-provider="totalCalculationDataset" finished-at="2026-06-25T08:17:47 IST" duration-ms="3568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qty=1  total=subtotal+40+tax]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalFormulaDataDriven -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:47 IST" name="setup" finished-at="2026-06-25T08:17:48 IST" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTotalFormulaDataDriven(java.lang.String,java.lang.String,java.lang.String,int)[pri:6, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:48 IST" name="testTotalFormulaDataDriven" description="TC_TOT_001: [Data-Driven] Total = subtotal + shipping + tax" data-provider="totalCalculationDataset" finished-at="2026-06-25T08:17:52 IST" duration-ms="4016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qty=2  total=subtotal+0+tax]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalFormulaDataDriven -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:52 IST" name="setup" finished-at="2026-06-25T08:17:53 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTotalFormulaDataDriven(java.lang.String,java.lang.String,java.lang.String,int)[pri:6, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:53 IST" name="testTotalFormulaDataDriven" description="TC_TOT_001: [Data-Driven] Total = subtotal + shipping + tax" data-provider="totalCalculationDataset" finished-at="2026-06-25T08:17:57 IST" duration-ms="4150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qty=5  total=subtotal+0+tax]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalFormulaDataDriven -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:57 IST" name="setup" finished-at="2026-06-25T08:17:57 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTotalFormulaDataDriven(java.lang.String,java.lang.String,java.lang.String,int)[pri:6, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:17:57 IST" name="testTotalFormulaDataDriven" description="TC_TOT_001: [Data-Driven] Total = subtotal + shipping + tax" data-provider="totalCalculationDataset" finished-at="2026-06-25T08:18:02 IST" duration-ms="5337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qty=10 total=subtotal+0+tax]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalFormulaDataDriven -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:18:02 IST" name="setup" finished-at="2026-06-25T08:18:03 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTotalRecalculatesAfterQtyChange()[pri:7, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:18:03 IST" name="testTotalRecalculatesAfterQtyChange" description="TC_TOT_002: Total recalculates correctly after quantity change" finished-at="2026-06-25T08:18:07 IST" duration-ms="4229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalRecalculatesAfterQtyChange -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:18:07 IST" name="setup" finished-at="2026-06-25T08:18:08 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSummaryAtThreshold(java.lang.String,java.lang.String,java.lang.String,int,boolean)[pri:8, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:18:08 IST" name="testSummaryAtThreshold" description="TC_TOT_003: [Data-Driven] Summary consistent at shipping threshold" data-provider="shippingThresholdDataset" finished-at="2026-06-25T08:18:12 IST" duration-ms="3921" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ST_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[subtotal=5525 > 500 → FREE shipping]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[element click intercepted: Element <input type="radio" name="payment" class="mr-3" value="COD" checked=""> is not clickable at point (211, 6). Other element would receive the click: <div class="flex items-center justify-between h-16">...</div>
-  (Session info: chrome=149.0.7827.155)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [005d774ab17e91038d8d018e23886907, clickElement {id=f.62EA0D8DBB3F64D1E9F01075F4026466.d.21A4FABDF9FC4D7AC0668EB3EEE6BA77.e.3430}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.155, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54069}, goog:processID: 6420, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54069/devtoo..., se:cdpVersion: 149.0.7827.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (005d774ab17e91038d8d018e23886907)] -> xpath: //input[@type='radio' and @value='COD']]
-Session ID: 005d774ab17e91038d8d018e23886907]]>
+              <![CDATA[[ST_001] subtotal=55.25 expectAbove500=true expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="radio" name="payment" class="mr-3" value="COD" checked=""> is not clickable at point (211, 6). Other element would receive the click: <div class="flex items-center justify-between h-16">...</div>
-  (Session info: chrome=149.0.7827.155)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [005d774ab17e91038d8d018e23886907, clickElement {id=f.62EA0D8DBB3F64D1E9F01075F4026466.d.21A4FABDF9FC4D7AC0668EB3EEE6BA77.e.3430}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.155, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54069}, goog:processID: 6420, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54069/devtoo..., se:cdpVersion: 149.0.7827.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (005d774ab17e91038d8d018e23886907)] -> xpath: //input[@type='radio' and @value='COD']]
-Session ID: 005d774ab17e91038d8d018e23886907
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at com.ekart.pages.BasePage.click(BasePage.java:20)
-at com.ekart.pages.CheckoutPage.selectPaymentMethod(CheckoutPage.java:225)
-at com.ekart.tests.CheckoutTest.testBackFromStep3ReturnsToStep2(CheckoutTest.java:379)
+              <![CDATA[java.lang.AssertionError: [ST_001] subtotal=55.25 expectAbove500=true expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at com.ekart.tests.OrderSummaryTest.testSummaryAtThreshold(OrderSummaryTest.java:321)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -379,60 +707,55 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBackFromStep3ReturnsToStep2 -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:34:22 IST" name="setup" finished-at="2026-06-23T08:34:25 IST" duration-ms="3426" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testCODIsDefaultAndNoCardForm()[pri:14, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:34:25 IST" name="testCODIsDefaultAndNoCardForm" description="TC_VAL_006: COD is default payment; no card form visible" finished-at="2026-06-23T08:34:29 IST" duration-ms="4002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCODIsDefaultAndNoCardForm -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:34:29 IST" name="setup" finished-at="2026-06-23T08:34:33 IST" duration-ms="3567" status="PASS">
+        </test-method> <!-- testSummaryAtThreshold -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:18:12 IST" name="setup" finished-at="2026-06-25T08:18:12 IST" duration-ms="572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCardFormVisibilityToggle()[pri:15, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:34:33 IST" name="testCardFormVisibilityToggle" description="TC_VAL_007: Card form visible only when CARD selected, hides on UPI/COD" finished-at="2026-06-23T08:34:38 IST" duration-ms="5010" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="testSummaryAtThreshold(java.lang.String,java.lang.String,java.lang.String,int,boolean)[pri:8, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:18:12 IST" name="testSummaryAtThreshold" description="TC_TOT_003: [Data-Driven] Summary consistent at shipping threshold" data-provider="shippingThresholdDataset" finished-at="2026-06-25T08:18:16 IST" duration-ms="4033" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ST_002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[subtotal=11050 > 500 → FREE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[656a732e-9e66-496b-83c0-8991a7a987c0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[element click intercepted: Element <input type="radio" name="payment" class="mr-3" value="CARD"> is not clickable at point (211, 6). Other element would receive the click: <div class="flex items-center justify-between h-16">...</div>
-  (Session info: chrome=149.0.7827.155)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [005d774ab17e91038d8d018e23886907, clickElement {id=f.62EA0D8DBB3F64D1E9F01075F4026466.d.4CE2E73D3A7EBE1756952DB1A6AAC645.e.3969}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.155, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54069}, goog:processID: 6420, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54069/devtoo..., se:cdpVersion: 149.0.7827.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (005d774ab17e91038d8d018e23886907)] -> xpath: //input[@type='radio' and @value='CARD']]
-Session ID: 005d774ab17e91038d8d018e23886907]]>
+              <![CDATA[[ST_002] subtotal=110.5 expectAbove500=true expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="radio" name="payment" class="mr-3" value="CARD"> is not clickable at point (211, 6). Other element would receive the click: <div class="flex items-center justify-between h-16">...</div>
-  (Session info: chrome=149.0.7827.155)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [005d774ab17e91038d8d018e23886907, clickElement {id=f.62EA0D8DBB3F64D1E9F01075F4026466.d.4CE2E73D3A7EBE1756952DB1A6AAC645.e.3969}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.155, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\aashu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54069}, goog:processID: 6420, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54069/devtoo..., se:cdpVersion: 149.0.7827.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (005d774ab17e91038d8d018e23886907)] -> xpath: //input[@type='radio' and @value='CARD']]
-Session ID: 005d774ab17e91038d8d018e23886907
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at com.ekart.pages.BasePage.click(BasePage.java:20)
-at com.ekart.pages.CheckoutPage.selectPaymentMethod(CheckoutPage.java:228)
-at com.ekart.tests.CheckoutTest.testCardFormVisibilityToggle(CheckoutTest.java:431)
+              <![CDATA[java.lang.AssertionError: [ST_002] subtotal=110.5 expectAbove500=true expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at com.ekart.tests.OrderSummaryTest.testSummaryAtThreshold(OrderSummaryTest.java:321)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -461,15 +784,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCardFormVisibilityToggle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ekart.tests.CheckoutTest@45905bff]" started-at="2026-06-23T08:34:38 IST" name="tearDown" finished-at="2026-06-23T08:34:40 IST" duration-ms="1859" status="PASS">
+        </test-method> <!-- testSummaryAtThreshold -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ekart.tests.OrderSummaryTest@55342f40]" started-at="2026-06-25T08:18:16 IST" name="tearDown" finished-at="2026-06-25T08:18:17 IST" duration-ms="1202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.ekart.tests.CheckoutTest -->
+      </class> <!-- com.ekart.tests.OrderSummaryTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

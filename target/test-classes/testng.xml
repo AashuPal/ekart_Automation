@@ -80,5 +80,10 @@
             <class name="com.ekart.tests.CheckoutTest"/>
         </classes>
     </test>
+     <test name="Order Summary Tests">
+        <classes>
+            <class name="com.ekart.tests.OrderSummaryTest"/>
+        </classes>
+    </test>
 
 </suite>

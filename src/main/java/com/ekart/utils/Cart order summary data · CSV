@@ -1,0 +1,8 @@
+testCaseId,description,productId,quantity,expectedShipping,expectedTaxRate,scenario
+DS_001,Single product below free shipping threshold,656a732e-9e66-496b-83c0-8991a7a987c0,1,40,0.18,below_threshold
+DS_002,Single product qty 2 below free shipping threshold,656a732e-9e66-496b-83c0-8991a7a987c0,2,40,0.18,below_threshold
+DS_003,Single product qty 3 likely above threshold,656a732e-9e66-496b-83c0-8991a7a987c0,3,0,0.18,above_threshold
+DS_004,Single product qty 5 definitely above threshold,656a732e-9e66-496b-83c0-8991a7a987c0,5,0,0.18,above_threshold
+DS_005,Single product qty 10 large order,656a732e-9e66-496b-83c0-8991a7a987c0,10,0,0.18,large_order
+DS_006,Two different products combined,656a732e-9e66-496b-83c0-8991a7a987c0,1,0,0.18,two_products
+DS_007,Max quantity stress test,656a732e-9e66-496b-83c0-8991a7a987c0,20,0,0.18,stress_test
