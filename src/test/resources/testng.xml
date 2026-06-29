@@ -76,14 +76,42 @@
 		</classes>
 	</test>
 	<test name="Checkout Tests">
-        <classes>
-            <class name="com.ekart.tests.CheckoutTest"/>
-        </classes>
-    </test>
-     <test name="Order Summary Tests">
-        <classes>
-            <class name="com.ekart.tests.OrderSummaryTest"/>
-        </classes>
-    </test>
+		<classes>
+			<class name="com.ekart.tests.CheckoutTest" />
+		</classes>
+	</test>
+	<test name="Order Summary Tests">
+		<classes>
+			<class name="com.ekart.tests.OrderSummaryTest" />
+		</classes>
+	</test>
+	<test name="Wishlist Tests">
+		<classes>
+			<class name="com.ekart.tests.WishlistTest" />
+		</classes>
+	</test>
+
+	<test name="Navigation Extended Tests">
+		<classes>
+			<class name="com.ekart.tests.NavigationExtendedTest" />
+		</classes>
+	</test>
+
+	<test name="Profile Tests">
+		<classes>
+			<class name="com.ekart.tests.ProfileTest" />
+		</classes>
+	</test>
+
+	<test name="Registration Extended Tests">
+		<classes>
+			<class name="com.ekart.tests.RegistrationExtendedTest" />
+		</classes>
+	</test>
+	<test name="Admin Dashboard Tests">
+		<classes>
+			<class name="com.ekart.tests.AdminDashboardTest" />
+		</classes>
+	</test>
 
 </suite>

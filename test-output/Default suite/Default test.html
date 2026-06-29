@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>15/5/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 25 08:16:10 IST 2026</td>
+<td>Started on:</td><td>Mon Jun 29 07:20:46 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>127 seconds (127980 ms)</td>
+<tr><td>Total time:</td><td>11 seconds (11796 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.ekart.tests.OrderSummaryTest.testSummaryAtThreshold()'><b>testSummaryAtThreshold</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_TOT_003: [Data-Driven] Summary consistent at shipping threshold<br>Parameters: ST_002, subtotal=11050 > 500 → FREE, 656a732e-9e66-496b-83c0-8991a7a987c0, 2, true</td>
-<td><div><pre>java.lang.AssertionError: [ST_002] subtotal=110.5 expectAbove500=true expected [true] but found [false]
+<td title='com.ekart.tests.RegistrationExtendedTest.testSuccessfulRegistrationRedirects()'><b>testSuccessfulRegistrationRedirects</b><br>Test class: com.ekart.tests.RegistrationExtendedTest<br>Test method: TC_REG_EXT_005: Successful registration redirects away from /register</td>
+<td><div><pre>java.lang.AssertionError: After registration attempt, must redirect or show error. URL: https://ekartms.netlify.app/register expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1067)
-	at org.testng.Assert.assertEquals(Assert.java:1031)
-	at com.ekart.tests.OrderSummaryTest.testSummaryAtThreshold(OrderSummaryTest.java:321)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.ekart.tests.RegistrationExtendedTest.testSuccessfulRegistrationRedirects(RegistrationExtendedTest.java:121)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -111,83 +108,12 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace657218237", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace657218237'><pre>java.lang.AssertionError: [ST_002] subtotal=110.5 expectAbove500=true expected [true] but found [false]
+</pre></div><a href='#' onClick='toggleBox("stack-trace979822206", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace979822206'><pre>java.lang.AssertionError: After registration attempt, must redirect or show error. URL: https://ekartms.netlify.app/register expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1067)
-	at org.testng.Assert.assertEquals(Assert.java:1031)
-	at com.ekart.tests.OrderSummaryTest.testSummaryAtThreshold(OrderSummaryTest.java:321)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>4</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
-<tr>
-<td title='com.ekart.tests.OrderSummaryTest.testShippingRuleDataDriven()'><b>testShippingRuleDataDriven</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_SUM_003: [Data-Driven] Shipping = 0 when subtotal > 500, else 40<br>Parameters: DS_003, qty=3 subtotal=16575 → FREE ship, 656a732e-9e66-496b-83c0-8991a7a987c0, 3, 0.0</td>
-<td><div><pre>java.lang.AssertionError: [DS_003] qty=3 subtotal=16575 → FREE ship | subtotal=165.75 expected=0.0 actual=40.0 expected [0.0] but found [40.0]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEquals(Assert.java:698)
-	at com.ekart.tests.OrderSummaryTest.testShippingRuleDataDriven(OrderSummaryTest.java:188)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1938446408", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1938446408'><pre>java.lang.AssertionError: [DS_003] qty=3 subtotal=16575 → FREE ship | subtotal=165.75 expected=0.0 actual=40.0 expected [0.0] but found [40.0]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEquals(Assert.java:698)
-	at com.ekart.tests.OrderSummaryTest.testShippingRuleDataDriven(OrderSummaryTest.java:188)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.ekart.tests.RegistrationExtendedTest.testSuccessfulRegistrationRedirects(RegistrationExtendedTest.java:121)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -215,218 +141,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>3</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
-<tr>
-<td title='com.ekart.tests.OrderSummaryTest.testShippingRuleDataDriven()'><b>testShippingRuleDataDriven</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_SUM_003: [Data-Driven] Shipping = 0 when subtotal > 500, else 40<br>Parameters: DS_004, qty=5 subtotal=27625 → FREE ship, 656a732e-9e66-496b-83c0-8991a7a987c0, 5, 0.0</td>
-<td><div><pre>java.lang.AssertionError: [DS_004] qty=5 subtotal=27625 → FREE ship | subtotal=276.25 expected=0.0 actual=40.0 expected [0.0] but found [40.0]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEquals(Assert.java:698)
-	at com.ekart.tests.OrderSummaryTest.testShippingRuleDataDriven(OrderSummaryTest.java:188)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1324451332", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1324451332'><pre>java.lang.AssertionError: [DS_004] qty=5 subtotal=27625 → FREE ship | subtotal=276.25 expected=0.0 actual=40.0 expected [0.0] but found [40.0]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEquals(Assert.java:698)
-	at com.ekart.tests.OrderSummaryTest.testShippingRuleDataDriven(OrderSummaryTest.java:188)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>4</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
-<tr>
-<td title='com.ekart.tests.OrderSummaryTest.testShippingRuleDataDriven()'><b>testShippingRuleDataDriven</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_SUM_003: [Data-Driven] Shipping = 0 when subtotal > 500, else 40<br>Parameters: DS_002, qty=2 subtotal=11050 → FREE ship, 656a732e-9e66-496b-83c0-8991a7a987c0, 2, 0.0</td>
-<td><div><pre>java.lang.AssertionError: [DS_002] qty=2 subtotal=11050 → FREE ship | subtotal=110.5 expected=0.0 actual=40.0 expected [0.0] but found [40.0]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEquals(Assert.java:698)
-	at com.ekart.tests.OrderSummaryTest.testShippingRuleDataDriven(OrderSummaryTest.java:188)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1103079913", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1103079913'><pre>java.lang.AssertionError: [DS_002] qty=2 subtotal=11050 → FREE ship | subtotal=110.5 expected=0.0 actual=40.0 expected [0.0] but found [40.0]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEquals(Assert.java:698)
-	at com.ekart.tests.OrderSummaryTest.testShippingRuleDataDriven(OrderSummaryTest.java:188)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>3</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
-<tr>
-<td title='com.ekart.tests.OrderSummaryTest.testSummaryAtThreshold()'><b>testSummaryAtThreshold</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_TOT_003: [Data-Driven] Summary consistent at shipping threshold<br>Parameters: ST_001, subtotal=5525 > 500 → FREE shipping, 656a732e-9e66-496b-83c0-8991a7a987c0, 1, true</td>
-<td><div><pre>java.lang.AssertionError: [ST_001] subtotal=55.25 expectAbove500=true expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1067)
-	at org.testng.Assert.assertEquals(Assert.java:1031)
-	at com.ekart.tests.OrderSummaryTest.testSummaryAtThreshold(OrderSummaryTest.java:321)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1068336694", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1068336694'><pre>java.lang.AssertionError: [ST_001] subtotal=55.25 expectAbove500=true expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1067)
-	at org.testng.Assert.assertEquals(Assert.java:1031)
-	at com.ekart.tests.OrderSummaryTest.testSummaryAtThreshold(OrderSummaryTest.java:321)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>3</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
+<td>2</td>
+<td>com.ekart.tests.RegistrationExtendedTest@31e4bb20</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -437,80 +153,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.ekart.tests.OrderSummaryTest.testOrderSummaryAllValuesVisible()'><b>testOrderSummaryAllValuesVisible</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_SUM_001: Order Summary section visible with all 4 values</td>
+<td title='com.ekart.tests.RegistrationExtendedTest.testLoginLinkOnRegisterPage()'><b>testLoginLinkOnRegisterPage</b><br>Test class: com.ekart.tests.RegistrationExtendedTest<br>Test method: TC_REG_EXT_004: Login link visible on register page</td>
 <td></td>
-<td>6</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
+<td>0</td>
+<td>com.ekart.tests.RegistrationExtendedTest@31e4bb20</td></tr>
 <tr>
-<td title='com.ekart.tests.OrderSummaryTest.testTotalFormulaDataDriven()'><b>testTotalFormulaDataDriven</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_TOT_001: [Data-Driven] Total = subtotal + shipping + tax<br>Parameters: TC_003, qty=5  total=subtotal+0+tax, 656a732e-9e66-496b-83c0-8991a7a987c0, 5</td>
+<td title='com.ekart.tests.RegistrationExtendedTest.testPhoneRejectsAlphabets()'><b>testPhoneRejectsAlphabets</b><br>Test class: com.ekart.tests.RegistrationExtendedTest<br>Test method: TC_REG_EXT_002: Phone field with alphabets shows error or blocks submit</td>
 <td></td>
-<td>4</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
+<td>1</td>
+<td>com.ekart.tests.RegistrationExtendedTest@31e4bb20</td></tr>
 <tr>
-<td title='com.ekart.tests.OrderSummaryTest.testTotalFormulaDataDriven()'><b>testTotalFormulaDataDriven</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_TOT_001: [Data-Driven] Total = subtotal + shipping + tax<br>Parameters: TC_004, qty=10 total=subtotal+0+tax, 656a732e-9e66-496b-83c0-8991a7a987c0, 10</td>
+<td title='com.ekart.tests.RegistrationExtendedTest.testPasswordMismatch()'><b>testPasswordMismatch</b><br>Test class: com.ekart.tests.RegistrationExtendedTest<br>Test method: TC_REG_EXT_001: Password mismatch shows validation error</td>
 <td></td>
-<td>5</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
+<td>1</td>
+<td>com.ekart.tests.RegistrationExtendedTest@31e4bb20</td></tr>
 <tr>
-<td title='com.ekart.tests.OrderSummaryTest.testTaxCalculationDataDriven()'><b>testTaxCalculationDataDriven</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_SUM_004: [Data-Driven] Tax = Math.round(subtotal x 0.18)<br>Parameters: DS_001, qty=1 subtotal=5525 → shipping=40, 656a732e-9e66-496b-83c0-8991a7a987c0, 1, 40.0</td>
+<td title='com.ekart.tests.RegistrationExtendedTest.testRegisterLinkOnLoginPage()'><b>testRegisterLinkOnLoginPage</b><br>Test class: com.ekart.tests.RegistrationExtendedTest<br>Test method: TC_REG_EXT_003: Register link visible on login page</td>
 <td></td>
-<td>3</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
-<tr>
-<td title='com.ekart.tests.OrderSummaryTest.testFreeShippingNudge()'><b>testFreeShippingNudge</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_SUM_005: Free shipping nudge absent when subtotal > 500</td>
-<td></td>
-<td>4</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
-<tr>
-<td title='com.ekart.tests.OrderSummaryTest.testTaxCalculationDataDriven()'><b>testTaxCalculationDataDriven</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_SUM_004: [Data-Driven] Tax = Math.round(subtotal x 0.18)<br>Parameters: DS_002, qty=2 subtotal=11050 → FREE ship, 656a732e-9e66-496b-83c0-8991a7a987c0, 2, 0.0</td>
-<td></td>
-<td>3</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
-<tr>
-<td title='com.ekart.tests.OrderSummaryTest.testTaxCalculationDataDriven()'><b>testTaxCalculationDataDriven</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_SUM_004: [Data-Driven] Tax = Math.round(subtotal x 0.18)<br>Parameters: DS_005, qty=10 subtotal=55250 → FREE ship, 656a732e-9e66-496b-83c0-8991a7a987c0, 10, 0.0</td>
-<td></td>
-<td>5</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
-<tr>
-<td title='com.ekart.tests.OrderSummaryTest.testShippingRuleDataDriven()'><b>testShippingRuleDataDriven</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_SUM_003: [Data-Driven] Shipping = 0 when subtotal > 500, else 40<br>Parameters: DS_001, qty=1 subtotal=5525 → shipping=40, 656a732e-9e66-496b-83c0-8991a7a987c0, 1, 40.0</td>
-<td></td>
-<td>3</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
-<tr>
-<td title='com.ekart.tests.OrderSummaryTest.testTotalFormulaDataDriven()'><b>testTotalFormulaDataDriven</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_TOT_001: [Data-Driven] Total = subtotal + shipping + tax<br>Parameters: TC_002, qty=2  total=subtotal+0+tax, 656a732e-9e66-496b-83c0-8991a7a987c0, 2</td>
-<td></td>
-<td>4</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
-<tr>
-<td title='com.ekart.tests.OrderSummaryTest.testTotalFormulaDataDriven()'><b>testTotalFormulaDataDriven</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_TOT_001: [Data-Driven] Total = subtotal + shipping + tax<br>Parameters: TC_001, qty=1  total=subtotal+40+tax, 656a732e-9e66-496b-83c0-8991a7a987c0, 1</td>
-<td></td>
-<td>3</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
-<tr>
-<td title='com.ekart.tests.OrderSummaryTest.testShippingRuleDataDriven()'><b>testShippingRuleDataDriven</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_SUM_003: [Data-Driven] Shipping = 0 when subtotal > 500, else 40<br>Parameters: DS_005, qty=10 subtotal=55250 → FREE ship, 656a732e-9e66-496b-83c0-8991a7a987c0, 10, 0.0</td>
-<td></td>
-<td>4</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
-<tr>
-<td title='com.ekart.tests.OrderSummaryTest.testTaxCalculationDataDriven()'><b>testTaxCalculationDataDriven</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_SUM_004: [Data-Driven] Tax = Math.round(subtotal x 0.18)<br>Parameters: DS_003, qty=3 subtotal=16575 → FREE ship, 656a732e-9e66-496b-83c0-8991a7a987c0, 3, 0.0</td>
-<td></td>
-<td>4</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
-<tr>
-<td title='com.ekart.tests.OrderSummaryTest.testTotalRecalculatesAfterQtyChange()'><b>testTotalRecalculatesAfterQtyChange</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_TOT_002: Total recalculates correctly after quantity change</td>
-<td></td>
-<td>4</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
-<tr>
-<td title='com.ekart.tests.OrderSummaryTest.testSubtotalEqualsSumOfRows()'><b>testSubtotalEqualsSumOfRows</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_SUM_002: Subtotal equals sum of all item row totals</td>
-<td></td>
-<td>15</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
-<tr>
-<td title='com.ekart.tests.OrderSummaryTest.testTaxCalculationDataDriven()'><b>testTaxCalculationDataDriven</b><br>Test class: com.ekart.tests.OrderSummaryTest<br>Test method: TC_SUM_004: [Data-Driven] Tax = Math.round(subtotal x 0.18)<br>Parameters: DS_004, qty=5 subtotal=27625 → FREE ship, 656a732e-9e66-496b-83c0-8991a7a987c0, 5, 0.0</td>
-<td></td>
-<td>3</td>
-<td>com.ekart.tests.OrderSummaryTest@55342f40</td></tr>
+<td>0</td>
+<td>com.ekart.tests.RegistrationExtendedTest@31e4bb20</td></tr>
 </table><p>
 </body>
 </html>

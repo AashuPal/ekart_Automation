@@ -3,16 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ekart.tests.OrderSummaryTest">
+      <class name="com.ekart.tests.RegistrationExtendedTest">
         <methods>
-          <include name="testShippingRuleDataDriven" invocation-numbers="1 2 3"/>
-          <include name="loginOnce"/>
           <include name="setup"/>
           <include name="setUp"/>
+          <include name="testSuccessfulRegistrationRedirects"/>
           <include name="tearDown"/>
-          <include name="testSummaryAtThreshold" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- com.ekart.tests.OrderSummaryTest -->
+      </class> <!-- com.ekart.tests.RegistrationExtendedTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
